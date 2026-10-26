@@ -63,5 +63,17 @@
   "tapToStop": "Tap to stop",
   "playMemo": "Play Memo",
   "deleteMemo": "Delete Memo",
-  "voiceDisclosure": "CardSaathi uses microphone to record a quick 10-second context memo. Audio is stored 100% offline on your device."
+  "voiceDisclosure": "CardSaathi uses microphone to record a quick 10-second context memo. Audio is stored 100% offline on your device.",
+  "searchHint": "Search by name, company, phone, GSTIN...",
+  "allCategories": "All",
+  "sortBy": "Sort By",
+  "sortNewest": "Newest First",
+  "sortOldest": "Oldest First",
+  "sortNameAZ": "Name (A-Z)",
+  "sortCompanyAZ": "Company (A-Z)",
+  "noMatchingCards": "No matching cards found",
+  "clearFilters": "Clear Filters",
+  "tapToCall": "Call",
+  "tapToWhatsApp": "WhatsApp",
+  "cardDetails": "Card Details"
 }

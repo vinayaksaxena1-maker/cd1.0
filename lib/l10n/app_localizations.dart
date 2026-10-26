@@ -445,6 +445,78 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'CardSaathi uses microphone to record a quick 10-second context memo. Audio is stored 100% offline on your device.'**
   String get voiceDisclosure;
+
+  /// No description provided for @searchHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Search by name, company, phone, GSTIN...'**
+  String get searchHint;
+
+  /// No description provided for @allCategories.
+  ///
+  /// In en, this message translates to:
+  /// **'All'**
+  String get allCategories;
+
+  /// No description provided for @sortBy.
+  ///
+  /// In en, this message translates to:
+  /// **'Sort By'**
+  String get sortBy;
+
+  /// No description provided for @sortNewest.
+  ///
+  /// In en, this message translates to:
+  /// **'Newest First'**
+  String get sortNewest;
+
+  /// No description provided for @sortOldest.
+  ///
+  /// In en, this message translates to:
+  /// **'Oldest First'**
+  String get sortOldest;
+
+  /// No description provided for @sortNameAZ.
+  ///
+  /// In en, this message translates to:
+  /// **'Name (A-Z)'**
+  String get sortNameAZ;
+
+  /// No description provided for @sortCompanyAZ.
+  ///
+  /// In en, this message translates to:
+  /// **'Company (A-Z)'**
+  String get sortCompanyAZ;
+
+  /// No description provided for @noMatchingCards.
+  ///
+  /// In en, this message translates to:
+  /// **'No matching cards found'**
+  String get noMatchingCards;
+
+  /// No description provided for @clearFilters.
+  ///
+  /// In en, this message translates to:
+  /// **'Clear Filters'**
+  String get clearFilters;
+
+  /// No description provided for @tapToCall.
+  ///
+  /// In en, this message translates to:
+  /// **'Call'**
+  String get tapToCall;
+
+  /// No description provided for @tapToWhatsApp.
+  ///
+  /// In en, this message translates to:
+  /// **'WhatsApp'**
+  String get tapToWhatsApp;
+
+  /// No description provided for @cardDetails.
+  ///
+  /// In en, this message translates to:
+  /// **'Card Details'**
+  String get cardDetails;
 }
 
 class _AppLocalizationsDelegate

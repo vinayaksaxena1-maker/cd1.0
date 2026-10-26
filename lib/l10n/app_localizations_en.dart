@@ -187,4 +187,40 @@ class AppLocalizationsEn extends AppLocalizations {
   @override
   String get voiceDisclosure =>
       'CardSaathi uses microphone to record a quick 10-second context memo. Audio is stored 100% offline on your device.';
+
+  @override
+  String get searchHint => 'Search by name, company, phone, GSTIN...';
+
+  @override
+  String get allCategories => 'All';
+
+  @override
+  String get sortBy => 'Sort By';
+
+  @override
+  String get sortNewest => 'Newest First';
+
+  @override
+  String get sortOldest => 'Oldest First';
+
+  @override
+  String get sortNameAZ => 'Name (A-Z)';
+
+  @override
+  String get sortCompanyAZ => 'Company (A-Z)';
+
+  @override
+  String get noMatchingCards => 'No matching cards found';
+
+  @override
+  String get clearFilters => 'Clear Filters';
+
+  @override
+  String get tapToCall => 'Call';
+
+  @override
+  String get tapToWhatsApp => 'WhatsApp';
+
+  @override
+  String get cardDetails => 'Card Details';
 }

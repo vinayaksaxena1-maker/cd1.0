@@ -187,4 +187,40 @@ class AppLocalizationsHi extends AppLocalizations {
   @override
   String get voiceDisclosure =>
       'कार्डसाथी केवल 10-सेकंड का वॉइस मेमो रिकॉर्ड करने के लिए माइक्रोफ़ोन का उपयोग करता है। ऑडियो 100% ऑफ़लाइन सुरक्षित रहता है।';
+
+  @override
+  String get searchHint => 'नाम, कंपनी, फ़ोन या GSTIN से खोजें...';
+
+  @override
+  String get allCategories => 'सभी';
+
+  @override
+  String get sortBy => 'क्रमबद्ध करें';
+
+  @override
+  String get sortNewest => 'नवीनतम पहले';
+
+  @override
+  String get sortOldest => 'पुराने पहले';
+
+  @override
+  String get sortNameAZ => 'नाम (A-Z)';
+
+  @override
+  String get sortCompanyAZ => 'कंपनी (A-Z)';
+
+  @override
+  String get noMatchingCards => 'कोई विजिटिंग कार्ड नहीं मिला';
+
+  @override
+  String get clearFilters => 'फ़िल्टर हटाएं';
+
+  @override
+  String get tapToCall => 'कॉल करें';
+
+  @override
+  String get tapToWhatsApp => 'व्हाट्सएप';
+
+  @override
+  String get cardDetails => 'कार्ड विवरण';
 }
