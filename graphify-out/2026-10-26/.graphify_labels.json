@@ -36,5 +36,8 @@
   "34": "category.dart",
   "35": "extracted_card_data.dart",
   "36": "app_typography.dart",
-  "37": "locale_controller.dart"
+  "37": "locale_controller.dart",
+  "38": "voice_memo_service.dart",
+  "39": "voice_memo_widget.dart",
+  "40": "Category"
 }

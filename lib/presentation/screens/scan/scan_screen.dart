@@ -5,6 +5,8 @@ import 'package:go_router/go_router.dart';
 import 'package:image_picker/image_picker.dart';
 import '../../../core/theme/app_colors.dart';
 import '../../../core/theme/app_typography.dart';
+import '../../../core/services/ocr_service.dart';
+import '../../../data/models/extracted_card_data.dart';
 import '../../../l10n/app_localizations.dart';
 import '../../widgets/scan/card_guide_overlay.dart';
 import '../../widgets/scan/camera_disclosure_dialog.dart';
@@ -167,6 +169,7 @@ class _ScanScreenState extends State<ScanScreen> with WidgetsBindingObserver {
     setState(() {
       if (_isFrontSide) {
         _frontImagePath = path;
+        _isFrontSide = false;
       } else {
         _backImagePath = path;
       }
@@ -176,13 +179,46 @@ class _ScanScreenState extends State<ScanScreen> with WidgetsBindingObserver {
     ScaffoldMessenger.of(context).showSnackBar(
       SnackBar(
         content: Text(
-          '${_isFrontSide ? l10n.cardFront : l10n.cardBack}: ${l10n.cardCaptured}',
+          '${_frontImagePath != null && _isFrontSide ? l10n.cardFront : l10n.cardBack}: ${l10n.cardCaptured}',
           style: AppTypography.bodySmall(color: Colors.white),
         ),
         backgroundColor: AppColors.forestGreen,
         duration: const Duration(seconds: 2),
       ),
     );
+  }
+
+  Future<void> _proceedToReview() async {
+    final frontPath = _frontImagePath ?? _backImagePath;
+    if (frontPath == null) return;
+
+    setState(() => _isProcessing = true);
+
+    try {
+      final ocrService = OcrService();
+      final extractedData = await ocrService.processCardImage(
+        imagePath: frontPath,
+        backImagePath: _frontImagePath != null ? _backImagePath : null,
+      );
+      ocrService.dispose();
+
+      if (mounted) {
+        context.push('/review-scan', extra: extractedData);
+      }
+    } catch (e) {
+      debugPrint('Error running OCR: $e');
+      if (mounted) {
+        context.push(
+          '/review-scan',
+          extra: ExtractedCardData(
+            photoFrontPath: _frontImagePath,
+            photoBackPath: _backImagePath,
+          ),
+        );
+      }
+    } finally {
+      if (mounted) setState(() => _isProcessing = false);
+    }
   }
 
   @override
@@ -313,27 +349,47 @@ class _ScanScreenState extends State<ScanScreen> with WidgetsBindingObserver {
                 child: Column(
                   mainAxisSize: MainAxisSize.min,
                   children: [
-                    // Captured image indicators (Front & Back status pills)
+                    // Captured image indicators & Review action
                     if (_frontImagePath != null || _backImagePath != null)
                       Padding(
                         padding: const EdgeInsets.only(bottom: 12),
-                        child: Row(
-                          mainAxisAlignment: MainAxisAlignment.center,
+                        child: Column(
+                          mainAxisSize: MainAxisSize.min,
                           children: [
-                            if (_frontImagePath != null)
-                              Chip(
-                                avatar: const Icon(Icons.check_circle, size: 16, color: AppColors.forestGreen),
-                                label: Text(l10n.cardFront, style: AppTypography.labelSmall()),
-                                backgroundColor: AppColors.surfaceSage,
+                            Row(
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              children: [
+                                if (_frontImagePath != null)
+                                  Chip(
+                                    avatar: const Icon(Icons.check_circle, size: 16, color: AppColors.forestGreen),
+                                    label: Text(l10n.cardFront, style: AppTypography.labelSmall()),
+                                    backgroundColor: AppColors.surfaceSage,
+                                  ),
+                                if (_frontImagePath != null && _backImagePath != null)
+                                  const SizedBox(width: 8),
+                                if (_backImagePath != null)
+                                  Chip(
+                                    avatar: const Icon(Icons.check_circle, size: 16, color: AppColors.forestGreen),
+                                    label: Text(l10n.cardBack, style: AppTypography.labelSmall()),
+                                    backgroundColor: AppColors.surfaceSage,
+                                  ),
+                              ],
+                            ),
+                            const SizedBox(height: 8),
+                            ElevatedButton.icon(
+                              style: ElevatedButton.styleFrom(
+                                backgroundColor: AppColors.saffron,
+                                foregroundColor: AppColors.textPrimary,
+                                minimumSize: const Size(180, 42),
+                                shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(9999)),
                               ),
-                            if (_frontImagePath != null && _backImagePath != null)
-                              const SizedBox(width: 8),
-                            if (_backImagePath != null)
-                              Chip(
-                                avatar: const Icon(Icons.check_circle, size: 16, color: AppColors.forestGreen),
-                                label: Text(l10n.cardBack, style: AppTypography.labelSmall()),
-                                backgroundColor: AppColors.surfaceSage,
+                              onPressed: _proceedToReview,
+                              icon: const Icon(Icons.arrow_forward_rounded, size: 18),
+                              label: Text(
+                                '${l10n.reviewTitle} (${_backImagePath != null ? "2 Sides" : "1 Side"})',
+                                style: AppTypography.labelLarge(color: AppColors.textPrimary),
                               ),
+                            ),
                           ],
                         ),
                       ),
@@ -392,26 +448,32 @@ class _ScanScreenState extends State<ScanScreen> with WidgetsBindingObserver {
                         Column(
                           mainAxisSize: MainAxisSize.min,
                           children: [
-                            Container(
-                              width: 52,
-                              height: 52,
-                              decoration: BoxDecoration(
-                                borderRadius: BorderRadius.circular(10),
-                                border: Border.all(color: Colors.white.withValues(alpha: 0.4)),
-                                color: Colors.white.withValues(alpha: 0.1),
+                            GestureDetector(
+                              onTap: _frontImagePath != null ? _proceedToReview : null,
+                              child: Container(
+                                width: 52,
+                                height: 52,
+                                decoration: BoxDecoration(
+                                  borderRadius: BorderRadius.circular(10),
+                                  border: Border.all(
+                                    color: _frontImagePath != null ? AppColors.saffron : Colors.white.withValues(alpha: 0.4),
+                                    width: _frontImagePath != null ? 2 : 1,
+                                  ),
+                                  color: Colors.white.withValues(alpha: 0.1),
+                                ),
+                                clipBehavior: Clip.antiAlias,
+                                child: _frontImagePath != null
+                                    ? Image.file(
+                                        File(_frontImagePath!),
+                                        fit: BoxFit.cover,
+                                      )
+                                    : const Icon(Icons.credit_card, color: Colors.white38),
                               ),
-                              clipBehavior: Clip.antiAlias,
-                              child: _frontImagePath != null
-                                  ? Image.file(
-                                      File(_frontImagePath!),
-                                      fit: BoxFit.cover,
-                                    )
-                                  : const Icon(Icons.credit_card, color: Colors.white38),
                             ),
                             const SizedBox(height: 4),
                             Text(
-                              _frontImagePath != null ? 'Preview' : '',
-                              style: AppTypography.labelSmall(color: Colors.white70),
+                              _frontImagePath != null ? 'Review' : '',
+                              style: AppTypography.labelSmall(color: AppColors.saffron),
                             ),
                           ],
                         ),
@@ -444,6 +506,33 @@ class _ScanScreenState extends State<ScanScreen> with WidgetsBindingObserver {
               ),
             ),
           ),
+
+          // 5. Processing / OCR Loading Overlay
+          if (_isProcessing)
+            Container(
+              color: Colors.black.withValues(alpha: 0.75),
+              child: Center(
+                child: Column(
+                  mainAxisSize: MainAxisSize.min,
+                  children: [
+                    const CircularProgressIndicator(
+                      valueColor: AlwaysStoppedAnimation<Color>(AppColors.saffron),
+                      strokeWidth: 3,
+                    ),
+                    const SizedBox(height: 16),
+                    Text(
+                      'Smart OCR Extracting Card Details...',
+                      style: AppTypography.titleMedium(color: Colors.white),
+                    ),
+                    const SizedBox(height: 6),
+                    Text(
+                      '100% on-device private processing',
+                      style: AppTypography.bodySmall(color: AppColors.surfaceSage),
+                    ),
+                  ],
+                ),
+              ),
+            ),
         ],
       ),
     );

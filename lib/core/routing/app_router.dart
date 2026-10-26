@@ -9,6 +9,8 @@ import '../../presentation/screens/profile/profile_screen.dart';
 import '../../presentation/screens/scan/scan_screen.dart';
 import '../../presentation/screens/categories/categories_screen.dart';
 import '../../presentation/screens/digital_card/digital_card_screen.dart';
+import '../../presentation/screens/scan/review_scan_screen.dart';
+import '../../data/models/extracted_card_data.dart';
 
 /// Declarative Routing Configuration for CardSaathi using go_router
 abstract final class AppRouter {
@@ -69,6 +71,14 @@ abstract final class AppRouter {
         path: '/scan',
         parentNavigatorKey: _rootNavigatorKey,
         builder: (context, state) => const ScanScreen(),
+      ),
+      GoRoute(
+        path: '/review-scan',
+        parentNavigatorKey: _rootNavigatorKey,
+        builder: (context, state) {
+          final data = state.extra as ExtractedCardData?;
+          return ReviewScanScreen(initialData: data);
+        },
       ),
       GoRoute(
         path: '/categories',
