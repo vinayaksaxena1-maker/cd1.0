@@ -514,4 +514,32 @@ class AppLocalizationsHi extends AppLocalizations {
 
   @override
   String get loginToBackup => 'क्लाउड बैकअप के लिए लॉगिन करें';
+
+  @override
+  String get guestUser => 'अतिथि यूज़र (Guest)';
+
+  @override
+  String get guestMode => 'गेस्ट मोड (ऑफ़लाइन सुरक्षित)';
+
+  @override
+  String get continueAsGuest => 'बिना लॉगिन जारी रखें (Guest Mode)';
+
+  @override
+  String get loginWithPhone => 'फ़ोन नंबर से लॉगिन करें';
+
+  @override
+  String get sendOtp => 'OTP प्राप्त करें';
+
+  @override
+  String get enterOtp => '6-अंकों का OTP दर्ज करें';
+
+  @override
+  String get verifyOtp => 'सत्यापित करें व लॉगिन करें';
+
+  @override
+  String get guestNotice =>
+      'गेस्ट मोड में आपके सभी विज़िटिंग कार्ड्स और मीटिंग्स फ़ोन में सुरक्षित रहते हैं।';
+
+  @override
+  String get signOut => 'लॉग आउट करें';
 }

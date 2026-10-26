@@ -171,5 +171,14 @@
   "syncStatusOffline": "ऑफ़लाइन मोड",
   "syncStatusError": "सिंक त्रुटि",
   "syncNow": "अभी सिंक करें",
-  "loginToBackup": "क्लाउड बैकअप के लिए लॉगिन करें"
+  "loginToBackup": "क्लाउड बैकअप के लिए लॉगिन करें",
+  "guestUser": "अतिथि यूज़र (Guest)",
+  "guestMode": "गेस्ट मोड (ऑफ़लाइन सुरक्षित)",
+  "continueAsGuest": "बिना लॉगिन जारी रखें (Guest Mode)",
+  "loginWithPhone": "फ़ोन नंबर से लॉगिन करें",
+  "sendOtp": "OTP प्राप्त करें",
+  "enterOtp": "6-अंकों का OTP दर्ज करें",
+  "verifyOtp": "सत्यापित करें व लॉगिन करें",
+  "guestNotice": "गेस्ट मोड में आपके सभी विज़िटिंग कार्ड्स और मीटिंग्स फ़ोन में सुरक्षित रहते हैं।",
+  "signOut": "लॉग आउट करें"
 }

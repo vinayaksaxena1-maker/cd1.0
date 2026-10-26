@@ -104,10 +104,11 @@ void main() {
       expect(syncService.status.value, SyncStatus.offline);
     });
 
-    test('FirebaseService default offline resilience check', () {
+    test('FirebaseService default offline resilience and guest check', () {
       final fb = FirebaseService.instance;
-      // In flutter_test environment without mock native bindings, currentUser is null
+      // In flutter_test environment without mock native bindings, currentUser is null, hence isGuest is true
       expect(fb.currentUser, isNull);
+      expect(fb.isGuest, isTrue);
     });
   });
 }

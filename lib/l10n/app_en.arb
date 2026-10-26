@@ -171,5 +171,14 @@
   "syncStatusOffline": "Working Offline",
   "syncStatusError": "Sync Error",
   "syncNow": "Sync Now",
-  "loginToBackup": "Sign In for Cloud Backup"
+  "loginToBackup": "Sign In for Cloud Backup",
+  "guestUser": "Guest User",
+  "guestMode": "Guest Mode (Offline)",
+  "continueAsGuest": "Continue as Guest",
+  "loginWithPhone": "Sign In with Phone",
+  "sendOtp": "Send OTP",
+  "enterOtp": "Enter 6-digit OTP",
+  "verifyOtp": "Verify & Sign In",
+  "guestNotice": "As a guest, all visiting cards & meetings are saved safely on your device.",
+  "signOut": "Sign Out"
 }

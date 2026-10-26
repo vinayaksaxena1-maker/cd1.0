@@ -514,4 +514,32 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get loginToBackup => 'Sign In for Cloud Backup';
+
+  @override
+  String get guestUser => 'Guest User';
+
+  @override
+  String get guestMode => 'Guest Mode (Offline)';
+
+  @override
+  String get continueAsGuest => 'Continue as Guest';
+
+  @override
+  String get loginWithPhone => 'Sign In with Phone';
+
+  @override
+  String get sendOtp => 'Send OTP';
+
+  @override
+  String get enterOtp => 'Enter 6-digit OTP';
+
+  @override
+  String get verifyOtp => 'Verify & Sign In';
+
+  @override
+  String get guestNotice =>
+      'As a guest, all visiting cards & meetings are saved safely on your device.';
+
+  @override
+  String get signOut => 'Sign Out';
 }

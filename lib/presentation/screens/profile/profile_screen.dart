@@ -7,6 +7,8 @@ import '../../../core/services/cloud_sync_service.dart';
 import '../../../core/services/firebase_service.dart';
 import '../../../data/local/storage_service.dart';
 import '../../../l10n/app_localizations.dart';
+import '../../widgets/auth/auth_modal.dart';
+import '../../widgets/profile/cloud_sync_card.dart';
 
 class ProfileScreen extends StatelessWidget {
   const ProfileScreen({super.key});
@@ -53,135 +55,59 @@ class ProfileScreen extends StatelessWidget {
     );
   }
 
-  Widget _buildSyncCard(BuildContext context, AppLocalizations l10n) {
-    final syncService = CloudSyncService.instance;
+  Widget _buildAccountCard(BuildContext context, AppLocalizations l10n) {
     final fbService = FirebaseService.instance;
+    final isGuest = fbService.isGuest;
+    final user = fbService.currentUser;
 
     return Card(
+      color: isGuest ? AppColors.surfaceSage.withValues(alpha: 0.5) : AppColors.surfaceCard,
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.circular(16),
-        side: BorderSide(color: AppColors.borderSubtle.withValues(alpha: 0.6)),
-      ),
-      child: Padding(
-        padding: const EdgeInsets.all(16),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Row(
-              children: [
-                const CircleAvatar(
-                  radius: 20,
-                  backgroundColor: AppColors.surfaceSage,
-                  child: Icon(Icons.cloud_sync_rounded, color: AppColors.forestGreen),
-                ),
-                const SizedBox(width: 12),
-                Expanded(
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Text(
-                        'Google Firebase Cloud Backup',
-                        style: AppTypography.titleMedium(),
-                      ),
-                      ValueListenableBuilder<SyncStatus>(
-                        valueListenable: syncService.status,
-                        builder: (context, status, _) {
-                          String statusText;
-                          Color statusColor;
-
-                          switch (status) {
-                            case SyncStatus.syncing:
-                              statusText = l10n.syncStatusSyncing;
-                              statusColor = Colors.orange;
-                              break;
-                            case SyncStatus.synced:
-                              statusText = l10n.syncStatusSynced;
-                              statusColor = AppColors.forestGreen;
-                              break;
-                            case SyncStatus.error:
-                              statusText = l10n.syncStatusError;
-                              statusColor = AppColors.error;
-                              break;
-                            case SyncStatus.offline:
-                            case SyncStatus.idle:
-                              statusText = fbService.isAvailable
-                                  ? 'Cloud Backup Active'
-                                  : l10n.syncStatusOffline;
-                              statusColor = AppColors.textSecondary;
-                              break;
-                          }
-
-                          return Row(
-                            children: [
-                              Container(
-                                width: 8,
-                                height: 8,
-                                decoration: BoxDecoration(
-                                  color: statusColor,
-                                  shape: BoxShape.circle,
-                                ),
-                              ),
-                              const SizedBox(width: 6),
-                              Text(
-                                statusText,
-                                style: AppTypography.bodySmall(color: statusColor),
-                              ),
-                            ],
-                          );
-                        },
-                      ),
-                    ],
-                  ),
-                ),
-                ValueListenableBuilder<SyncStatus>(
-                  valueListenable: syncService.status,
-                  builder: (context, status, _) {
-                    final isSyncing = status == SyncStatus.syncing;
-                    return ElevatedButton(
-                      onPressed: isSyncing
-                          ? null
-                          : () async {
-                              final success = await syncService.syncAll(force: true);
-                              if (context.mounted) {
-                                ScaffoldMessenger.of(context).showSnackBar(
-                                  SnackBar(
-                                    content: Text(
-                                      success ? l10n.syncStatusSynced : l10n.syncStatusError,
-                                    ),
-                                    backgroundColor: success ? AppColors.forestGreen : AppColors.error,
-                                  ),
-                                );
-                              }
-                            },
-                      style: ElevatedButton.styleFrom(
-                        backgroundColor: AppColors.forestGreen,
-                        padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 8),
-                        minimumSize: const Size(80, 36),
-                      ),
-                      child: isSyncing
-                          ? const SizedBox(
-                              width: 16,
-                              height: 16,
-                              child: CircularProgressIndicator(strokeWidth: 2, color: Colors.white),
-                            )
-                          : Text(l10n.syncNow, style: AppTypography.labelLarge(color: Colors.white)),
-                    );
-                  },
-                ),
-              ],
-            ),
-            const SizedBox(height: 12),
-            ValueListenableBuilder<DateTime?>(
-              valueListenable: syncService.lastSyncedAt,
-              builder: (context, lastSync, _) {
-                final text = lastSync != null
-                    ? 'Last synced: ${lastSync.hour.toString().padLeft(2, '0')}:${lastSync.minute.toString().padLeft(2, '0')}'
-                    : 'Auto-syncs local cards & reminders with Firebase Cloud';
-                return Text(text, style: AppTypography.bodySmall(color: AppColors.textSecondary));
-              },
-            ),
-          ],
+        side: BorderSide(
+          color: isGuest ? AppColors.forestGreen.withValues(alpha: 0.3) : AppColors.borderSubtle,
         ),
+      ),
+      child: ListTile(
+        contentPadding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+        leading: CircleAvatar(
+          backgroundColor: isGuest ? AppColors.forestGreen.withValues(alpha: 0.15) : AppColors.forestGreen,
+          child: Icon(
+            isGuest ? Icons.person_outline_rounded : Icons.verified_user_rounded,
+            color: isGuest ? AppColors.forestGreen : Colors.white,
+          ),
+        ),
+        title: Text(
+          isGuest ? l10n.guestUser : (user?.phoneNumber ?? 'Signed In'),
+          style: AppTypography.titleMedium(),
+        ),
+        subtitle: Text(
+          isGuest ? l10n.guestMode : 'Verified Phone Account',
+          style: AppTypography.bodySmall(
+            color: isGuest ? AppColors.textSecondary : AppColors.forestGreen,
+          ),
+        ),
+        trailing: isGuest
+            ? OutlinedButton(
+                onPressed: () => AuthModal.show(context),
+                style: OutlinedButton.styleFrom(
+                  side: const BorderSide(color: AppColors.forestGreen),
+                  padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
+                  minimumSize: const Size(60, 32),
+                ),
+                child: Text('Login / OTP', style: AppTypography.labelLarge(color: AppColors.forestGreen)),
+              )
+            : TextButton(
+                onPressed: () async {
+                  await fbService.signOut();
+                  if (context.mounted) {
+                    ScaffoldMessenger.of(context).showSnackBar(
+                      SnackBar(content: Text(l10n.guestMode)),
+                    );
+                  }
+                },
+                child: Text(l10n.signOut, style: AppTypography.labelLarge(color: AppColors.error)),
+              ),
       ),
     );
   }
@@ -197,6 +123,10 @@ class ProfileScreen extends StatelessWidget {
       body: ListView(
         padding: const EdgeInsets.all(16),
         children: [
+          // Account & Guest Mode Card
+          _buildAccountCard(context, l10n),
+          const SizedBox(height: 12),
+
           // Digital Card Teaser
           Card(
             color: AppColors.surfaceSage,
@@ -227,7 +157,7 @@ class ProfileScreen extends StatelessWidget {
           const SizedBox(height: 12),
 
           // Google Firebase Cloud Sync Card
-          _buildSyncCard(context, l10n),
+          const CloudSyncCard(),
           const SizedBox(height: 12),
 
           // Bilingual Language Selector
