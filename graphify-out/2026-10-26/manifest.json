@@ -300,27 +300,27 @@
     "semantic_hash": ""
   },
   "lib/core/routing/app_router.dart": {
-    "mtime": 1793009623.4649322,
-    "seen": 1793011591.7726643,
-    "ast_hash": "e649d4af7f14121a56fa3a6583fe847b",
+    "mtime": 1793021381.723661,
+    "seen": 1793022635.1477695,
+    "ast_hash": "2869030c9119bfe0af3389d7b7eddc6e",
     "semantic_hash": ""
   },
   "lib/l10n/app_localizations.dart": {
-    "mtime": 1793015845.3143394,
-    "seen": 1793016872.490635,
-    "ast_hash": "22666707334d5fc490183041420bbfb2",
+    "mtime": 1793022061.7969902,
+    "seen": 1793022635.1477695,
+    "ast_hash": "b35997b97eeffb507f5e6ed21298509b",
     "semantic_hash": ""
   },
   "lib/l10n/app_localizations_en.dart": {
-    "mtime": 1793015845.3016477,
-    "seen": 1793016872.490635,
-    "ast_hash": "fda4456b40f26834a3c25872bee837ab",
+    "mtime": 1793022061.7882185,
+    "seen": 1793022635.1477695,
+    "ast_hash": "818a4793e9af4aafb9af0826246ba7ef",
     "semantic_hash": ""
   },
   "lib/l10n/app_localizations_hi.dart": {
-    "mtime": 1793015845.308482,
-    "seen": 1793016872.490635,
-    "ast_hash": "62fffaf78295e848de25e77a7dcb5b5b",
+    "mtime": 1793022061.792125,
+    "seen": 1793022635.1477695,
+    "ast_hash": "50e95f8e6bf184f9431663d18a9406a5",
     "semantic_hash": ""
   },
   "lib/presentation/navigation/main_shell.dart": {
@@ -330,9 +330,9 @@
     "semantic_hash": ""
   },
   "lib/presentation/screens/cards/cards_screen.dart": {
-    "mtime": 1793015188.7442281,
-    "seen": 1793016872.490635,
-    "ast_hash": "a0c7f3bf847a8d7f0ee25649cff8b4a5",
+    "mtime": 1793021497.6367865,
+    "seen": 1793022635.1477695,
+    "ast_hash": "63791078cb14ce3cb78eb14dbacce819",
     "semantic_hash": ""
   },
   "lib/presentation/screens/categories/categories_screen.dart": {
@@ -579,6 +579,18 @@
     "mtime": 1793015255.093994,
     "seen": 1793016872.490635,
     "ast_hash": "c5f8afdd68e68778e630faad8c1a37b2",
+    "semantic_hash": ""
+  },
+  "lib/presentation/screens/cards/card_detail_screen.dart": {
+    "mtime": 1793021576.3811414,
+    "seen": 1793022635.1477695,
+    "ast_hash": "fa09505c012ab98cb2236bc9ab364b57",
+    "semantic_hash": ""
+  },
+  "test/card_detail_test.dart": {
+    "mtime": 1793021649.8132367,
+    "seen": 1793022635.1477695,
+    "ast_hash": "3ff8c296c4aff7049f7b0e9d07c4b404",
     "semantic_hash": ""
   }
 }

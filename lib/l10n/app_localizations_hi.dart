@@ -265,4 +265,70 @@ class AppLocalizationsHi extends AppLocalizations {
 
   @override
   String get deleteConfirm => 'क्या आप वाकई इस कार्ड को हटाना चाहते हैं?';
+
+  @override
+  String get addCategory => 'श्रेणी जोड़ें';
+
+  @override
+  String get categoryNameEn => 'श्रेणी का नाम (अंग्रेज़ी)';
+
+  @override
+  String get categoryNameHi => 'श्रेणी का नाम (हिंदी)';
+
+  @override
+  String get customCategory => 'कस्टम श्रेणी';
+
+  @override
+  String get commercialCategories => 'व्यावसायिक श्रेणियां';
+
+  @override
+  String get totalCategories => 'कुल श्रेणियां';
+
+  @override
+  String get deleteCategory => 'श्रेणी हटाएं';
+
+  @override
+  String get cannotDeleteDefaultCategory =>
+      'डिफ़ॉल्ट व्यावसायिक श्रेणियों को हटाया नहीं जा सकता।';
+
+  @override
+  String get deleteCategoryConfirm =>
+      'क्या आप वाकई इस श्रेणी को हटाना चाहते हैं? इससे जुड़े सभी कार्ड \'अन्य व्यापार\' में स्थानांतरित कर दिए जाएंगे।';
+
+  @override
+  String get categoryAdded => 'श्रेणी सफलतापूर्वक जोड़ी गई';
+
+  @override
+  String get categoryDeleted => 'श्रेणी सफलतापूर्वक हटा दी गई';
+
+  @override
+  String get cardsInCategory => 'इस श्रेणी के कार्ड';
+
+  @override
+  String get noCardsInCategory => 'इस श्रेणी में अभी कोई कार्ड नहीं है';
+
+  @override
+  String get viewInDirectory => 'डायरेक्टरी में देखें';
+
+  @override
+  String get categoryNameRequired => 'श्रेणी का नाम अनिवार्य है';
+
+  @override
+  String get selectIcon => 'आइकन चुनें';
+
+  @override
+  String get defaultProtected => 'डिफ़ॉल्ट (सुरक्षित)';
+
+  @override
+  String get customBadge => 'कस्टम';
+
+  @override
+  String get organizeByTrade =>
+      'व्यापार और उद्योग के आधार पर अपने कार्ड्स व्यवस्थित करें';
+
+  @override
+  String get save => 'सहेजें';
+
+  @override
+  String get retry => 'पुनः प्रयास करें';
 }

@@ -1,6 +1,7 @@
 import 'package:hive/hive.dart';
 import '../local/hive_registrar.dart';
 import '../models/category.dart';
+import 'contact_repository.dart';
 
 class CategoryRepository {
   Box<Category>? _box;
@@ -65,13 +66,24 @@ class CategoryRepository {
     await box.put(category.id, category);
   }
 
-  Future<void> deleteCategory(String id) async {
+  Future<bool> deleteCategory(String id, {ContactRepository? contactRepo}) async {
     final box = _box ?? Hive.box<Category>(HiveRegistrar.categoriesBox);
     final category = box.get(id);
     // Protect default categories from being deleted
-    if (category != null && category.isCustom) {
-      await box.delete(id);
+    if (category == null || !category.isCustom) {
+      return false;
     }
+
+    // Safe deletion: reassign any existing cards in this category to 'other'
+    if (contactRepo != null) {
+      final associatedCards = contactRepo.getCardsByCategory(id);
+      for (final card in associatedCards) {
+        await contactRepo.saveCard(card.copyWith(categoryId: 'other'));
+      }
+    }
+
+    await box.delete(id);
+    return true;
   }
 
   Future<void> updateCardCount(String categoryId, int delta) async {

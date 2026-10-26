@@ -17,7 +17,9 @@ enum CardSortOption {
 }
 
 class CardsScreen extends StatefulWidget {
-  const CardsScreen({super.key});
+  final String? initialCategoryId;
+
+  const CardsScreen({super.key, this.initialCategoryId});
 
   @override
   State<CardsScreen> createState() => _CardsScreenState();
@@ -37,6 +39,7 @@ class _CardsScreenState extends State<CardsScreen> {
   @override
   void initState() {
     super.initState();
+    _selectedCategoryId = widget.initialCategoryId;
     _searchController.addListener(_onSearchChanged);
     _loadInitialData();
   }

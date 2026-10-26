@@ -601,6 +601,132 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Are you sure you want to delete this card?'**
   String get deleteConfirm;
+
+  /// No description provided for @addCategory.
+  ///
+  /// In en, this message translates to:
+  /// **'Add Category'**
+  String get addCategory;
+
+  /// No description provided for @categoryNameEn.
+  ///
+  /// In en, this message translates to:
+  /// **'Category Name (English)'**
+  String get categoryNameEn;
+
+  /// No description provided for @categoryNameHi.
+  ///
+  /// In en, this message translates to:
+  /// **'Category Name (Hindi)'**
+  String get categoryNameHi;
+
+  /// No description provided for @customCategory.
+  ///
+  /// In en, this message translates to:
+  /// **'Custom Category'**
+  String get customCategory;
+
+  /// No description provided for @commercialCategories.
+  ///
+  /// In en, this message translates to:
+  /// **'Commercial Categories'**
+  String get commercialCategories;
+
+  /// No description provided for @totalCategories.
+  ///
+  /// In en, this message translates to:
+  /// **'Total Categories'**
+  String get totalCategories;
+
+  /// No description provided for @deleteCategory.
+  ///
+  /// In en, this message translates to:
+  /// **'Delete Category'**
+  String get deleteCategory;
+
+  /// No description provided for @cannotDeleteDefaultCategory.
+  ///
+  /// In en, this message translates to:
+  /// **'Default commercial categories cannot be deleted.'**
+  String get cannotDeleteDefaultCategory;
+
+  /// No description provided for @deleteCategoryConfirm.
+  ///
+  /// In en, this message translates to:
+  /// **'Are you sure you want to delete this category? Associated cards will be moved to \'Other Business\'.'**
+  String get deleteCategoryConfirm;
+
+  /// No description provided for @categoryAdded.
+  ///
+  /// In en, this message translates to:
+  /// **'Category added successfully'**
+  String get categoryAdded;
+
+  /// No description provided for @categoryDeleted.
+  ///
+  /// In en, this message translates to:
+  /// **'Category deleted successfully'**
+  String get categoryDeleted;
+
+  /// No description provided for @cardsInCategory.
+  ///
+  /// In en, this message translates to:
+  /// **'Cards in this Category'**
+  String get cardsInCategory;
+
+  /// No description provided for @noCardsInCategory.
+  ///
+  /// In en, this message translates to:
+  /// **'No cards in this category yet'**
+  String get noCardsInCategory;
+
+  /// No description provided for @viewInDirectory.
+  ///
+  /// In en, this message translates to:
+  /// **'View in Directory'**
+  String get viewInDirectory;
+
+  /// No description provided for @categoryNameRequired.
+  ///
+  /// In en, this message translates to:
+  /// **'Category name is required'**
+  String get categoryNameRequired;
+
+  /// No description provided for @selectIcon.
+  ///
+  /// In en, this message translates to:
+  /// **'Select Icon'**
+  String get selectIcon;
+
+  /// No description provided for @defaultProtected.
+  ///
+  /// In en, this message translates to:
+  /// **'Default (Protected)'**
+  String get defaultProtected;
+
+  /// No description provided for @customBadge.
+  ///
+  /// In en, this message translates to:
+  /// **'Custom'**
+  String get customBadge;
+
+  /// No description provided for @organizeByTrade.
+  ///
+  /// In en, this message translates to:
+  /// **'Organize & filter your visiting cards by business trade'**
+  String get organizeByTrade;
+
+  /// No description provided for @save.
+  ///
+  /// In en, this message translates to:
+  /// **'Save'**
+  String get save;
+
+  /// No description provided for @retry.
+  ///
+  /// In en, this message translates to:
+  /// **'Retry'**
+  String get retry;
 }
 
 class _AppLocalizationsDelegate

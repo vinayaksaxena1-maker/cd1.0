@@ -265,4 +265,70 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get deleteConfirm => 'Are you sure you want to delete this card?';
+
+  @override
+  String get addCategory => 'Add Category';
+
+  @override
+  String get categoryNameEn => 'Category Name (English)';
+
+  @override
+  String get categoryNameHi => 'Category Name (Hindi)';
+
+  @override
+  String get customCategory => 'Custom Category';
+
+  @override
+  String get commercialCategories => 'Commercial Categories';
+
+  @override
+  String get totalCategories => 'Total Categories';
+
+  @override
+  String get deleteCategory => 'Delete Category';
+
+  @override
+  String get cannotDeleteDefaultCategory =>
+      'Default commercial categories cannot be deleted.';
+
+  @override
+  String get deleteCategoryConfirm =>
+      'Are you sure you want to delete this category? Associated cards will be moved to \'Other Business\'.';
+
+  @override
+  String get categoryAdded => 'Category added successfully';
+
+  @override
+  String get categoryDeleted => 'Category deleted successfully';
+
+  @override
+  String get cardsInCategory => 'Cards in this Category';
+
+  @override
+  String get noCardsInCategory => 'No cards in this category yet';
+
+  @override
+  String get viewInDirectory => 'View in Directory';
+
+  @override
+  String get categoryNameRequired => 'Category name is required';
+
+  @override
+  String get selectIcon => 'Select Icon';
+
+  @override
+  String get defaultProtected => 'Default (Protected)';
+
+  @override
+  String get customBadge => 'Custom';
+
+  @override
+  String get organizeByTrade =>
+      'Organize & filter your visiting cards by business trade';
+
+  @override
+  String get save => 'Save';
+
+  @override
+  String get retry => 'Retry';
 }

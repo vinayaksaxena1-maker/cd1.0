@@ -42,7 +42,10 @@ abstract final class AppRouter {
             routes: [
               GoRoute(
                 path: '/cards',
-                builder: (context, state) => const CardsScreen(),
+                builder: (context, state) {
+                  final catId = state.uri.queryParameters['category'];
+                  return CardsScreen(initialCategoryId: catId);
+                },
               ),
             ],
           ),
