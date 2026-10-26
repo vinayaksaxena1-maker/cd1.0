@@ -1,4 +1,4 @@
-package com.cardsaathi.app.cardsaathi
+package com.cardsaathi.app
 
 import io.flutter.embedding.android.FlutterActivity
 
