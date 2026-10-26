@@ -171,4 +171,20 @@ class AppLocalizationsEn extends AppLocalizations {
   @override
   String get offlinePrivacyNotice =>
       'Scans stored 100% locally on your phone. Safe & private.';
+
+  @override
+  String get recording => 'Recording... (10s max)';
+
+  @override
+  String get tapToStop => 'Tap to stop';
+
+  @override
+  String get playMemo => 'Play Memo';
+
+  @override
+  String get deleteMemo => 'Delete Memo';
+
+  @override
+  String get voiceDisclosure =>
+      'CardSaathi uses microphone to record a quick 10-second context memo. Audio is stored 100% offline on your device.';
 }

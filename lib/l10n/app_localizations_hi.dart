@@ -171,4 +171,20 @@ class AppLocalizationsHi extends AppLocalizations {
   @override
   String get offlinePrivacyNotice =>
       'स्कैन 100% आपके फ़ोन पर सुरक्षित और ऑफ़लाइन रहते हैं।';
+
+  @override
+  String get recording => 'रिकॉर्डिंग जारी है... (अधिकतम 10s)';
+
+  @override
+  String get tapToStop => 'रोकने के लिए टैप करें';
+
+  @override
+  String get playMemo => 'मेमो सुनें';
+
+  @override
+  String get deleteMemo => 'मेमो हटाएं';
+
+  @override
+  String get voiceDisclosure =>
+      'कार्डसाथी केवल 10-सेकंड का वॉइस मेमो रिकॉर्ड करने के लिए माइक्रोफ़ोन का उपयोग करता है। ऑडियो 100% ऑफ़लाइन सुरक्षित रहता है।';
 }

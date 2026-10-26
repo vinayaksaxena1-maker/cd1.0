@@ -798,6 +798,17 @@
       "source_location": null
     },
     {
+      "id": "app_localizations_dart",
+      "label": "app_localizations.dart",
+      "_origin": "ast",
+      "community": 18,
+      "community_name": "app_localizations_en.dart",
+      "file_type": "code",
+      "norm_label": "app_localizations.dart",
+      "source_file": null,
+      "source_location": null
+    },
+    {
       "id": "lib_l10n_app_localizations_en",
       "label": "app_localizations_en.dart",
       "_origin": "ast",
@@ -1007,6 +1018,17 @@
       "source_location": "L126"
     },
     {
+      "id": "lib_l10n_app_localizations_en_deletememo",
+      "label": "deleteMemo",
+      "_origin": "ast",
+      "community": 18,
+      "community_name": "app_localizations_en.dart",
+      "file_type": "code",
+      "norm_label": "deletememo",
+      "source_file": "lib/l10n/app_localizations_en.dart",
+      "source_location": "L185"
+    },
+    {
       "id": "lib_l10n_app_localizations_en_emailaddress",
       "label": "emailAddress",
       "_origin": "ast",
@@ -1205,6 +1227,17 @@
       "source_location": "L79"
     },
     {
+      "id": "lib_l10n_app_localizations_en_playmemo",
+      "label": "playMemo",
+      "_origin": "ast",
+      "community": 18,
+      "community_name": "app_localizations_en.dart",
+      "file_type": "code",
+      "norm_label": "playmemo",
+      "source_file": "lib/l10n/app_localizations_en.dart",
+      "source_location": "L182"
+    },
+    {
       "id": "lib_l10n_app_localizations_en_quickactions",
       "label": "quickActions",
       "_origin": "ast",
@@ -1225,6 +1258,17 @@
       "norm_label": "recentcards",
       "source_file": "lib/l10n/app_localizations_en.dart",
       "source_location": "L40"
+    },
+    {
+      "id": "lib_l10n_app_localizations_en_recording",
+      "label": "recording",
+      "_origin": "ast",
+      "community": 18,
+      "community_name": "app_localizations_en.dart",
+      "file_type": "code",
+      "norm_label": "recording",
+      "source_file": "lib/l10n/app_localizations_en.dart",
+      "source_location": "L176"
     },
     {
       "id": "lib_l10n_app_localizations_en_recordvoicememo",
@@ -1337,6 +1381,17 @@
       "source_location": "L139"
     },
     {
+      "id": "lib_l10n_app_localizations_en_taptostop",
+      "label": "tapToStop",
+      "_origin": "ast",
+      "community": 18,
+      "community_name": "app_localizations_en.dart",
+      "file_type": "code",
+      "norm_label": "taptostop",
+      "source_file": "lib/l10n/app_localizations_en.dart",
+      "source_location": "L179"
+    },
+    {
       "id": "lib_l10n_app_localizations_en_upcomingmeetings",
       "label": "upcomingMeetings",
       "_origin": "ast",
@@ -1370,6 +1425,17 @@
       "source_location": "L52"
     },
     {
+      "id": "lib_l10n_app_localizations_en_voicedisclosure",
+      "label": "voiceDisclosure",
+      "_origin": "ast",
+      "community": 18,
+      "community_name": "app_localizations_en.dart",
+      "file_type": "code",
+      "norm_label": "voicedisclosure",
+      "source_file": "lib/l10n/app_localizations_en.dart",
+      "source_location": "L188"
+    },
+    {
       "id": "lib_l10n_app_localizations_en_voicememosaved",
       "label": "voiceMemoSaved",
       "_origin": "ast",
@@ -1390,28 +1456,6 @@
       "norm_label": "whatsappgreeting",
       "source_file": "lib/l10n/app_localizations_en.dart",
       "source_location": "L100"
-    },
-    {
-      "id": "package_intl_intl_dart",
-      "label": "package:intl/intl.dart",
-      "_origin": "ast",
-      "community": 18,
-      "community_name": "app_localizations_en.dart",
-      "file_type": "code",
-      "norm_label": "package:intl/intl.dart",
-      "source_file": null,
-      "source_location": null
-    },
-    {
-      "id": "app_localizations_dart",
-      "label": "app_localizations.dart",
-      "_origin": "ast",
-      "community": 19,
-      "community_name": "app_localizations_hi.dart",
-      "file_type": "code",
-      "norm_label": "app_localizations.dart",
-      "source_file": null,
-      "source_location": null
     },
     {
       "id": "lib_l10n_app_localizations_hi",
@@ -1623,6 +1667,17 @@
       "source_location": "L126"
     },
     {
+      "id": "lib_l10n_app_localizations_hi_deletememo",
+      "label": "deleteMemo",
+      "_origin": "ast",
+      "community": 19,
+      "community_name": "app_localizations_hi.dart",
+      "file_type": "code",
+      "norm_label": "deletememo",
+      "source_file": "lib/l10n/app_localizations_hi.dart",
+      "source_location": "L185"
+    },
+    {
       "id": "lib_l10n_app_localizations_hi_emailaddress",
       "label": "emailAddress",
       "_origin": "ast",
@@ -1821,6 +1876,17 @@
       "source_location": "L79"
     },
     {
+      "id": "lib_l10n_app_localizations_hi_playmemo",
+      "label": "playMemo",
+      "_origin": "ast",
+      "community": 19,
+      "community_name": "app_localizations_hi.dart",
+      "file_type": "code",
+      "norm_label": "playmemo",
+      "source_file": "lib/l10n/app_localizations_hi.dart",
+      "source_location": "L182"
+    },
+    {
       "id": "lib_l10n_app_localizations_hi_quickactions",
       "label": "quickActions",
       "_origin": "ast",
@@ -1841,6 +1907,17 @@
       "norm_label": "recentcards",
       "source_file": "lib/l10n/app_localizations_hi.dart",
       "source_location": "L40"
+    },
+    {
+      "id": "lib_l10n_app_localizations_hi_recording",
+      "label": "recording",
+      "_origin": "ast",
+      "community": 19,
+      "community_name": "app_localizations_hi.dart",
+      "file_type": "code",
+      "norm_label": "recording",
+      "source_file": "lib/l10n/app_localizations_hi.dart",
+      "source_location": "L176"
     },
     {
       "id": "lib_l10n_app_localizations_hi_recordvoicememo",
@@ -1953,6 +2030,17 @@
       "source_location": "L139"
     },
     {
+      "id": "lib_l10n_app_localizations_hi_taptostop",
+      "label": "tapToStop",
+      "_origin": "ast",
+      "community": 19,
+      "community_name": "app_localizations_hi.dart",
+      "file_type": "code",
+      "norm_label": "taptostop",
+      "source_file": "lib/l10n/app_localizations_hi.dart",
+      "source_location": "L179"
+    },
+    {
       "id": "lib_l10n_app_localizations_hi_upcomingmeetings",
       "label": "upcomingMeetings",
       "_origin": "ast",
@@ -1986,6 +2074,17 @@
       "source_location": "L52"
     },
     {
+      "id": "lib_l10n_app_localizations_hi_voicedisclosure",
+      "label": "voiceDisclosure",
+      "_origin": "ast",
+      "community": 19,
+      "community_name": "app_localizations_hi.dart",
+      "file_type": "code",
+      "norm_label": "voicedisclosure",
+      "source_file": "lib/l10n/app_localizations_hi.dart",
+      "source_location": "L188"
+    },
+    {
       "id": "lib_l10n_app_localizations_hi_voicememosaved",
       "label": "voiceMemoSaved",
       "_origin": "ast",
@@ -2008,13 +2107,13 @@
       "source_location": "L100"
     },
     {
-      "id": "string_get",
-      "label": "String get",
+      "id": "package_intl_intl_dart",
+      "label": "package:intl/intl.dart",
       "_origin": "ast",
       "community": 19,
       "community_name": "app_localizations_hi.dart",
       "file_type": "code",
-      "norm_label": "string get",
+      "norm_label": "package:intl/intl.dart",
       "source_file": null,
       "source_location": null
     },
@@ -2833,6 +2932,28 @@
       "source_location": "L6"
     },
     {
+      "id": "lib_presentation_widgets_voice_memo_voice_memo_widget_voicememowidget",
+      "label": "VoiceMemoWidget",
+      "_origin": "ast",
+      "community": 20,
+      "community_name": "scan_screen.dart",
+      "file_type": "code",
+      "norm_label": "voicememowidget",
+      "source_file": "lib/presentation/widgets/voice_memo/voice_memo_widget.dart",
+      "source_location": "L7"
+    },
+    {
+      "id": "lib_presentation_widgets_voice_memo_voice_memo_widget_voicememowidgetstate",
+      "label": "_VoiceMemoWidgetState",
+      "_origin": "ast",
+      "community": 20,
+      "community_name": "scan_screen.dart",
+      "file_type": "code",
+      "norm_label": "_voicememowidgetstate",
+      "source_file": "lib/presentation/widgets/voice_memo/voice_memo_widget.dart",
+      "source_location": "L23"
+    },
+    {
       "id": "package_camera_camera_dart",
       "label": "package:camera/camera.dart",
       "_origin": "ast",
@@ -3413,7 +3534,7 @@
       "file_type": "code",
       "norm_label": "_applocalizationsdelegate",
       "source_file": "lib/l10n/app_localizations.dart",
-      "source_location": "L420"
+      "source_location": "L450"
     },
     {
       "id": "lib_l10n_app_localizations_en_applocalizationsen",
@@ -3911,149 +4032,6 @@
       "source_location": null
     },
     {
-      "id": "card_parser_service_dart",
-      "label": "card_parser_service.dart",
-      "_origin": "ast",
-      "community": 27,
-      "community_name": "hive_registrar.dart",
-      "file_type": "code",
-      "norm_label": "card_parser_service.dart",
-      "source_file": null,
-      "source_location": null
-    },
-    {
-      "id": "d_cd1_0_lib_data_models_category_categoryadapter",
-      "label": "CategoryAdapter",
-      "_origin": "ast",
-      "community": 27,
-      "community_name": "hive_registrar.dart",
-      "file_type": "code",
-      "norm_label": "categoryadapter",
-      "source_file": "lib/data/models/category.g.dart",
-      "source_location": "L9"
-    },
-    {
-      "id": "d_cd1_0_lib_data_models_contact_card_contactcardadapter",
-      "label": "ContactCardAdapter",
-      "_origin": "ast",
-      "community": 27,
-      "community_name": "hive_registrar.dart",
-      "file_type": "code",
-      "norm_label": "contactcardadapter",
-      "source_file": "lib/data/models/contact_card.g.dart",
-      "source_location": "L9"
-    },
-    {
-      "id": "d_cd1_0_lib_data_models_meeting_reminder_meetingreminderadapter",
-      "label": "MeetingReminderAdapter",
-      "_origin": "ast",
-      "community": 27,
-      "community_name": "hive_registrar.dart",
-      "file_type": "code",
-      "norm_label": "meetingreminderadapter",
-      "source_file": "lib/data/models/meeting_reminder.g.dart",
-      "source_location": "L9"
-    },
-    {
-      "id": "d_cd1_0_lib_data_models_user_profile_userprofileadapter",
-      "label": "UserProfileAdapter",
-      "_origin": "ast",
-      "community": 27,
-      "community_name": "hive_registrar.dart",
-      "file_type": "code",
-      "norm_label": "userprofileadapter",
-      "source_file": "lib/data/models/user_profile.g.dart",
-      "source_location": "L9"
-    },
-    {
-      "id": "dart_io",
-      "label": "dart:io",
-      "_origin": "ast",
-      "community": 27,
-      "community_name": "hive_registrar.dart",
-      "file_type": "code",
-      "norm_label": "dart:io",
-      "source_file": null,
-      "source_location": null
-    },
-    {
-      "id": "data_models_extracted_card_data_dart",
-      "label": "../../data/models/extracted_card_data.dart",
-      "_origin": "ast",
-      "community": 27,
-      "community_name": "hive_registrar.dart",
-      "file_type": "code",
-      "norm_label": "../../data/models/extracted_card_data.dart",
-      "source_file": null,
-      "source_location": null
-    },
-    {
-      "id": "hiveobject",
-      "label": "HiveObject",
-      "_origin": "ast",
-      "community": 27,
-      "community_name": "hive_registrar.dart",
-      "file_type": "code",
-      "norm_label": "hiveobject",
-      "source_file": null,
-      "source_location": null
-    },
-    {
-      "id": "lib_core_services_ocr_service",
-      "label": "ocr_service.dart",
-      "_origin": "ast",
-      "community": 27,
-      "community_name": "hive_registrar.dart",
-      "file_type": "code",
-      "norm_label": "ocr_service.dart",
-      "source_file": "lib/core/services/ocr_service.dart",
-      "source_location": null
-    },
-    {
-      "id": "lib_core_services_ocr_service_dispose",
-      "label": "dispose",
-      "_origin": "ast",
-      "community": 27,
-      "community_name": "hive_registrar.dart",
-      "file_type": "code",
-      "norm_label": "dispose",
-      "source_file": "lib/core/services/ocr_service.dart",
-      "source_location": "L57"
-    },
-    {
-      "id": "lib_core_services_ocr_service_ocrservice",
-      "label": "OcrService",
-      "_origin": "ast",
-      "community": 27,
-      "community_name": "hive_registrar.dart",
-      "file_type": "code",
-      "norm_label": "ocrservice",
-      "source_file": "lib/core/services/ocr_service.dart",
-      "source_location": "L7"
-    },
-    {
-      "id": "lib_core_services_ocr_service_processcardimage",
-      "label": "processCardImage",
-      "_origin": "ast",
-      "community": 27,
-      "community_name": "hive_registrar.dart",
-      "file_type": "code",
-      "norm_label": "processcardimage",
-      "source_file": "lib/core/services/ocr_service.dart",
-      "source_location": "L14"
-    },
-    {
-      "id": "lib_core_services_ocr_service_textrecognizer",
-      "label": "_textRecognizer",
-      "_origin": "ast",
-      "community": 27,
-      "community_name": "hive_registrar.dart",
-      "file_type": "code",
-      "norm_label": "_textrecognizer",
-      "source_file": "lib/core/services/ocr_service.dart",
-      "source_location": "L8"
-    },
-    {
       "id": "lib_data_local_hive_registrar",
       "label": "hive_registrar.dart",
       "_origin": "ast",
@@ -4164,83 +4142,6 @@
       "source_location": "L13"
     },
     {
-      "id": "lib_data_models_category_category",
-      "label": "Category",
-      "_origin": "ast",
-      "community": 27,
-      "community_name": "hive_registrar.dart",
-      "file_type": "code",
-      "norm_label": "category",
-      "source_file": "lib/data/models/category.dart",
-      "source_location": "L6"
-    },
-    {
-      "id": "lib_data_models_contact_card_contactcard",
-      "label": "ContactCard",
-      "_origin": "ast",
-      "community": 27,
-      "community_name": "hive_registrar.dart",
-      "file_type": "code",
-      "norm_label": "contactcard",
-      "source_file": "lib/data/models/contact_card.dart",
-      "source_location": "L6"
-    },
-    {
-      "id": "lib_data_models_meeting_reminder_meetingreminder",
-      "label": "MeetingReminder",
-      "_origin": "ast",
-      "community": 27,
-      "community_name": "hive_registrar.dart",
-      "file_type": "code",
-      "norm_label": "meetingreminder",
-      "source_file": "lib/data/models/meeting_reminder.dart",
-      "source_location": "L6"
-    },
-    {
-      "id": "lib_data_models_user_profile_userprofile",
-      "label": "UserProfile",
-      "_origin": "ast",
-      "community": 27,
-      "community_name": "hive_registrar.dart",
-      "file_type": "code",
-      "norm_label": "userprofile",
-      "source_file": "lib/data/models/user_profile.dart",
-      "source_location": "L6"
-    },
-    {
-      "id": "models_meeting_reminder_dart",
-      "label": "../models/meeting_reminder.dart",
-      "_origin": "ast",
-      "community": 27,
-      "community_name": "hive_registrar.dart",
-      "file_type": "code",
-      "norm_label": "../models/meeting_reminder.dart",
-      "source_file": null,
-      "source_location": null
-    },
-    {
-      "id": "package_flutter_foundation_dart",
-      "label": "package:flutter/foundation.dart",
-      "_origin": "ast",
-      "community": 27,
-      "community_name": "hive_registrar.dart",
-      "file_type": "code",
-      "norm_label": "package:flutter/foundation.dart",
-      "source_file": null,
-      "source_location": null
-    },
-    {
-      "id": "package_google_mlkit_text_recognition_google_mlkit_text_recognition_dart",
-      "label": "package:google_mlkit_text_recognition/google_mlkit_text_recognition.dart",
-      "_origin": "ast",
-      "community": 27,
-      "community_name": "hive_registrar.dart",
-      "file_type": "code",
-      "norm_label": "package:google_mlkit_text_recognition/google_mlkit_text_recognition.dart",
-      "source_file": null,
-      "source_location": null
-    },
-    {
       "id": "package_hive_flutter_hive_flutter_dart",
       "label": "package:hive_flutter/hive_flutter.dart",
       "_origin": "ast",
@@ -4259,39 +4160,6 @@
       "community_name": "hive_registrar.dart",
       "file_type": "code",
       "norm_label": "static bool",
-      "source_file": null,
-      "source_location": null
-    },
-    {
-      "id": "textrecognizer",
-      "label": "TextRecognizer",
-      "_origin": "ast",
-      "community": 27,
-      "community_name": "hive_registrar.dart",
-      "file_type": "code",
-      "norm_label": "textrecognizer",
-      "source_file": null,
-      "source_location": null
-    },
-    {
-      "id": "typeadapter",
-      "label": "TypeAdapter",
-      "_origin": "ast",
-      "community": 27,
-      "community_name": "hive_registrar.dart",
-      "file_type": "code",
-      "norm_label": "typeadapter",
-      "source_file": null,
-      "source_location": null
-    },
-    {
-      "id": "annotation_hivetype",
-      "label": "@HiveType",
-      "_origin": "ast",
-      "community": 27,
-      "community_name": "hive_registrar.dart",
-      "file_type": "concept",
-      "norm_label": "@hivetype",
       "source_file": null,
       "source_location": null
     },
@@ -4571,13 +4439,24 @@
       "source_location": "L44"
     },
     {
-      "id": "local_hive_registrar_dart",
-      "label": "../local/hive_registrar.dart",
+      "id": "models_meeting_reminder_dart",
+      "label": "../models/meeting_reminder.dart",
       "_origin": "ast",
       "community": 29,
       "community_name": "reminder_repository.dart",
       "file_type": "code",
-      "norm_label": "../local/hive_registrar.dart",
+      "norm_label": "../models/meeting_reminder.dart",
+      "source_file": null,
+      "source_location": null
+    },
+    {
+      "id": "package_hive_hive_dart",
+      "label": "package:hive/hive.dart",
+      "_origin": "ast",
+      "community": 29,
+      "community_name": "reminder_repository.dart",
+      "file_type": "code",
+      "norm_label": "package:hive/hive.dart",
       "source_file": null,
       "source_location": null
     },
@@ -4812,6 +4691,28 @@
       "source_location": null
     },
     {
+      "id": "package_cardsaathi_presentation_widgets_voice_memo_voice_memo_widget_dart",
+      "label": "package:cardsaathi/presentation/widgets/voice_memo/voice_memo_widget.dart",
+      "_origin": "ast",
+      "community": 30,
+      "community_name": "card_parser_test.dart",
+      "file_type": "code",
+      "norm_label": "package:cardsaathi/presentation/widgets/voice_memo/voice_memo_widget.dart",
+      "source_file": null,
+      "source_location": null
+    },
+    {
+      "id": "package_flutter_localizations_flutter_localizations_dart",
+      "label": "package:flutter_localizations/flutter_localizations.dart",
+      "_origin": "ast",
+      "community": 30,
+      "community_name": "card_parser_test.dart",
+      "file_type": "code",
+      "norm_label": "package:flutter_localizations/flutter_localizations.dart",
+      "source_file": null,
+      "source_location": null
+    },
+    {
       "id": "package_flutter_test_flutter_test_dart",
       "label": "package:flutter_test/flutter_test.dart",
       "_origin": "ast",
@@ -5021,6 +4922,39 @@
       "source_location": "L8"
     },
     {
+      "id": "test_voice_memo_test",
+      "label": "voice_memo_test.dart",
+      "_origin": "ast",
+      "community": 30,
+      "community_name": "card_parser_test.dart",
+      "file_type": "code",
+      "norm_label": "voice_memo_test.dart",
+      "source_file": "test/voice_memo_test.dart",
+      "source_location": null
+    },
+    {
+      "id": "test_voice_memo_test_createtestapp",
+      "label": "createTestApp",
+      "_origin": "ast",
+      "community": 30,
+      "community_name": "card_parser_test.dart",
+      "file_type": "code",
+      "norm_label": "createtestapp",
+      "source_file": "test/voice_memo_test.dart",
+      "source_location": "L9"
+    },
+    {
+      "id": "test_voice_memo_test_main",
+      "label": "main",
+      "_origin": "ast",
+      "community": 30,
+      "community_name": "card_parser_test.dart",
+      "file_type": "code",
+      "norm_label": "main",
+      "source_file": "test/voice_memo_test.dart",
+      "source_location": "L24"
+    },
+    {
       "id": "test_widget_test",
       "label": "widget_test.dart",
       "_origin": "ast",
@@ -5186,6 +5120,17 @@
       "source_location": "L63"
     },
     {
+      "id": "local_hive_registrar_dart",
+      "label": "../local/hive_registrar.dart",
+      "_origin": "ast",
+      "community": 31,
+      "community_name": "category_repository.dart",
+      "file_type": "code",
+      "norm_label": "../local/hive_registrar.dart",
+      "source_file": null,
+      "source_location": null
+    },
+    {
       "id": "models_category_dart",
       "label": "../models/category.dart",
       "_origin": "ast",
@@ -5193,17 +5138,6 @@
       "community_name": "category_repository.dart",
       "file_type": "code",
       "norm_label": "../models/category.dart",
-      "source_file": null,
-      "source_location": null
-    },
-    {
-      "id": "package_hive_hive_dart",
-      "label": "package:hive/hive.dart",
-      "_origin": "ast",
-      "community": 31,
-      "community_name": "category_repository.dart",
-      "file_type": "code",
-      "norm_label": "package:hive/hive.dart",
       "source_file": null,
       "source_location": null
     },
@@ -5978,6 +5912,50 @@
       "source_location": null
     },
     {
+      "id": "app_colors_dart",
+      "label": "app_colors.dart",
+      "_origin": "ast",
+      "community": 36,
+      "community_name": "app_typography.dart",
+      "file_type": "code",
+      "norm_label": "app_colors.dart",
+      "source_file": null,
+      "source_location": null
+    },
+    {
+      "id": "app_typography_dart",
+      "label": "app_typography.dart",
+      "_origin": "ast",
+      "community": 36,
+      "community_name": "app_typography.dart",
+      "file_type": "code",
+      "norm_label": "app_typography.dart",
+      "source_file": null,
+      "source_location": null
+    },
+    {
+      "id": "lib_core_theme_app_theme",
+      "label": "app_theme.dart",
+      "_origin": "ast",
+      "community": 36,
+      "community_name": "app_typography.dart",
+      "file_type": "code",
+      "norm_label": "app_theme.dart",
+      "source_file": "lib/core/theme/app_theme.dart",
+      "source_location": null
+    },
+    {
+      "id": "lib_core_theme_app_theme_apptheme",
+      "label": "AppTheme",
+      "_origin": "ast",
+      "community": 36,
+      "community_name": "app_typography.dart",
+      "file_type": "code",
+      "norm_label": "apptheme",
+      "source_file": "lib/core/theme/app_theme.dart",
+      "source_location": "L7"
+    },
+    {
       "id": "lib_core_theme_app_typography",
       "label": "app_typography.dart",
       "_origin": "ast",
@@ -6121,6 +6099,17 @@
       "source_location": "L33"
     },
     {
+      "id": "package_flutter_services_dart",
+      "label": "package:flutter/services.dart",
+      "_origin": "ast",
+      "community": 36,
+      "community_name": "app_typography.dart",
+      "file_type": "code",
+      "norm_label": "package:flutter/services.dart",
+      "source_file": null,
+      "source_location": null
+    },
+    {
       "id": "static_texttheme_get",
       "label": "static TextTheme get",
       "_origin": "ast",
@@ -6242,6 +6231,710 @@
       "source_location": null
     },
     {
+      "id": "audioplayer",
+      "label": "AudioPlayer",
+      "_origin": "ast",
+      "community": 38,
+      "community_name": "voice_memo_service.dart",
+      "file_type": "code",
+      "norm_label": "audioplayer",
+      "source_file": null,
+      "source_location": null
+    },
+    {
+      "id": "audiorecorder",
+      "label": "AudioRecorder",
+      "_origin": "ast",
+      "community": 38,
+      "community_name": "voice_memo_service.dart",
+      "file_type": "code",
+      "norm_label": "audiorecorder",
+      "source_file": null,
+      "source_location": null
+    },
+    {
+      "id": "card_parser_service_dart",
+      "label": "card_parser_service.dart",
+      "_origin": "ast",
+      "community": 38,
+      "community_name": "voice_memo_service.dart",
+      "file_type": "code",
+      "norm_label": "card_parser_service.dart",
+      "source_file": null,
+      "source_location": null
+    },
+    {
+      "id": "dart_async",
+      "label": "dart:async",
+      "_origin": "ast",
+      "community": 38,
+      "community_name": "voice_memo_service.dart",
+      "file_type": "code",
+      "norm_label": "dart:async",
+      "source_file": null,
+      "source_location": null
+    },
+    {
+      "id": "dart_io",
+      "label": "dart:io",
+      "_origin": "ast",
+      "community": 38,
+      "community_name": "voice_memo_service.dart",
+      "file_type": "code",
+      "norm_label": "dart:io",
+      "source_file": null,
+      "source_location": null
+    },
+    {
+      "id": "data_models_extracted_card_data_dart",
+      "label": "../../data/models/extracted_card_data.dart",
+      "_origin": "ast",
+      "community": 38,
+      "community_name": "voice_memo_service.dart",
+      "file_type": "code",
+      "norm_label": "../../data/models/extracted_card_data.dart",
+      "source_file": null,
+      "source_location": null
+    },
+    {
+      "id": "lib_core_services_ocr_service",
+      "label": "ocr_service.dart",
+      "_origin": "ast",
+      "community": 38,
+      "community_name": "voice_memo_service.dart",
+      "file_type": "code",
+      "norm_label": "ocr_service.dart",
+      "source_file": "lib/core/services/ocr_service.dart",
+      "source_location": null
+    },
+    {
+      "id": "lib_core_services_ocr_service_dispose",
+      "label": "dispose",
+      "_origin": "ast",
+      "community": 38,
+      "community_name": "voice_memo_service.dart",
+      "file_type": "code",
+      "norm_label": "dispose",
+      "source_file": "lib/core/services/ocr_service.dart",
+      "source_location": "L57"
+    },
+    {
+      "id": "lib_core_services_ocr_service_ocrservice",
+      "label": "OcrService",
+      "_origin": "ast",
+      "community": 38,
+      "community_name": "voice_memo_service.dart",
+      "file_type": "code",
+      "norm_label": "ocrservice",
+      "source_file": "lib/core/services/ocr_service.dart",
+      "source_location": "L7"
+    },
+    {
+      "id": "lib_core_services_ocr_service_processcardimage",
+      "label": "processCardImage",
+      "_origin": "ast",
+      "community": 38,
+      "community_name": "voice_memo_service.dart",
+      "file_type": "code",
+      "norm_label": "processcardimage",
+      "source_file": "lib/core/services/ocr_service.dart",
+      "source_location": "L14"
+    },
+    {
+      "id": "lib_core_services_ocr_service_textrecognizer",
+      "label": "_textRecognizer",
+      "_origin": "ast",
+      "community": 38,
+      "community_name": "voice_memo_service.dart",
+      "file_type": "code",
+      "norm_label": "_textrecognizer",
+      "source_file": "lib/core/services/ocr_service.dart",
+      "source_location": "L8"
+    },
+    {
+      "id": "lib_core_services_voice_memo_service",
+      "label": "voice_memo_service.dart",
+      "_origin": "ast",
+      "community": 38,
+      "community_name": "voice_memo_service.dart",
+      "file_type": "code",
+      "norm_label": "voice_memo_service.dart",
+      "source_file": "lib/core/services/voice_memo_service.dart",
+      "source_location": null
+    },
+    {
+      "id": "lib_core_services_voice_memo_service_countdowntimer",
+      "label": "_countdownTimer",
+      "_origin": "ast",
+      "community": 38,
+      "community_name": "voice_memo_service.dart",
+      "file_type": "code",
+      "norm_label": "_countdowntimer",
+      "source_file": "lib/core/services/voice_memo_service.dart",
+      "source_location": "L12"
+    },
+    {
+      "id": "lib_core_services_voice_memo_service_currentfilepath",
+      "label": "_currentFilePath",
+      "_origin": "ast",
+      "community": 38,
+      "community_name": "voice_memo_service.dart",
+      "file_type": "code",
+      "norm_label": "_currentfilepath",
+      "source_file": "lib/core/services/voice_memo_service.dart",
+      "source_location": "L18"
+    },
+    {
+      "id": "lib_core_services_voice_memo_service_deletememo",
+      "label": "deleteMemo",
+      "_origin": "ast",
+      "community": 38,
+      "community_name": "voice_memo_service.dart",
+      "file_type": "code",
+      "norm_label": "deletememo",
+      "source_file": "lib/core/services/voice_memo_service.dart",
+      "source_location": "L140"
+    },
+    {
+      "id": "lib_core_services_voice_memo_service_dispose",
+      "label": "dispose",
+      "_origin": "ast",
+      "community": 38,
+      "community_name": "voice_memo_service.dart",
+      "file_type": "code",
+      "norm_label": "dispose",
+      "source_file": "lib/core/services/voice_memo_service.dart",
+      "source_location": "L155"
+    },
+    {
+      "id": "lib_core_services_voice_memo_service_isplaying",
+      "label": "_isPlaying",
+      "_origin": "ast",
+      "community": 38,
+      "community_name": "voice_memo_service.dart",
+      "file_type": "code",
+      "norm_label": "_isplaying",
+      "source_file": "lib/core/services/voice_memo_service.dart",
+      "source_location": "L17"
+    },
+    {
+      "id": "lib_core_services_voice_memo_service_isrecording",
+      "label": "_isRecording",
+      "_origin": "ast",
+      "community": 38,
+      "community_name": "voice_memo_service.dart",
+      "file_type": "code",
+      "norm_label": "_isrecording",
+      "source_file": "lib/core/services/voice_memo_service.dart",
+      "source_location": "L16"
+    },
+    {
+      "id": "lib_core_services_voice_memo_service_maxdurationseconds",
+      "label": "maxDurationSeconds",
+      "_origin": "ast",
+      "community": 38,
+      "community_name": "voice_memo_service.dart",
+      "file_type": "code",
+      "norm_label": "maxdurationseconds",
+      "source_file": "lib/core/services/voice_memo_service.dart",
+      "source_location": "L14"
+    },
+    {
+      "id": "lib_core_services_voice_memo_service_pause",
+      "label": "pause",
+      "_origin": "ast",
+      "community": 38,
+      "community_name": "voice_memo_service.dart",
+      "file_type": "code",
+      "norm_label": "pause",
+      "source_file": "lib/core/services/voice_memo_service.dart",
+      "source_location": "L126"
+    },
+    {
+      "id": "lib_core_services_voice_memo_service_play",
+      "label": "play",
+      "_origin": "ast",
+      "community": 38,
+      "community_name": "voice_memo_service.dart",
+      "file_type": "code",
+      "norm_label": "play",
+      "source_file": "lib/core/services/voice_memo_service.dart",
+      "source_location": "L114"
+    },
+    {
+      "id": "lib_core_services_voice_memo_service_player",
+      "label": "_player",
+      "_origin": "ast",
+      "community": 38,
+      "community_name": "voice_memo_service.dart",
+      "file_type": "code",
+      "norm_label": "_player",
+      "source_file": "lib/core/services/voice_memo_service.dart",
+      "source_location": "L11"
+    },
+    {
+      "id": "lib_core_services_voice_memo_service_playingstatestream",
+      "label": "_playingStateStream",
+      "_origin": "ast",
+      "community": 38,
+      "community_name": "voice_memo_service.dart",
+      "file_type": "code",
+      "norm_label": "_playingstatestream",
+      "source_file": "lib/core/services/voice_memo_service.dart",
+      "source_location": "L22"
+    },
+    {
+      "id": "lib_core_services_voice_memo_service_recorder",
+      "label": "_recorder",
+      "_origin": "ast",
+      "community": 38,
+      "community_name": "voice_memo_service.dart",
+      "file_type": "code",
+      "norm_label": "_recorder",
+      "source_file": "lib/core/services/voice_memo_service.dart",
+      "source_location": "L10"
+    },
+    {
+      "id": "lib_core_services_voice_memo_service_recordingstatestream",
+      "label": "_recordingStateStream",
+      "_origin": "ast",
+      "community": 38,
+      "community_name": "voice_memo_service.dart",
+      "file_type": "code",
+      "norm_label": "_recordingstatestream",
+      "source_file": "lib/core/services/voice_memo_service.dart",
+      "source_location": "L21"
+    },
+    {
+      "id": "lib_core_services_voice_memo_service_secondsremaining",
+      "label": "_secondsRemaining",
+      "_origin": "ast",
+      "community": 38,
+      "community_name": "voice_memo_service.dart",
+      "file_type": "code",
+      "norm_label": "_secondsremaining",
+      "source_file": "lib/core/services/voice_memo_service.dart",
+      "source_location": "L15"
+    },
+    {
+      "id": "lib_core_services_voice_memo_service_secondsstream",
+      "label": "_secondsStream",
+      "_origin": "ast",
+      "community": 38,
+      "community_name": "voice_memo_service.dart",
+      "file_type": "code",
+      "norm_label": "_secondsstream",
+      "source_file": "lib/core/services/voice_memo_service.dart",
+      "source_location": "L20"
+    },
+    {
+      "id": "lib_core_services_voice_memo_service_startrecording",
+      "label": "startRecording",
+      "_origin": "ast",
+      "community": 38,
+      "community_name": "voice_memo_service.dart",
+      "file_type": "code",
+      "norm_label": "startrecording",
+      "source_file": "lib/core/services/voice_memo_service.dart",
+      "source_location": "L46"
+    },
+    {
+      "id": "lib_core_services_voice_memo_service_stop",
+      "label": "stop",
+      "_origin": "ast",
+      "community": 38,
+      "community_name": "voice_memo_service.dart",
+      "file_type": "code",
+      "norm_label": "stop",
+      "source_file": "lib/core/services/voice_memo_service.dart",
+      "source_location": "L133"
+    },
+    {
+      "id": "lib_core_services_voice_memo_service_stoprecording",
+      "label": "stopRecording",
+      "_origin": "ast",
+      "community": 38,
+      "community_name": "voice_memo_service.dart",
+      "file_type": "code",
+      "norm_label": "stoprecording",
+      "source_file": "lib/core/services/voice_memo_service.dart",
+      "source_location": "L95"
+    },
+    {
+      "id": "package_audioplayers_audioplayers_dart",
+      "label": "package:audioplayers/audioplayers.dart",
+      "_origin": "ast",
+      "community": 38,
+      "community_name": "voice_memo_service.dart",
+      "file_type": "code",
+      "norm_label": "package:audioplayers/audioplayers.dart",
+      "source_file": null,
+      "source_location": null
+    },
+    {
+      "id": "package_flutter_foundation_dart",
+      "label": "package:flutter/foundation.dart",
+      "_origin": "ast",
+      "community": 38,
+      "community_name": "voice_memo_service.dart",
+      "file_type": "code",
+      "norm_label": "package:flutter/foundation.dart",
+      "source_file": null,
+      "source_location": null
+    },
+    {
+      "id": "package_google_mlkit_text_recognition_google_mlkit_text_recognition_dart",
+      "label": "package:google_mlkit_text_recognition/google_mlkit_text_recognition.dart",
+      "_origin": "ast",
+      "community": 38,
+      "community_name": "voice_memo_service.dart",
+      "file_type": "code",
+      "norm_label": "package:google_mlkit_text_recognition/google_mlkit_text_recognition.dart",
+      "source_file": null,
+      "source_location": null
+    },
+    {
+      "id": "package_path_provider_path_provider_dart",
+      "label": "package:path_provider/path_provider.dart",
+      "_origin": "ast",
+      "community": 38,
+      "community_name": "voice_memo_service.dart",
+      "file_type": "code",
+      "norm_label": "package:path_provider/path_provider.dart",
+      "source_file": null,
+      "source_location": null
+    },
+    {
+      "id": "package_record_record_dart",
+      "label": "package:record/record.dart",
+      "_origin": "ast",
+      "community": 38,
+      "community_name": "voice_memo_service.dart",
+      "file_type": "code",
+      "norm_label": "package:record/record.dart",
+      "source_file": null,
+      "source_location": null
+    },
+    {
+      "id": "package_uuid_uuid_dart",
+      "label": "package:uuid/uuid.dart",
+      "_origin": "ast",
+      "community": 38,
+      "community_name": "voice_memo_service.dart",
+      "file_type": "code",
+      "norm_label": "package:uuid/uuid.dart",
+      "source_file": null,
+      "source_location": null
+    },
+    {
+      "id": "static_const_int",
+      "label": "static const int",
+      "_origin": "ast",
+      "community": 38,
+      "community_name": "voice_memo_service.dart",
+      "file_type": "code",
+      "norm_label": "static const int",
+      "source_file": null,
+      "source_location": null
+    },
+    {
+      "id": "stream",
+      "label": "Stream",
+      "_origin": "ast",
+      "community": 38,
+      "community_name": "voice_memo_service.dart",
+      "file_type": "code",
+      "norm_label": "stream",
+      "source_file": null,
+      "source_location": null
+    },
+    {
+      "id": "streamcontroller",
+      "label": "StreamController",
+      "_origin": "ast",
+      "community": 38,
+      "community_name": "voice_memo_service.dart",
+      "file_type": "code",
+      "norm_label": "streamcontroller",
+      "source_file": null,
+      "source_location": null
+    },
+    {
+      "id": "string_get",
+      "label": "String get",
+      "_origin": "ast",
+      "community": 38,
+      "community_name": "voice_memo_service.dart",
+      "file_type": "code",
+      "norm_label": "string get",
+      "source_file": null,
+      "source_location": null
+    },
+    {
+      "id": "textrecognizer",
+      "label": "TextRecognizer",
+      "_origin": "ast",
+      "community": 38,
+      "community_name": "voice_memo_service.dart",
+      "file_type": "code",
+      "norm_label": "textrecognizer",
+      "source_file": null,
+      "source_location": null
+    },
+    {
+      "id": "timer",
+      "label": "Timer?",
+      "_origin": "ast",
+      "community": 38,
+      "community_name": "voice_memo_service.dart",
+      "file_type": "code",
+      "norm_label": "timer?",
+      "source_file": null,
+      "source_location": null
+    },
+    {
+      "id": "color",
+      "label": "Color",
+      "_origin": "ast",
+      "community": 39,
+      "community_name": "voice_memo_widget.dart",
+      "file_type": "code",
+      "norm_label": "color",
+      "source_file": null,
+      "source_location": null
+    },
+    {
+      "id": "core_services_voice_memo_service_dart",
+      "label": "../../../core/services/voice_memo_service.dart",
+      "_origin": "ast",
+      "community": 39,
+      "community_name": "voice_memo_widget.dart",
+      "file_type": "code",
+      "norm_label": "../../../core/services/voice_memo_service.dart",
+      "source_file": null,
+      "source_location": null
+    },
+    {
+      "id": "lib_core_services_voice_memo_service_voicememoservice",
+      "label": "VoiceMemoService",
+      "_origin": "ast",
+      "community": 39,
+      "community_name": "voice_memo_widget.dart",
+      "file_type": "code",
+      "norm_label": "voicememoservice",
+      "source_file": "lib/core/services/voice_memo_service.dart",
+      "source_location": "L9"
+    },
+    {
+      "id": "lib_presentation_widgets_voice_memo_voice_memo_widget",
+      "label": "voice_memo_widget.dart",
+      "_origin": "ast",
+      "community": 39,
+      "community_name": "voice_memo_widget.dart",
+      "file_type": "code",
+      "norm_label": "voice_memo_widget.dart",
+      "source_file": "lib/presentation/widgets/voice_memo/voice_memo_widget.dart",
+      "source_location": null
+    },
+    {
+      "id": "lib_presentation_widgets_voice_memo_voice_memo_widget_build",
+      "label": "build",
+      "_origin": "ast",
+      "community": 39,
+      "community_name": "voice_memo_widget.dart",
+      "file_type": "code",
+      "norm_label": "build",
+      "source_file": "lib/presentation/widgets/voice_memo/voice_memo_widget.dart",
+      "source_location": "L167"
+    },
+    {
+      "id": "lib_presentation_widgets_voice_memo_voice_memo_widget_createstate",
+      "label": "createState",
+      "_origin": "ast",
+      "community": 39,
+      "community_name": "voice_memo_widget.dart",
+      "file_type": "code",
+      "norm_label": "createstate",
+      "source_file": "lib/presentation/widgets/voice_memo/voice_memo_widget.dart",
+      "source_location": "L20"
+    },
+    {
+      "id": "lib_presentation_widgets_voice_memo_voice_memo_widget_deletememo",
+      "label": "_deleteMemo",
+      "_origin": "ast",
+      "community": 39,
+      "community_name": "voice_memo_widget.dart",
+      "file_type": "code",
+      "norm_label": "_deletememo",
+      "source_file": "lib/presentation/widgets/voice_memo/voice_memo_widget.dart",
+      "source_location": "L154"
+    },
+    {
+      "id": "lib_presentation_widgets_voice_memo_voice_memo_widget_dispose",
+      "label": "dispose",
+      "_origin": "ast",
+      "community": 39,
+      "community_name": "voice_memo_widget.dart",
+      "file_type": "code",
+      "norm_label": "dispose",
+      "source_file": "lib/presentation/widgets/voice_memo/voice_memo_widget.dart",
+      "source_location": "L75"
+    },
+    {
+      "id": "lib_presentation_widgets_voice_memo_voice_memo_widget_initialmemopath",
+      "label": "initialMemoPath",
+      "_origin": "ast",
+      "community": 39,
+      "community_name": "voice_memo_widget.dart",
+      "file_type": "code",
+      "norm_label": "initialmemopath",
+      "source_file": "lib/presentation/widgets/voice_memo/voice_memo_widget.dart",
+      "source_location": "L8"
+    },
+    {
+      "id": "lib_presentation_widgets_voice_memo_voice_memo_widget_initstate",
+      "label": "initState",
+      "_origin": "ast",
+      "community": 39,
+      "community_name": "voice_memo_widget.dart",
+      "file_type": "code",
+      "norm_label": "initstate",
+      "source_file": "lib/presentation/widgets/voice_memo/voice_memo_widget.dart",
+      "source_location": "L35"
+    },
+    {
+      "id": "lib_presentation_widgets_voice_memo_voice_memo_widget_internalservice",
+      "label": "_internalService",
+      "_origin": "ast",
+      "community": 39,
+      "community_name": "voice_memo_widget.dart",
+      "file_type": "code",
+      "norm_label": "_internalservice",
+      "source_file": "lib/presentation/widgets/voice_memo/voice_memo_widget.dart",
+      "source_location": "L26"
+    },
+    {
+      "id": "lib_presentation_widgets_voice_memo_voice_memo_widget_isplaying",
+      "label": "_isPlaying",
+      "_origin": "ast",
+      "community": 39,
+      "community_name": "voice_memo_widget.dart",
+      "file_type": "code",
+      "norm_label": "_isplaying",
+      "source_file": "lib/presentation/widgets/voice_memo/voice_memo_widget.dart",
+      "source_location": "L31"
+    },
+    {
+      "id": "lib_presentation_widgets_voice_memo_voice_memo_widget_isrecording",
+      "label": "_isRecording",
+      "_origin": "ast",
+      "community": 39,
+      "community_name": "voice_memo_widget.dart",
+      "file_type": "code",
+      "norm_label": "_isrecording",
+      "source_file": "lib/presentation/widgets/voice_memo/voice_memo_widget.dart",
+      "source_location": "L30"
+    },
+    {
+      "id": "lib_presentation_widgets_voice_memo_voice_memo_widget_memopath",
+      "label": "_memoPath",
+      "_origin": "ast",
+      "community": 39,
+      "community_name": "voice_memo_widget.dart",
+      "file_type": "code",
+      "norm_label": "_memopath",
+      "source_file": "lib/presentation/widgets/voice_memo/voice_memo_widget.dart",
+      "source_location": "L29"
+    },
+    {
+      "id": "lib_presentation_widgets_voice_memo_voice_memo_widget_onmemochanged",
+      "label": "onMemoChanged",
+      "_origin": "ast",
+      "community": 39,
+      "community_name": "voice_memo_widget.dart",
+      "file_type": "code",
+      "norm_label": "onmemochanged",
+      "source_file": "lib/presentation/widgets/voice_memo/voice_memo_widget.dart",
+      "source_location": "L9"
+    },
+    {
+      "id": "lib_presentation_widgets_voice_memo_voice_memo_widget_pulsecontroller",
+      "label": "_pulseController",
+      "_origin": "ast",
+      "community": 39,
+      "community_name": "voice_memo_widget.dart",
+      "file_type": "code",
+      "norm_label": "_pulsecontroller",
+      "source_file": "lib/presentation/widgets/voice_memo/voice_memo_widget.dart",
+      "source_location": "L27"
+    },
+    {
+      "id": "lib_presentation_widgets_voice_memo_voice_memo_widget_secondsremaining",
+      "label": "_secondsRemaining",
+      "_origin": "ast",
+      "community": 39,
+      "community_name": "voice_memo_widget.dart",
+      "file_type": "code",
+      "norm_label": "_secondsremaining",
+      "source_file": "lib/presentation/widgets/voice_memo/voice_memo_widget.dart",
+      "source_location": "L32"
+    },
+    {
+      "id": "lib_presentation_widgets_voice_memo_voice_memo_widget_service",
+      "label": "service",
+      "_origin": "ast",
+      "community": 39,
+      "community_name": "voice_memo_widget.dart",
+      "file_type": "code",
+      "norm_label": "service",
+      "source_file": "lib/presentation/widgets/voice_memo/voice_memo_widget.dart",
+      "source_location": "L10"
+    },
+    {
+      "id": "lib_presentation_widgets_voice_memo_voice_memo_widget_showmicdisclosureandrecord",
+      "label": "_showMicDisclosureAndRecord",
+      "_origin": "ast",
+      "community": 39,
+      "community_name": "voice_memo_widget.dart",
+      "file_type": "code",
+      "norm_label": "_showmicdisclosureandrecord",
+      "source_file": "lib/presentation/widgets/voice_memo/voice_memo_widget.dart",
+      "source_location": "L83"
+    },
+    {
+      "id": "lib_presentation_widgets_voice_memo_voice_memo_widget_stoprecording",
+      "label": "_stopRecording",
+      "_origin": "ast",
+      "community": 39,
+      "community_name": "voice_memo_widget.dart",
+      "file_type": "code",
+      "norm_label": "_stoprecording",
+      "source_file": "lib/presentation/widgets/voice_memo/voice_memo_widget.dart",
+      "source_location": "L137"
+    },
+    {
+      "id": "lib_presentation_widgets_voice_memo_voice_memo_widget_toggleplayback",
+      "label": "_togglePlayback",
+      "_origin": "ast",
+      "community": 39,
+      "community_name": "voice_memo_widget.dart",
+      "file_type": "code",
+      "norm_label": "_toggleplayback",
+      "source_file": "lib/presentation/widgets/voice_memo/voice_memo_widget.dart",
+      "source_location": "L145"
+    },
+    {
+      "id": "valuechanged",
+      "label": "ValueChanged",
+      "_origin": "ast",
+      "community": 39,
+      "community_name": "voice_memo_widget.dart",
+      "file_type": "code",
+      "norm_label": "valuechanged",
+      "source_file": null,
+      "source_location": null
+    },
+    {
       "id": "agents",
       "label": "AGENTS.md",
       "_origin": "ast",
@@ -6300,6 +6993,127 @@
       "norm_label": "workspace agent guidelines & active skills",
       "source_file": "AGENTS.md",
       "source_location": "L1"
+    },
+    {
+      "id": "d_cd1_0_lib_data_models_category_categoryadapter",
+      "label": "CategoryAdapter",
+      "_origin": "ast",
+      "community": 40,
+      "community_name": "Category",
+      "file_type": "code",
+      "norm_label": "categoryadapter",
+      "source_file": "lib/data/models/category.g.dart",
+      "source_location": "L9"
+    },
+    {
+      "id": "d_cd1_0_lib_data_models_contact_card_contactcardadapter",
+      "label": "ContactCardAdapter",
+      "_origin": "ast",
+      "community": 40,
+      "community_name": "Category",
+      "file_type": "code",
+      "norm_label": "contactcardadapter",
+      "source_file": "lib/data/models/contact_card.g.dart",
+      "source_location": "L9"
+    },
+    {
+      "id": "d_cd1_0_lib_data_models_meeting_reminder_meetingreminderadapter",
+      "label": "MeetingReminderAdapter",
+      "_origin": "ast",
+      "community": 40,
+      "community_name": "Category",
+      "file_type": "code",
+      "norm_label": "meetingreminderadapter",
+      "source_file": "lib/data/models/meeting_reminder.g.dart",
+      "source_location": "L9"
+    },
+    {
+      "id": "d_cd1_0_lib_data_models_user_profile_userprofileadapter",
+      "label": "UserProfileAdapter",
+      "_origin": "ast",
+      "community": 40,
+      "community_name": "Category",
+      "file_type": "code",
+      "norm_label": "userprofileadapter",
+      "source_file": "lib/data/models/user_profile.g.dart",
+      "source_location": "L9"
+    },
+    {
+      "id": "hiveobject",
+      "label": "HiveObject",
+      "_origin": "ast",
+      "community": 40,
+      "community_name": "Category",
+      "file_type": "code",
+      "norm_label": "hiveobject",
+      "source_file": null,
+      "source_location": null
+    },
+    {
+      "id": "lib_data_models_category_category",
+      "label": "Category",
+      "_origin": "ast",
+      "community": 40,
+      "community_name": "Category",
+      "file_type": "code",
+      "norm_label": "category",
+      "source_file": "lib/data/models/category.dart",
+      "source_location": "L6"
+    },
+    {
+      "id": "lib_data_models_contact_card_contactcard",
+      "label": "ContactCard",
+      "_origin": "ast",
+      "community": 40,
+      "community_name": "Category",
+      "file_type": "code",
+      "norm_label": "contactcard",
+      "source_file": "lib/data/models/contact_card.dart",
+      "source_location": "L6"
+    },
+    {
+      "id": "lib_data_models_meeting_reminder_meetingreminder",
+      "label": "MeetingReminder",
+      "_origin": "ast",
+      "community": 40,
+      "community_name": "Category",
+      "file_type": "code",
+      "norm_label": "meetingreminder",
+      "source_file": "lib/data/models/meeting_reminder.dart",
+      "source_location": "L6"
+    },
+    {
+      "id": "lib_data_models_user_profile_userprofile",
+      "label": "UserProfile",
+      "_origin": "ast",
+      "community": 40,
+      "community_name": "Category",
+      "file_type": "code",
+      "norm_label": "userprofile",
+      "source_file": "lib/data/models/user_profile.dart",
+      "source_location": "L6"
+    },
+    {
+      "id": "typeadapter",
+      "label": "TypeAdapter",
+      "_origin": "ast",
+      "community": 40,
+      "community_name": "Category",
+      "file_type": "code",
+      "norm_label": "typeadapter",
+      "source_file": null,
+      "source_location": null
+    },
+    {
+      "id": "annotation_hivetype",
+      "label": "@HiveType",
+      "_origin": "ast",
+      "community": 40,
+      "community_name": "Category",
+      "file_type": "concept",
+      "norm_label": "@hivetype",
+      "source_file": null,
+      "source_location": null
     },
     {
       "id": "agents_rules_artemis",
@@ -6513,28 +7327,6 @@
       "source_location": "L147"
     },
     {
-      "id": "app_colors_dart",
-      "label": "app_colors.dart",
-      "_origin": "ast",
-      "community": 7,
-      "community_name": "package:flutter/material.dart",
-      "file_type": "code",
-      "norm_label": "app_colors.dart",
-      "source_file": null,
-      "source_location": null
-    },
-    {
-      "id": "app_typography_dart",
-      "label": "app_typography.dart",
-      "_origin": "ast",
-      "community": 7,
-      "community_name": "package:flutter/material.dart",
-      "file_type": "code",
-      "norm_label": "app_typography.dart",
-      "source_file": null,
-      "source_location": null
-    },
-    {
       "id": "core_localization_locale_controller_dart",
       "label": "../../../core/localization/locale_controller.dart",
       "_origin": "ast",
@@ -6610,28 +7402,6 @@
       "norm_label": "../../../l10n/app_localizations.dart",
       "source_file": null,
       "source_location": null
-    },
-    {
-      "id": "lib_core_theme_app_theme",
-      "label": "app_theme.dart",
-      "_origin": "ast",
-      "community": 7,
-      "community_name": "package:flutter/material.dart",
-      "file_type": "code",
-      "norm_label": "app_theme.dart",
-      "source_file": "lib/core/theme/app_theme.dart",
-      "source_location": null
-    },
-    {
-      "id": "lib_core_theme_app_theme_apptheme",
-      "label": "AppTheme",
-      "_origin": "ast",
-      "community": 7,
-      "community_name": "package:flutter/material.dart",
-      "file_type": "code",
-      "norm_label": "apptheme",
-      "source_file": "lib/core/theme/app_theme.dart",
-      "source_location": "L7"
     },
     {
       "id": "lib_main",
@@ -7019,17 +7789,6 @@
       "source_location": "L16"
     },
     {
-      "id": "package_flutter_localizations_flutter_localizations_dart",
-      "label": "package:flutter_localizations/flutter_localizations.dart",
-      "_origin": "ast",
-      "community": 7,
-      "community_name": "package:flutter/material.dart",
-      "file_type": "code",
-      "norm_label": "package:flutter_localizations/flutter_localizations.dart",
-      "source_file": null,
-      "source_location": null
-    },
-    {
       "id": "package_flutter_material_dart",
       "label": "package:flutter/material.dart",
       "_origin": "ast",
@@ -7037,17 +7796,6 @@
       "community_name": "package:flutter/material.dart",
       "file_type": "code",
       "norm_label": "package:flutter/material.dart",
-      "source_file": null,
-      "source_location": null
-    },
-    {
-      "id": "package_flutter_services_dart",
-      "label": "package:flutter/services.dart",
-      "_origin": "ast",
-      "community": 7,
-      "community_name": "package:flutter/material.dart",
-      "file_type": "code",
-      "norm_label": "package:flutter/services.dart",
       "source_file": null,
       "source_location": null
     },
@@ -7341,17 +8089,6 @@
       "source_location": null
     },
     {
-      "id": "dart_async",
-      "label": "dart:async",
-      "_origin": "ast",
-      "community": 9,
-      "community_name": "app_localizations.dart",
-      "file_type": "code",
-      "norm_label": "dart:async",
-      "source_file": null,
-      "source_location": null
-    },
-    {
       "id": "lib_l10n_app_localizations",
       "label": "app_localizations.dart",
       "_origin": "ast",
@@ -7572,6 +8309,17 @@
       "source_location": "L327"
     },
     {
+      "id": "lib_l10n_app_localizations_deletememo",
+      "label": "deleteMemo",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "app_localizations.dart",
+      "file_type": "code",
+      "norm_label": "deletememo",
+      "source_file": "lib/l10n/app_localizations.dart",
+      "source_location": "L441"
+    },
+    {
       "id": "lib_l10n_app_localizations_emailaddress",
       "label": "emailAddress",
       "_origin": "ast",
@@ -7646,7 +8394,7 @@
       "file_type": "code",
       "norm_label": "issupported",
       "source_file": "lib/l10n/app_localizations.dart",
-      "source_location": "L430"
+      "source_location": "L460"
     },
     {
       "id": "lib_l10n_app_localizations_jobtitle",
@@ -7679,7 +8427,7 @@
       "file_type": "code",
       "norm_label": "load",
       "source_file": "lib/l10n/app_localizations.dart",
-      "source_location": "L425"
+      "source_location": "L455"
     },
     {
       "id": "lib_l10n_app_localizations_localename",
@@ -7712,7 +8460,7 @@
       "file_type": "code",
       "norm_label": "lookupapplocalizations",
       "source_file": "lib/l10n/app_localizations.dart",
-      "source_location": "L437"
+      "source_location": "L467"
     },
     {
       "id": "lib_l10n_app_localizations_navcards",
@@ -7825,6 +8573,17 @@
       "source_location": "L237"
     },
     {
+      "id": "lib_l10n_app_localizations_playmemo",
+      "label": "playMemo",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "app_localizations.dart",
+      "file_type": "code",
+      "norm_label": "playmemo",
+      "source_file": "lib/l10n/app_localizations.dart",
+      "source_location": "L435"
+    },
+    {
       "id": "lib_l10n_app_localizations_quickactions",
       "label": "quickActions",
       "_origin": "ast",
@@ -7845,6 +8604,17 @@
       "norm_label": "recentcards",
       "source_file": "lib/l10n/app_localizations.dart",
       "source_location": "L159"
+    },
+    {
+      "id": "lib_l10n_app_localizations_recording",
+      "label": "recording",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "app_localizations.dart",
+      "file_type": "code",
+      "norm_label": "recording",
+      "source_file": "lib/l10n/app_localizations.dart",
+      "source_location": "L423"
     },
     {
       "id": "lib_l10n_app_localizations_recordvoicememo",
@@ -7954,7 +8724,7 @@
       "file_type": "code",
       "norm_label": "shouldreload",
       "source_file": "lib/l10n/app_localizations.dart",
-      "source_location": "L434"
+      "source_location": "L464"
     },
     {
       "id": "lib_l10n_app_localizations_success",
@@ -7977,6 +8747,17 @@
       "norm_label": "supportedlocales",
       "source_file": "lib/l10n/app_localizations.dart",
       "source_location": "L96"
+    },
+    {
+      "id": "lib_l10n_app_localizations_taptostop",
+      "label": "tapToStop",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "app_localizations.dart",
+      "file_type": "code",
+      "norm_label": "taptostop",
+      "source_file": "lib/l10n/app_localizations.dart",
+      "source_location": "L429"
     },
     {
       "id": "lib_l10n_app_localizations_upcomingmeetings",
@@ -8010,6 +8791,17 @@
       "norm_label": "viewall",
       "source_file": "lib/l10n/app_localizations.dart",
       "source_location": "L183"
+    },
+    {
+      "id": "lib_l10n_app_localizations_voicedisclosure",
+      "label": "voiceDisclosure",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "app_localizations.dart",
+      "file_type": "code",
+      "norm_label": "voicedisclosure",
+      "source_file": "lib/l10n/app_localizations.dart",
+      "source_location": "L447"
     },
     {
       "id": "lib_l10n_app_localizations_voicememosaved",
@@ -8447,6 +9239,18 @@
       "weight": 1.0
     },
     {
+      "source": "lib_presentation_widgets_voice_memo_voice_memo_widget",
+      "target": "color",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "type_lookup",
+      "source_file": "lib/presentation/widgets/voice_memo/voice_memo_widget.dart",
+      "source_location": "L225",
+      "weight": 1.0
+    },
+    {
       "source": "lib_core_localization_locale_controller",
       "target": "locale",
       "relation": "references",
@@ -8528,6 +9332,126 @@
       "context": "variable_type",
       "source_file": "lib/core/services/ocr_service.dart",
       "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_core_services_voice_memo_service",
+      "target": "audiorecorder",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "variable_type",
+      "source_file": "lib/core/services/voice_memo_service.dart",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_core_services_voice_memo_service",
+      "target": "audioplayer",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "variable_type",
+      "source_file": "lib/core/services/voice_memo_service.dart",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_core_services_voice_memo_service",
+      "target": "timer",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "variable_type",
+      "source_file": "lib/core/services/voice_memo_service.dart",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_core_services_voice_memo_service",
+      "target": "static_const_int",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "variable_type",
+      "source_file": "lib/core/services/voice_memo_service.dart",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_core_services_voice_memo_service",
+      "target": "string",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "variable_type",
+      "source_file": "lib/core/services/voice_memo_service.dart",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_core_services_voice_memo_service",
+      "target": "streamcontroller",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "variable_type",
+      "source_file": "lib/core/services/voice_memo_service.dart",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_core_services_voice_memo_service",
+      "target": "bool_get",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "variable_type",
+      "source_file": "lib/core/services/voice_memo_service.dart",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_core_services_voice_memo_service",
+      "target": "int_get",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "variable_type",
+      "source_file": "lib/core/services/voice_memo_service.dart",
+      "source_location": "L37",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_core_services_voice_memo_service",
+      "target": "string_get",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "variable_type",
+      "source_file": "lib/core/services/voice_memo_service.dart",
+      "source_location": "L38",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_core_services_voice_memo_service",
+      "target": "stream",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "variable_type",
+      "source_file": "lib/core/services/voice_memo_service.dart",
+      "source_location": "L42",
       "weight": 1.0
     },
     {
@@ -8875,7 +9799,7 @@
       "confidence_score": 1.0,
       "context": "variable_type",
       "source_file": "lib/l10n/app_localizations.dart",
-      "source_location": "L417",
+      "source_location": "L447",
       "weight": 1.0
     },
     {
@@ -8887,7 +9811,7 @@
       "confidence_score": 1.0,
       "context": "variable_type",
       "source_file": "lib/l10n/app_localizations.dart",
-      "source_location": "L420",
+      "source_location": "L450",
       "weight": 1.0
     },
     {
@@ -8923,7 +9847,7 @@
       "confidence_score": 1.0,
       "context": "variable_type",
       "source_file": "lib/l10n/app_localizations_en.dart",
-      "source_location": "L172",
+      "source_location": "L188",
       "weight": 1.0
     },
     {
@@ -8935,7 +9859,7 @@
       "confidence_score": 1.0,
       "context": "variable_type",
       "source_file": "lib/l10n/app_localizations_hi.dart",
-      "source_location": "L172",
+      "source_location": "L188",
       "weight": 1.0
     },
     {
@@ -9056,6 +9980,54 @@
       "context": "variable_type",
       "source_file": "lib/presentation/widgets/scan/card_guide_overlay.dart",
       "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_presentation_widgets_voice_memo_voice_memo_widget",
+      "target": "lib_core_services_voice_memo_service_voicememoservice",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "variable_type",
+      "source_file": "lib/presentation/widgets/voice_memo/voice_memo_widget.dart",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_presentation_widgets_voice_memo_voice_memo_widget",
+      "target": "animationcontroller",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "variable_type",
+      "source_file": "lib/presentation/widgets/voice_memo/voice_memo_widget.dart",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_presentation_widgets_voice_memo_voice_memo_widget",
+      "target": "string",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "variable_type",
+      "source_file": "lib/presentation/widgets/voice_memo/voice_memo_widget.dart",
+      "source_location": "L29",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_presentation_widgets_voice_memo_voice_memo_widget",
+      "target": "valuechanged",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "variable_type",
+      "source_file": "lib/presentation/widgets/voice_memo/voice_memo_widget.dart",
+      "source_location": "L9",
       "weight": 1.0
     },
     {
@@ -10331,6 +11303,215 @@
       "confidence_score": 1.0,
       "source_file": "lib/core/services/ocr_service.dart",
       "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_core_services_voice_memo_service",
+      "target": "lib_core_services_voice_memo_service_recorder",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/core/services/voice_memo_service.dart",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_core_services_voice_memo_service",
+      "target": "lib_core_services_voice_memo_service_player",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/core/services/voice_memo_service.dart",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_core_services_voice_memo_service",
+      "target": "lib_core_services_voice_memo_service_play",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/core/services/voice_memo_service.dart",
+      "source_location": "L114",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_core_services_voice_memo_service",
+      "target": "lib_core_services_voice_memo_service_countdowntimer",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/core/services/voice_memo_service.dart",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_core_services_voice_memo_service",
+      "target": "lib_core_services_voice_memo_service_pause",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/core/services/voice_memo_service.dart",
+      "source_location": "L126",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_core_services_voice_memo_service",
+      "target": "lib_core_services_voice_memo_service_stop",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/core/services/voice_memo_service.dart",
+      "source_location": "L133",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_core_services_voice_memo_service",
+      "target": "lib_core_services_voice_memo_service_maxdurationseconds",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/core/services/voice_memo_service.dart",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_core_services_voice_memo_service",
+      "target": "lib_core_services_voice_memo_service_deletememo",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/core/services/voice_memo_service.dart",
+      "source_location": "L140",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_core_services_voice_memo_service",
+      "target": "lib_core_services_voice_memo_service_dispose",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/core/services/voice_memo_service.dart",
+      "source_location": "L155",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_core_services_voice_memo_service",
+      "target": "lib_core_services_voice_memo_service_isrecording",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/core/services/voice_memo_service.dart",
+      "source_location": "L35",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_core_services_voice_memo_service",
+      "target": "lib_core_services_voice_memo_service_isplaying",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/core/services/voice_memo_service.dart",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_core_services_voice_memo_service",
+      "target": "lib_core_services_voice_memo_service_secondsremaining",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/core/services/voice_memo_service.dart",
+      "source_location": "L37",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_core_services_voice_memo_service",
+      "target": "lib_core_services_voice_memo_service_currentfilepath",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/core/services/voice_memo_service.dart",
+      "source_location": "L38",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_core_services_voice_memo_service",
+      "target": "lib_core_services_voice_memo_service_secondsstream",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/core/services/voice_memo_service.dart",
+      "source_location": "L40",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_core_services_voice_memo_service",
+      "target": "lib_core_services_voice_memo_service_recordingstatestream",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/core/services/voice_memo_service.dart",
+      "source_location": "L41",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_core_services_voice_memo_service",
+      "target": "lib_core_services_voice_memo_service_playingstatestream",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/core/services/voice_memo_service.dart",
+      "source_location": "L42",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_core_services_voice_memo_service",
+      "target": "lib_core_services_voice_memo_service_startrecording",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/core/services/voice_memo_service.dart",
+      "source_location": "L46",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_core_services_voice_memo_service",
+      "target": "lib_core_services_voice_memo_service_voicememoservice",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/core/services/voice_memo_service.dart",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_core_services_voice_memo_service",
+      "target": "lib_core_services_voice_memo_service_stoprecording",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/core/services/voice_memo_service.dart",
+      "source_location": "L95",
       "weight": 1.0
     },
     {
@@ -13140,13 +14321,68 @@
     },
     {
       "source": "lib_l10n_app_localizations",
+      "target": "lib_l10n_app_localizations_recording",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/l10n/app_localizations.dart",
+      "source_location": "L423",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_l10n_app_localizations",
+      "target": "lib_l10n_app_localizations_taptostop",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/l10n/app_localizations.dart",
+      "source_location": "L429",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_l10n_app_localizations",
+      "target": "lib_l10n_app_localizations_playmemo",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/l10n/app_localizations.dart",
+      "source_location": "L435",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_l10n_app_localizations",
+      "target": "lib_l10n_app_localizations_deletememo",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/l10n/app_localizations.dart",
+      "source_location": "L441",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_l10n_app_localizations",
+      "target": "lib_l10n_app_localizations_voicedisclosure",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/l10n/app_localizations.dart",
+      "source_location": "L447",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_l10n_app_localizations",
       "target": "lib_l10n_app_localizations_applocalizationsdelegate",
       "relation": "defines",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "lib/l10n/app_localizations.dart",
-      "source_location": "L422",
+      "source_location": "L452",
       "weight": 1.0
     },
     {
@@ -13157,7 +14393,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "lib/l10n/app_localizations.dart",
-      "source_location": "L425",
+      "source_location": "L455",
       "weight": 1.0
     },
     {
@@ -13168,7 +14404,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "lib/l10n/app_localizations.dart",
-      "source_location": "L430",
+      "source_location": "L460",
       "weight": 1.0
     },
     {
@@ -13179,7 +14415,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "lib/l10n/app_localizations.dart",
-      "source_location": "L434",
+      "source_location": "L464",
       "weight": 1.0
     },
     {
@@ -13190,7 +14426,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "lib/l10n/app_localizations.dart",
-      "source_location": "L437",
+      "source_location": "L467",
       "weight": 1.0
     },
     {
@@ -13543,6 +14779,61 @@
       "confidence_score": 1.0,
       "source_file": "lib/l10n/app_localizations_en.dart",
       "source_location": "L172",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_l10n_app_localizations_en",
+      "target": "lib_l10n_app_localizations_en_recording",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/l10n/app_localizations_en.dart",
+      "source_location": "L176",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_l10n_app_localizations_en",
+      "target": "lib_l10n_app_localizations_en_taptostop",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/l10n/app_localizations_en.dart",
+      "source_location": "L179",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_l10n_app_localizations_en",
+      "target": "lib_l10n_app_localizations_en_playmemo",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/l10n/app_localizations_en.dart",
+      "source_location": "L182",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_l10n_app_localizations_en",
+      "target": "lib_l10n_app_localizations_en_deletememo",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/l10n/app_localizations_en.dart",
+      "source_location": "L185",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_l10n_app_localizations_en",
+      "target": "lib_l10n_app_localizations_en_voicedisclosure",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/l10n/app_localizations_en.dart",
+      "source_location": "L188",
       "weight": 1.0
     },
     {
@@ -14137,6 +15428,61 @@
       "confidence_score": 1.0,
       "source_file": "lib/l10n/app_localizations_hi.dart",
       "source_location": "L172",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_l10n_app_localizations_hi",
+      "target": "lib_l10n_app_localizations_hi_recording",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/l10n/app_localizations_hi.dart",
+      "source_location": "L176",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_l10n_app_localizations_hi",
+      "target": "lib_l10n_app_localizations_hi_taptostop",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/l10n/app_localizations_hi.dart",
+      "source_location": "L179",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_l10n_app_localizations_hi",
+      "target": "lib_l10n_app_localizations_hi_playmemo",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/l10n/app_localizations_hi.dart",
+      "source_location": "L182",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_l10n_app_localizations_hi",
+      "target": "lib_l10n_app_localizations_hi_deletememo",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/l10n/app_localizations_hi.dart",
+      "source_location": "L185",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_l10n_app_localizations_hi",
+      "target": "lib_l10n_app_localizations_hi_voicedisclosure",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/l10n/app_localizations_hi.dart",
+      "source_location": "L188",
       "weight": 1.0
     },
     {
@@ -15086,6 +16432,215 @@
       "weight": 1.0
     },
     {
+      "source": "lib_presentation_widgets_voice_memo_voice_memo_widget",
+      "target": "lib_presentation_widgets_voice_memo_voice_memo_widget_stoprecording",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/presentation/widgets/voice_memo/voice_memo_widget.dart",
+      "source_location": "L137",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_presentation_widgets_voice_memo_voice_memo_widget",
+      "target": "lib_presentation_widgets_voice_memo_voice_memo_widget_toggleplayback",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/presentation/widgets/voice_memo/voice_memo_widget.dart",
+      "source_location": "L145",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_presentation_widgets_voice_memo_voice_memo_widget",
+      "target": "lib_presentation_widgets_voice_memo_voice_memo_widget_deletememo",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/presentation/widgets/voice_memo/voice_memo_widget.dart",
+      "source_location": "L154",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_presentation_widgets_voice_memo_voice_memo_widget",
+      "target": "lib_presentation_widgets_voice_memo_voice_memo_widget_build",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/presentation/widgets/voice_memo/voice_memo_widget.dart",
+      "source_location": "L167",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_presentation_widgets_voice_memo_voice_memo_widget",
+      "target": "lib_presentation_widgets_voice_memo_voice_memo_widget_createstate",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/presentation/widgets/voice_memo/voice_memo_widget.dart",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_presentation_widgets_voice_memo_voice_memo_widget",
+      "target": "lib_presentation_widgets_voice_memo_voice_memo_widget_voicememowidgetstate",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/presentation/widgets/voice_memo/voice_memo_widget.dart",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_presentation_widgets_voice_memo_voice_memo_widget",
+      "target": "lib_presentation_widgets_voice_memo_voice_memo_widget_service",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/presentation/widgets/voice_memo/voice_memo_widget.dart",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_presentation_widgets_voice_memo_voice_memo_widget",
+      "target": "lib_presentation_widgets_voice_memo_voice_memo_widget_internalservice",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/presentation/widgets/voice_memo/voice_memo_widget.dart",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_presentation_widgets_voice_memo_voice_memo_widget",
+      "target": "lib_presentation_widgets_voice_memo_voice_memo_widget_pulsecontroller",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/presentation/widgets/voice_memo/voice_memo_widget.dart",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_presentation_widgets_voice_memo_voice_memo_widget",
+      "target": "lib_presentation_widgets_voice_memo_voice_memo_widget_memopath",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/presentation/widgets/voice_memo/voice_memo_widget.dart",
+      "source_location": "L29",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_presentation_widgets_voice_memo_voice_memo_widget",
+      "target": "lib_presentation_widgets_voice_memo_voice_memo_widget_isrecording",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/presentation/widgets/voice_memo/voice_memo_widget.dart",
+      "source_location": "L30",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_presentation_widgets_voice_memo_voice_memo_widget",
+      "target": "lib_presentation_widgets_voice_memo_voice_memo_widget_isplaying",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/presentation/widgets/voice_memo/voice_memo_widget.dart",
+      "source_location": "L31",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_presentation_widgets_voice_memo_voice_memo_widget",
+      "target": "lib_presentation_widgets_voice_memo_voice_memo_widget_secondsremaining",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/presentation/widgets/voice_memo/voice_memo_widget.dart",
+      "source_location": "L32",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_presentation_widgets_voice_memo_voice_memo_widget",
+      "target": "lib_presentation_widgets_voice_memo_voice_memo_widget_initstate",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/presentation/widgets/voice_memo/voice_memo_widget.dart",
+      "source_location": "L35",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_presentation_widgets_voice_memo_voice_memo_widget",
+      "target": "lib_presentation_widgets_voice_memo_voice_memo_widget_voicememowidget",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/presentation/widgets/voice_memo/voice_memo_widget.dart",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_presentation_widgets_voice_memo_voice_memo_widget",
+      "target": "lib_presentation_widgets_voice_memo_voice_memo_widget_dispose",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/presentation/widgets/voice_memo/voice_memo_widget.dart",
+      "source_location": "L75",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_presentation_widgets_voice_memo_voice_memo_widget",
+      "target": "lib_presentation_widgets_voice_memo_voice_memo_widget_initialmemopath",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/presentation/widgets/voice_memo/voice_memo_widget.dart",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_presentation_widgets_voice_memo_voice_memo_widget",
+      "target": "lib_presentation_widgets_voice_memo_voice_memo_widget_showmicdisclosureandrecord",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/presentation/widgets/voice_memo/voice_memo_widget.dart",
+      "source_location": "L83",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_presentation_widgets_voice_memo_voice_memo_widget",
+      "target": "lib_presentation_widgets_voice_memo_voice_memo_widget_onmemochanged",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/presentation/widgets/voice_memo/voice_memo_widget.dart",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
       "source": "test_card_parser_test",
       "target": "test_card_parser_test_kumar",
       "relation": "defines",
@@ -15281,6 +16836,28 @@
       "confidence_score": 1.0,
       "source_file": "test/theme_test.dart",
       "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "test_voice_memo_test",
+      "target": "test_voice_memo_test_main",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "test/voice_memo_test.dart",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "test_voice_memo_test",
+      "target": "test_voice_memo_test_createtestapp",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "test/voice_memo_test.dart",
+      "source_location": "L9",
       "weight": 1.0
     },
     {
@@ -15490,6 +17067,83 @@
       "confidence_score": 1.0,
       "source_file": "lib/core/services/ocr_service.dart",
       "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_core_services_voice_memo_service",
+      "target": "dart_async",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/core/services/voice_memo_service.dart",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_core_services_voice_memo_service",
+      "target": "dart_io",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/core/services/voice_memo_service.dart",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_core_services_voice_memo_service",
+      "target": "package_audioplayers_audioplayers_dart",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/core/services/voice_memo_service.dart",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_core_services_voice_memo_service",
+      "target": "package_flutter_foundation_dart",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/core/services/voice_memo_service.dart",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_core_services_voice_memo_service",
+      "target": "package_path_provider_path_provider_dart",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/core/services/voice_memo_service.dart",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_core_services_voice_memo_service",
+      "target": "package_record_record_dart",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/core/services/voice_memo_service.dart",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_core_services_voice_memo_service",
+      "target": "package_uuid_uuid_dart",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/core/services/voice_memo_service.dart",
+      "source_location": "L7",
       "weight": 1.0
     },
     {
@@ -16637,6 +18291,61 @@
       "weight": 1.0
     },
     {
+      "source": "lib_presentation_widgets_voice_memo_voice_memo_widget",
+      "target": "package_flutter_material_dart",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/presentation/widgets/voice_memo/voice_memo_widget.dart",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_presentation_widgets_voice_memo_voice_memo_widget",
+      "target": "core_services_voice_memo_service_dart",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/presentation/widgets/voice_memo/voice_memo_widget.dart",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_presentation_widgets_voice_memo_voice_memo_widget",
+      "target": "core_theme_app_colors_dart",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/presentation/widgets/voice_memo/voice_memo_widget.dart",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_presentation_widgets_voice_memo_voice_memo_widget",
+      "target": "core_theme_app_typography_dart",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/presentation/widgets/voice_memo/voice_memo_widget.dart",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_presentation_widgets_voice_memo_voice_memo_widget",
+      "target": "l10n_app_localizations_dart",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/presentation/widgets/voice_memo/voice_memo_widget.dart",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
       "source": "test_card_parser_test",
       "target": "package_flutter_test_flutter_test_dart",
       "relation": "imports",
@@ -17110,6 +18819,83 @@
       "weight": 1.0
     },
     {
+      "source": "test_voice_memo_test",
+      "target": "package_flutter_material_dart",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "test/voice_memo_test.dart",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "test_voice_memo_test",
+      "target": "package_flutter_localizations_flutter_localizations_dart",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "test/voice_memo_test.dart",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "test_voice_memo_test",
+      "target": "package_flutter_test_flutter_test_dart",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "test/voice_memo_test.dart",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "test_voice_memo_test",
+      "target": "package_google_fonts_google_fonts_dart",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "test/voice_memo_test.dart",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "test_voice_memo_test",
+      "target": "package_cardsaathi_core_theme_app_theme_dart",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "test/voice_memo_test.dart",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "test_voice_memo_test",
+      "target": "package_cardsaathi_l10n_app_localizations_dart",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "test/voice_memo_test.dart",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "test_voice_memo_test",
+      "target": "package_cardsaathi_presentation_widgets_voice_memo_voice_memo_widget_dart",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "test/voice_memo_test.dart",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
       "source": "test_widget_test",
       "target": "package_flutter_test_flutter_test_dart",
       "relation": "imports",
@@ -17337,7 +19123,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "lib/l10n/app_localizations.dart",
-      "source_location": "L420",
+      "source_location": "L450",
       "weight": 1.0
     },
     {
@@ -17506,6 +19292,28 @@
       "weight": 1.0
     },
     {
+      "source": "lib_presentation_widgets_voice_memo_voice_memo_widget_voicememowidget",
+      "target": "statefulwidget",
+      "relation": "inherits",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/presentation/widgets/voice_memo/voice_memo_widget.dart",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_presentation_widgets_voice_memo_voice_memo_widget_voicememowidgetstate",
+      "target": "state",
+      "relation": "inherits",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/presentation/widgets/voice_memo/voice_memo_widget.dart",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
       "source": "ios_runner_appdelegate_appdelegate",
       "target": "ios_runner_appdelegate_appdelegate_didinitializeimplicitflutterengine",
       "relation": "method",
@@ -17561,6 +19369,17 @@
       "weight": 1.0
     },
     {
+      "source": "lib_presentation_widgets_voice_memo_voice_memo_widget_voicememowidgetstate",
+      "target": "singletickerproviderstatemixin",
+      "relation": "mixes_in",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/presentation/widgets/voice_memo/voice_memo_widget.dart",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
       "source": "d_cd1_0_lib_data_models_category_categoryadapter",
       "target": "lib_data_models_category_category",
       "relation": "references",
@@ -17612,7 +19431,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "lib/l10n/app_localizations.dart",
-      "source_location": "L420",
+      "source_location": "L450",
       "weight": 1.0
     },
     {
@@ -17636,8 +19455,19 @@
       "source_file": "lib/presentation/widgets/scan/card_guide_overlay.dart",
       "source_location": "L19",
       "weight": 1.0
+    },
+    {
+      "source": "lib_presentation_widgets_voice_memo_voice_memo_widget_voicememowidgetstate",
+      "target": "lib_presentation_widgets_voice_memo_voice_memo_widget_voicememowidget",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/presentation/widgets/voice_memo/voice_memo_widget.dart",
+      "source_location": "L23",
+      "weight": 1.0
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "a5b96536ca889ac48b0f2657356cde362e074ebd"
+  "built_at_commit": "b5e4c1c12bfe30c4d880ae01bbd2078247ebb9f2"
 }

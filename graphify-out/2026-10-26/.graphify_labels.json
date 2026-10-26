@@ -16,7 +16,7 @@
   "14": "app/build.gradle.kts",
   "15": "android/build.gradle.kts",
   "16": "settings.gradle.kts",
-  "17": "app_typography.dart",
+  "17": "app_router.dart",
   "18": "app_localizations_en.dart",
   "19": "app_localizations_hi.dart",
   "20": "scan_screen.dart",
@@ -29,7 +29,12 @@
   "27": "hive_registrar.dart",
   "28": "contact_repository.dart",
   "29": "reminder_repository.dart",
-  "30": "scan_test.dart",
+  "30": "card_parser_test.dart",
   "31": "category_repository.dart",
-  "32": "user_profile_repository.dart"
+  "32": "user_profile_repository.dart",
+  "33": "card_parser_service.dart",
+  "34": "category.dart",
+  "35": "extracted_card_data.dart",
+  "36": "app_typography.dart",
+  "37": "locale_controller.dart"
 }

@@ -58,5 +58,10 @@
   "alignCardInFrame": "Align visiting card in frame",
   "cardCaptured": "Card captured successfully",
   "holdSteadyHint": "Hold steady in bright light for clean OCR",
-  "offlinePrivacyNotice": "Scans stored 100% locally on your phone. Safe & private."
+  "offlinePrivacyNotice": "Scans stored 100% locally on your phone. Safe & private.",
+  "recording": "Recording... (10s max)",
+  "tapToStop": "Tap to stop",
+  "playMemo": "Play Memo",
+  "deleteMemo": "Delete Memo",
+  "voiceDisclosure": "CardSaathi uses microphone to record a quick 10-second context memo. Audio is stored 100% offline on your device."
 }

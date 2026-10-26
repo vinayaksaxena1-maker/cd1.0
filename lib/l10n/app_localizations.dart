@@ -415,6 +415,36 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Scans stored 100% locally on your phone. Safe & private.'**
   String get offlinePrivacyNotice;
+
+  /// No description provided for @recording.
+  ///
+  /// In en, this message translates to:
+  /// **'Recording... (10s max)'**
+  String get recording;
+
+  /// No description provided for @tapToStop.
+  ///
+  /// In en, this message translates to:
+  /// **'Tap to stop'**
+  String get tapToStop;
+
+  /// No description provided for @playMemo.
+  ///
+  /// In en, this message translates to:
+  /// **'Play Memo'**
+  String get playMemo;
+
+  /// No description provided for @deleteMemo.
+  ///
+  /// In en, this message translates to:
+  /// **'Delete Memo'**
+  String get deleteMemo;
+
+  /// No description provided for @voiceDisclosure.
+  ///
+  /// In en, this message translates to:
+  /// **'CardSaathi uses microphone to record a quick 10-second context memo. Audio is stored 100% offline on your device.'**
+  String get voiceDisclosure;
 }
 
 class _AppLocalizationsDelegate
