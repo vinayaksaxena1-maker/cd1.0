@@ -10,6 +10,7 @@ import '../../../data/models/contact_card.dart';
 import '../../../data/models/extracted_card_data.dart';
 import '../../../l10n/app_localizations.dart';
 import '../../../core/services/voice_memo_service.dart';
+import '../../widgets/reminders/add_edit_reminder_sheet.dart';
 import '../../widgets/voice_memo/voice_memo_widget.dart';
 
 class ReviewScanScreen extends StatefulWidget {
@@ -208,13 +209,27 @@ class _ReviewScanScreenState extends State<ReviewScanScreen> {
       await StorageService.instance.categoryRepo.updateCardCount(_selectedCategoryId, 1);
 
       if (mounted) {
+        final l10n = AppLocalizations.of(context)!;
+        final savedCardId = card.id;
         ScaffoldMessenger.of(context).showSnackBar(
           SnackBar(
             content: Text(
               overwriteExisting ? 'Contact updated successfully!' : 'Contact saved successfully!',
             ),
             backgroundColor: AppColors.forestGreen,
-            duration: const Duration(seconds: 1),
+            duration: const Duration(seconds: 4),
+            action: SnackBarAction(
+              label: l10n.scheduleNow,
+              textColor: AppColors.saffron,
+              onPressed: () {
+                showModalBottomSheet(
+                  context: context,
+                  isScrollControlled: true,
+                  backgroundColor: Colors.transparent,
+                  builder: (_) => AddEditReminderSheet(initialContactId: savedCardId),
+                );
+              },
+            ),
           ),
         );
         // Navigate back to cards list

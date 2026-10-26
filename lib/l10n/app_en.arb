@@ -149,5 +149,13 @@
   "meetingDeleted": "Meeting reminder deleted",
   "deleteMeeting": "Delete Meeting Reminder",
   "deleteMeetingConfirm": "Are you sure you want to delete this meeting reminder?",
-  "titleRequired": "Title is required"
+  "titleRequired": "Title is required",
+  "scheduleFollowup": "Schedule Meeting / Follow-up",
+  "linkedMeetings": "Meetings & Follow-ups",
+  "noLinkedMeetings": "No meetings scheduled with this contact",
+  "callClient": "Call Client",
+  "notificationDisclosureTitle": "Meeting Reminders & Exact Alarms",
+  "notificationDisclosureMessage": "CardSaathi requires notification and exact alarm permissions to alert you precisely on time for scheduled business client meetings, even when your phone is locked.",
+  "allowPermission": "Allow & Enable",
+  "scheduleNow": "Schedule Meeting"
 }

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:uuid/uuid.dart';
+import '../../../core/services/notification_service.dart';
 import '../../../core/theme/app_colors.dart';
 import '../../../core/theme/app_typography.dart';
 import '../../../data/local/storage_service.dart';
@@ -137,6 +138,11 @@ class _AddEditReminderSheetState extends State<AddEditReminderSheet> {
     );
 
     await StorageService.instance.reminderRepo.saveReminder(reminder);
+
+    final contact = reminder.contactCardId != null
+        ? StorageService.instance.contactRepo.getCardById(reminder.contactCardId!)
+        : null;
+    await NotificationService.instance.scheduleMeetingNotification(reminder, contact: contact);
 
     if (widget.onSaved != null) {
       widget.onSaved!(reminder);

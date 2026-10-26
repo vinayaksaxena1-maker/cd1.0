@@ -10,6 +10,7 @@ import '../../../core/theme/app_typography.dart';
 import '../../../data/local/storage_service.dart';
 import '../../../data/models/contact_card.dart';
 import '../../../l10n/app_localizations.dart';
+import '../../widgets/cards/card_meetings_section.dart';
 
 class CardDetailScreen extends StatefulWidget {
   final String cardId;
@@ -373,6 +374,13 @@ class _CardDetailScreenState extends State<CardDetailScreen> {
             // Notes & Tags
             if (_card!.notes.isNotEmpty || _card!.tags.isNotEmpty)
               _buildNotesAndTagsSection(l10n),
+
+            // Meetings & Follow-ups
+            const SizedBox(height: 16),
+            CardMeetingsSection(
+              cardId: widget.cardId,
+              card: _card,
+            ),
 
             const SizedBox(height: 32),
           ],

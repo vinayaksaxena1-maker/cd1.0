@@ -306,21 +306,21 @@
     "semantic_hash": ""
   },
   "lib/l10n/app_localizations.dart": {
-    "mtime": 1793036216.7181928,
-    "seen": 1793036667.8451428,
-    "ast_hash": "881eb47cd1290b43c598778dc3d56f27",
+    "mtime": 1793038528.5559926,
+    "seen": 1793039174.973199,
+    "ast_hash": "b238a850d5a1e83bfdc1362801898bc1",
     "semantic_hash": ""
   },
   "lib/l10n/app_localizations_en.dart": {
-    "mtime": 1793036216.7074525,
-    "seen": 1793036667.8451428,
-    "ast_hash": "2718dc8decc10b1e553e22bc376106ca",
+    "mtime": 1793038528.5413463,
+    "seen": 1793039174.973199,
+    "ast_hash": "5759295566ec10fb2dda22ec5f49059a",
     "semantic_hash": ""
   },
   "lib/l10n/app_localizations_hi.dart": {
-    "mtime": 1793036216.711358,
-    "seen": 1793036667.8451428,
-    "ast_hash": "73d803e56df6ffe6acf450bb861c60bd",
+    "mtime": 1793038528.5452511,
+    "seen": 1793039174.973199,
+    "ast_hash": "930ae33490b7b5bff75c1bbfb551e015",
     "semantic_hash": ""
   },
   "lib/presentation/navigation/main_shell.dart": {
@@ -360,9 +360,9 @@
     "semantic_hash": ""
   },
   "lib/presentation/screens/reminders/reminders_screen.dart": {
-    "mtime": 1793001788.6874323,
-    "seen": 1793002186.911186,
-    "ast_hash": "8c0a4c3570baf3f58dfe03a3ddaa9834",
+    "mtime": 1793037375.0143442,
+    "seen": 1793039174.973199,
+    "ast_hash": "44d3ac98f90cfade62d72c2a8d2f5cf0",
     "semantic_hash": ""
   },
   "lib/presentation/screens/scan/scan_screen.dart": {
@@ -378,9 +378,9 @@
     "semantic_hash": ""
   },
   "test/router_test.dart": {
-    "mtime": 1793002010.7637844,
-    "seen": 1793002186.911186,
-    "ast_hash": "7d8a6af0cd6add24122fc1bf878fde5b",
+    "mtime": 1793038018.3161645,
+    "seen": 1793039174.973199,
+    "ast_hash": "de774f163bea3409b01334ecc1827716",
     "semantic_hash": ""
   },
   "l10n.yaml": {
@@ -462,9 +462,9 @@
     "semantic_hash": ""
   },
   "lib/data/repositories/reminder_repository.dart": {
-    "mtime": 1793002479.9698563,
-    "seen": 1793002741.3366084,
-    "ast_hash": "6b3293be8a3b1909499a50d6d447ae04",
+    "mtime": 1793038109.632592,
+    "seen": 1793039174.973199,
+    "ast_hash": "d9319fead076799238a976e2948bd9d4",
     "semantic_hash": ""
   },
   "lib/data/repositories/user_profile_repository.dart": {
@@ -651,6 +651,36 @@
     "mtime": 1793035959.5829344,
     "seen": 1793036667.8451428,
     "ast_hash": "5a271f11d81f8dcc7fd0b61c71323814",
+    "semantic_hash": ""
+  },
+  "lib/presentation/widgets/reminders/add_edit_reminder_sheet.dart": {
+    "mtime": 1793037455.3891592,
+    "seen": 1793039174.973199,
+    "ast_hash": "6e019590807366ac910fa0d64821375f",
+    "semantic_hash": ""
+  },
+  "lib/presentation/widgets/reminders/meeting_reminder_card.dart": {
+    "mtime": 1793039087.2635868,
+    "seen": 1793039174.973199,
+    "ast_hash": "d0d94f98641af02cc73afd8151d46601",
+    "semantic_hash": ""
+  },
+  "lib/presentation/widgets/reminders/meeting_reminder_skeleton.dart": {
+    "mtime": 1793037182.7916667,
+    "seen": 1793039174.973199,
+    "ast_hash": "bec9adc12010872a63b40bde3a5f0f62",
+    "semantic_hash": ""
+  },
+  "lib/presentation/widgets/reminders/reminder_date_badge_helper.dart": {
+    "mtime": 1793039072.2336657,
+    "seen": 1793039174.973199,
+    "ast_hash": "45fb2522212576f2d7ddd4aa20e3604f",
+    "semantic_hash": ""
+  },
+  "test/reminders_test.dart": {
+    "mtime": 1793037758.4670453,
+    "seen": 1793039174.973199,
+    "ast_hash": "d59087a1593c7c232e05bb48da1f115d",
     "semantic_hash": ""
   }
 }

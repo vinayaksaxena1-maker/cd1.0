@@ -955,6 +955,54 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Title is required'**
   String get titleRequired;
+
+  /// No description provided for @scheduleFollowup.
+  ///
+  /// In en, this message translates to:
+  /// **'Schedule Meeting / Follow-up'**
+  String get scheduleFollowup;
+
+  /// No description provided for @linkedMeetings.
+  ///
+  /// In en, this message translates to:
+  /// **'Meetings & Follow-ups'**
+  String get linkedMeetings;
+
+  /// No description provided for @noLinkedMeetings.
+  ///
+  /// In en, this message translates to:
+  /// **'No meetings scheduled with this contact'**
+  String get noLinkedMeetings;
+
+  /// No description provided for @callClient.
+  ///
+  /// In en, this message translates to:
+  /// **'Call Client'**
+  String get callClient;
+
+  /// No description provided for @notificationDisclosureTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Meeting Reminders & Exact Alarms'**
+  String get notificationDisclosureTitle;
+
+  /// No description provided for @notificationDisclosureMessage.
+  ///
+  /// In en, this message translates to:
+  /// **'CardSaathi requires notification and exact alarm permissions to alert you precisely on time for scheduled business client meetings, even when your phone is locked.'**
+  String get notificationDisclosureMessage;
+
+  /// No description provided for @allowPermission.
+  ///
+  /// In en, this message translates to:
+  /// **'Allow & Enable'**
+  String get allowPermission;
+
+  /// No description provided for @scheduleNow.
+  ///
+  /// In en, this message translates to:
+  /// **'Schedule Meeting'**
+  String get scheduleNow;
 }
 
 class _AppLocalizationsDelegate

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '../../../core/services/notification_service.dart';
 import '../../../core/theme/app_colors.dart';
 import '../../../core/theme/app_typography.dart';
 import '../../../data/local/storage_service.dart';
@@ -49,10 +50,14 @@ class _RemindersScreenState extends State<RemindersScreen>
       _completedList = repo.getCompletedReminders();
       _isLoading = false;
     });
+    NotificationService.instance.showStickyTodayMeetingsSummary(_todayList);
   }
 
   Future<void> _toggleCompleted(MeetingReminder reminder) async {
     await StorageService.instance.reminderRepo.toggleCompleted(reminder.id);
+    if (!reminder.isCompleted) {
+      await NotificationService.instance.cancelMeetingNotification(reminder.notificationId);
+    }
     _loadReminders();
   }
 
@@ -83,6 +88,7 @@ class _RemindersScreenState extends State<RemindersScreen>
     );
 
     if (confirmed == true) {
+      await NotificationService.instance.cancelMeetingNotification(reminder.notificationId);
       await StorageService.instance.reminderRepo.deleteReminder(reminder.id);
       _loadReminders();
       if (mounted) {

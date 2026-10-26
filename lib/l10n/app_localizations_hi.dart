@@ -446,4 +446,29 @@ class AppLocalizationsHi extends AppLocalizations {
 
   @override
   String get titleRequired => 'विषय अनिवार्य है';
+
+  @override
+  String get scheduleFollowup => 'मीटिंग / फॉलो-अप तय करें';
+
+  @override
+  String get linkedMeetings => 'मीटिंग्स और फॉलो-अप';
+
+  @override
+  String get noLinkedMeetings => 'इस संपर्क के साथ कोई मीटिंग तय नहीं है';
+
+  @override
+  String get callClient => 'ग्राहक को कॉल करें';
+
+  @override
+  String get notificationDisclosureTitle => 'मीटिंग रिमाइंडर व सटीक अलार्म';
+
+  @override
+  String get notificationDisclosureMessage =>
+      'कार्डसाथी को निर्धारित व्यावसायिक बैठकों के सटीक समय पर अलार्म बजाने के लिए नोटिफिकेशन और अलार्म अनुमति की आवश्यकता है, भले ही ऐप बंद हो।';
+
+  @override
+  String get allowPermission => 'स्वीकार करें';
+
+  @override
+  String get scheduleNow => 'मीटिंग तय करें';
 }

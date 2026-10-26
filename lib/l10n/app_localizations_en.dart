@@ -446,4 +446,29 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get titleRequired => 'Title is required';
+
+  @override
+  String get scheduleFollowup => 'Schedule Meeting / Follow-up';
+
+  @override
+  String get linkedMeetings => 'Meetings & Follow-ups';
+
+  @override
+  String get noLinkedMeetings => 'No meetings scheduled with this contact';
+
+  @override
+  String get callClient => 'Call Client';
+
+  @override
+  String get notificationDisclosureTitle => 'Meeting Reminders & Exact Alarms';
+
+  @override
+  String get notificationDisclosureMessage =>
+      'CardSaathi requires notification and exact alarm permissions to alert you precisely on time for scheduled business client meetings, even when your phone is locked.';
+
+  @override
+  String get allowPermission => 'Allow & Enable';
+
+  @override
+  String get scheduleNow => 'Schedule Meeting';
 }
