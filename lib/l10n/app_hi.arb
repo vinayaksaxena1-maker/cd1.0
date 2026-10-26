@@ -157,5 +157,19 @@
   "notificationDisclosureTitle": "मीटिंग रिमाइंडर व सटीक अलार्म",
   "notificationDisclosureMessage": "कार्डसाथी को निर्धारित व्यावसायिक बैठकों के सटीक समय पर अलार्म बजाने के लिए नोटिफिकेशन और अलार्म अनुमति की आवश्यकता है, भले ही ऐप बंद हो।",
   "allowPermission": "स्वीकार करें",
-  "scheduleNow": "मीटिंग तय करें"
+  "scheduleNow": "मीटिंग तय करें",
+  "digitalCard": "डिजिटल कार्ड",
+  "selectTemplate": "कार्ड टेम्प्लेट चुनें",
+  "recommendedForYou": "आपके व्यापार के लिए अनुशंसित",
+  "allTemplates": "सभी टेम्प्लेट्स",
+  "shareWhatsAppCard": "व्हाट्सएप पर शेयर करें (4:5 कार्ड)",
+  "viewQrCode": "QR कोड देखें",
+  "offlineVCardQr": "ऑफ़लाइन संपर्क QR कोड",
+  "scanToSaveContact": "किसी भी फ़ोन कैमरे से स्कैन करके संपर्क तुरंत सेव करें",
+  "syncStatusSynced": "क्लाउड सिंक पूर्ण",
+  "syncStatusSyncing": "क्लाउड से सिंक हो रहा है...",
+  "syncStatusOffline": "ऑफ़लाइन मोड",
+  "syncStatusError": "सिंक त्रुटि",
+  "syncNow": "अभी सिंक करें",
+  "loginToBackup": "क्लाउड बैकअप के लिए लॉगिन करें"
 }

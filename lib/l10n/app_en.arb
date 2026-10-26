@@ -157,5 +157,19 @@
   "notificationDisclosureTitle": "Meeting Reminders & Exact Alarms",
   "notificationDisclosureMessage": "CardSaathi requires notification and exact alarm permissions to alert you precisely on time for scheduled business client meetings, even when your phone is locked.",
   "allowPermission": "Allow & Enable",
-  "scheduleNow": "Schedule Meeting"
+  "scheduleNow": "Schedule Meeting",
+  "digitalCard": "Digital Card",
+  "selectTemplate": "Choose Card Template",
+  "recommendedForYou": "Recommended for Your Trade",
+  "allTemplates": "All Templates",
+  "shareWhatsAppCard": "Share on WhatsApp (4:5 Card)",
+  "viewQrCode": "Show QR Code",
+  "offlineVCardQr": "Offline Contact QR Code",
+  "scanToSaveContact": "Scan with any phone camera to instantly save contact",
+  "syncStatusSynced": "Cloud Synced",
+  "syncStatusSyncing": "Syncing with Cloud...",
+  "syncStatusOffline": "Working Offline",
+  "syncStatusError": "Sync Error",
+  "syncNow": "Sync Now",
+  "loginToBackup": "Sign In for Cloud Backup"
 }

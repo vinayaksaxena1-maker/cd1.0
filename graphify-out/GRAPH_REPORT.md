@@ -1,17 +1,17 @@
 # Graph Report - CD1.0  (2026-10-27)
 
 ## Corpus Check
-- 92 files · ~45,545 words
+- 102 files · ~51,318 words
 - Verdict: corpus is large enough that graph structure adds value.
 - Unclassified: 31 file(s) not represented in the graph (top: .xml 7, (none) 5, .plist 4)
 
 ## Summary
-- 1489 nodes · 1928 edges · 69 communities (57 shown, 12 thin omitted)
+- 1654 nodes · 2149 edges · 75 communities (63 shown, 12 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `974ebdfd`
+- Built from commit: `879e42e4`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -23,7 +23,7 @@
 - Workspace Agent Guidelines & Active Skills
 - Google Artemis Testing Protocol
 - design_system.md
-- camera_disclosure_dialog.dart
+- digital_card_screen.dart
 - AppDelegate
 - app_localizations.dart
 - repository_test.dart
@@ -36,6 +36,7 @@
 - storage_service.dart
 - contact_card.dart
 - AppLocalizations
+- cloud_sync_service.dart
 - user_profile.dart
 - cards_screen.dart
 - hive_registrar.dart
@@ -47,18 +48,18 @@
 - card_parser_service.dart
 - card_edit_screen.dart
 - category_drilldown_sheet.dart
-- main.dart
+- firebase_service.dart
 - review_scan_screen.dart
 - voice_memo_service.dart
 - voice_memo_widget.dart
 - meeting_reminder.dart
 - card_detail_screen.dart
-- package:flutter/material.dart
-- review_scan_test.dart
-- ../../../core/theme/app_colors.dart
+- package:flutter_localizations/flutter_localizations.dart
+- package:hive/hive.dart
+- ../../../core/theme/app_typography.dart
 - card_guide_overlay.dart
 - extracted_card_data.dart
-- ../../../core/theme/app_typography.dart
+- locale_controller.dart
 - card_tile_widget.dart
 - contact_picker_test.dart
 - add_edit_reminder_sheet.dart
@@ -67,22 +68,28 @@
 - app_typography.dart
 - category.dart
 - categories_hub_test.dart
-- dart:io
+- ../../../core/theme/app_colors.dart
 - ../../../data/models/contact_card.dart
 - add_category_dialog.dart
-- contact_picker_service.dart
+- package:flutter/material.dart
 - notification_service.dart
 - meeting_reminder_card.dart
 - reminders_test.dart
 - build
 - card_meetings_section.dart
 - card_parser_test.dart
-- package:flutter_test/flutter_test.dart
+- ../../../data/local/storage_service.dart
 - card_meetings_and_alarms_test.dart
+- contact_picker_service.dart
+- package:flutter_test/flutter_test.dart
+- package:cardsaathi/data/models/contact_card.dart
+- digital_card_templates_test.dart
+- dart:io
+- stitch_template_registry.dart
 
 ## God Nodes (most connected - your core abstractions)
-1. `Category` - 11 edges
-2. `ContactCard` - 11 edges
+1. `ContactCard` - 14 edges
+2. `Category` - 11 edges
 3. `कार्डसाथी (CardSaathi) — फ़्लटर संपूर्ण क्रियान्वयन योजना` - 11 edges
 4. `MeetingReminder` - 8 edges
 5. `AppLocalizations` - 7 edges
@@ -107,7 +114,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (69 total, 12 thin omitted)
+## Communities (75 total, 12 thin omitted)
 
 ### Community 1 - "कार्डसाथी (CardSaathi) — फ़्लटर संपूर्ण क्रियान्वयन योजना"
 Cohesion: 0.11
@@ -133,9 +140,9 @@ Nodes (3): Execution Rules, Google Artemis Testing Protocol, Target Device: Blue
 Cohesion: 0.15
 Nodes (12): Bottom Navigation, Brand & Style, Buttons, Cards & Contact Rows, Chips & Badges, Colors, Components, Elevation & Depth (+4 more)
 
-### Community 7 - "camera_disclosure_dialog.dart"
-Cohesion: 0.29
-Nodes (5): build, CameraDisclosureDialog, onAgree, onUseGallery, show
+### Community 7 - "digital_card_screen.dart"
+Cohesion: 0.06
+Nodes (31): DigitalCardTemplate, _activeTemplate, _allCards, _availableTemplates, build, _buildActionButtons, _buildCardSelectorDropdown, _buildCategoryRecommendationPills (+23 more)
 
 ### Community 8 - "AppDelegate"
 Cohesion: 0.11
@@ -143,11 +150,11 @@ Nodes (6): Flutter, AppDelegate, SceneDelegate, RunnerTests, UIKit, XCTest
 
 ### Community 9 - "app_localizations.dart"
 Cohesion: 0.01
-Nodes (159): addCategory, addMeeting, address, addTag, agenda, agreeAndEnable, alignCardInFrame, allCategories (+151 more)
+Nodes (173): addCategory, addMeeting, address, addTag, agenda, agreeAndEnable, alignCardInFrame, allCategories (+165 more)
 
 ### Community 10 - "repository_test.dart"
 Cohesion: 0.15
-Nodes (8): ReminderRepository, UserProfileRepository, categoryRepo, contactRepo, main, profileRepo, reminderRepo, tempDir
+Nodes (8): ContactRepository, ReminderRepository, categoryRepo, contactRepo, main, profileRepo, reminderRepo, tempDir
 
 ### Community 17 - "categories_screen.dart"
 Cohesion: 0.10
@@ -155,11 +162,11 @@ Nodes (17): _allCards, build, _buildBody, _buildHeaderStatBadge, _buildSkeletonG
 
 ### Community 18 - "app_localizations_en.dart"
 Cohesion: 0.01
-Nodes (151): addCategory, addMeeting, address, addTag, agenda, agreeAndEnable, alignCardInFrame, allCategories (+143 more)
+Nodes (165): addCategory, addMeeting, address, addTag, agenda, agreeAndEnable, alignCardInFrame, allCategories (+157 more)
 
 ### Community 19 - "app_localizations_hi.dart"
 Cohesion: 0.01
-Nodes (151): addCategory, addMeeting, address, addTag, agenda, agreeAndEnable, alignCardInFrame, allCategories (+143 more)
+Nodes (165): addCategory, addMeeting, address, addTag, agenda, agreeAndEnable, alignCardInFrame, allCategories (+157 more)
 
 ### Community 20 - "scan_screen.dart"
 Cohesion: 0.06
@@ -177,6 +184,10 @@ Nodes (25): hashCode, operator, read, typeId, write, address, categoryId, compan
 Cohesion: 0.33
 Nodes (5): AppLocalizations, _AppLocalizationsDelegate, AppLocalizationsEn, AppLocalizationsHi, of
 
+### Community 24 - "cloud_sync_service.dart"
+Cohesion: 0.09
+Nodes (14): CloudStorageService, instance, uploadCardPhoto, uploadVoiceMemo, CloudSyncService, instance, lastSyncedAt, _parseDateTime (+6 more)
+
 ### Community 25 - "user_profile.dart"
 Cohesion: 0.12
 Nodes (20): hashCode, operator, read, typeId, UserProfileAdapter, write, address, company (+12 more)
@@ -190,16 +201,16 @@ Cohesion: 0.12
 Nodes (15): CategoryAdapter, ContactCardAdapter, MeetingReminderAdapter, categoriesBox, clearAllUserData, contactCardsBox, HiveRegistrar, initHive (+7 more)
 
 ### Community 28 - "contact_repository.dart"
-Cohesion: 0.14
-Nodes (12): _box, clearAllCards, ContactRepository, deleteCard, findDuplicate, getAllCards, getCardById, getCardsByCategory (+4 more)
+Cohesion: 0.15
+Nodes (11): _box, clearAllCards, deleteCard, findDuplicate, getAllCards, getCardById, getCardsByCategory, init (+3 more)
 
 ### Community 29 - "reminder_repository.dart"
 Cohesion: 0.12
 Nodes (14): _box, clearAllReminders, deleteReminder, getAllReminders, getCompletedReminders, getOverdueReminders, getReminderById, getRemindersForContact (+6 more)
 
 ### Community 30 - "reminders_screen.dart"
-Cohesion: 0.08
-Nodes (20): build, _buildEmptyState, _buildReminderList, _buildTabItem, _completedList, _confirmDelete, createState, dispose (+12 more)
+Cohesion: 0.09
+Nodes (18): build, _buildEmptyState, _buildReminderList, _buildTabItem, _completedList, _confirmDelete, createState, dispose (+10 more)
 
 ### Community 31 - "category_repository.dart"
 Cohesion: 0.15
@@ -207,11 +218,11 @@ Nodes (10): addCustomCategory, _box, CategoryRepository, deleteCategory, getAllC
 
 ### Community 32 - "user_profile_repository.dart"
 Cohesion: 0.18
-Nodes (6): _box, clearProfile, getProfile, init, _profileKey, saveProfile
+Nodes (7): _box, clearProfile, getProfile, init, _profileKey, saveProfile, UserProfileRepository
 
 ### Community 33 - "card_parser_service.dart"
-Cohesion: 0.05
-Nodes (21): AppRouter, _rootNavigatorKey, router, CardParserService, _companyKeywords, _designations, _domainRegex, _emailRegex (+13 more)
+Cohesion: 0.04
+Nodes (25): AppRouter, _rootNavigatorKey, router, CardParserService, _companyKeywords, _designations, _domainRegex, _emailRegex (+17 more)
 
 ### Community 34 - "card_edit_screen.dart"
 Cohesion: 0.06
@@ -220,6 +231,10 @@ Nodes (33): _addressController, _availableCategories, build, _buildPhotoThumbnai
 ### Community 35 - "category_drilldown_sheet.dart"
 Cohesion: 0.11
 Nodes (14): build, cardCount, category, isHindi, onDelete, onTap, build, cards (+6 more)
+
+### Community 36 - "firebase_service.dart"
+Cohesion: 0.12
+Nodes (10): authStateChanges, currentUser, FirebaseService, init, _initialized, instance, _isAvailable, isInitialized (+2 more)
 
 ### Community 37 - "review_scan_screen.dart"
 Cohesion: 0.07
@@ -230,56 +245,56 @@ Cohesion: 0.07
 Nodes (18): _countdownTimer, _currentFilePath, deleteMemo, dispose, _isPlaying, _isRecording, maxDurationSeconds, pause (+10 more)
 
 ### Community 39 - "voice_memo_widget.dart"
-Cohesion: 0.09
-Nodes (20): VoiceMemoService, build, createState, _deleteMemo, dispose, initialMemoPath, initState, _internalService (+12 more)
+Cohesion: 0.05
+Nodes (34): VoiceMemoService, accentColor, backgroundColor, cardBorderColor, hasDarkBackground, id, matchesCategory, nameEn (+26 more)
 
 ### Community 40 - "meeting_reminder.dart"
 Cohesion: 0.13
 Nodes (16): hashCode, operator, read, typeId, write, agenda, contactCardId, copyWith (+8 more)
 
 ### Community 41 - "card_detail_screen.dart"
-Cohesion: 0.06
+Cohesion: 0.07
 Nodes (28): _audioPlayer, build, _buildActionCircle, _buildCardImageViewer, _buildContactDetailsCard, _buildContactHeader, _buildCredentialsSection, _buildNotesAndTagsSection (+20 more)
 
-### Community 42 - "package:flutter/material.dart"
-Cohesion: 0.12
-Nodes (6): getCategoryIcon, createTestApp, main, main, createTestApp, main
+### Community 42 - "package:flutter_localizations/flutter_localizations.dart"
+Cohesion: 0.18
+Nodes (4): createTestApp, main, createTestApp, main
 
-### Community 43 - "review_scan_test.dart"
+### Community 43 - "package:hive/hive.dart"
 Cohesion: 0.13
 Nodes (7): AppTheme, createTestApp, main, tempDir, createTestApp, main, tempDir
 
-### Community 44 - "../../../core/theme/app_colors.dart"
-Cohesion: 0.10
-Nodes (16): CardSaathiApp, build, MainShell, navigationShell, _onDestinationSelected, CategoryCardTile, CategoryDrillDownSheet, HomeScreen (+8 more)
+### Community 44 - "../../../core/theme/app_typography.dart"
+Cohesion: 0.15
+Nodes (8): build, MainShell, navigationShell, _onDestinationSelected, HomeScreen, AlarmDisclosureDialog, build, show
 
 ### Community 45 - "card_guide_overlay.dart"
-Cohesion: 0.15
-Nodes (10): _animController, build, CardGuideOverlay, _CardGuideOverlayState, createState, dispose, initState, isFrontSide (+2 more)
+Cohesion: 0.18
+Nodes (8): _animController, build, createState, dispose, initState, isFrontSide, _laserAnimation, statusText
 
 ### Community 46 - "extracted_card_data.dart"
 Cohesion: 0.11
 Nodes (17): address, company, copyWith, email, ExtractedCardData, fromJson, gstin, jobTitle (+9 more)
 
-### Community 47 - "../../../core/theme/app_typography.dart"
-Cohesion: 0.15
-Nodes (8): build, DigitalCardScreen, AlarmDisclosureDialog, build, show, buildStatusBadge, formatDateTime, ReminderDateBadgeHelper
+### Community 47 - "locale_controller.dart"
+Cohesion: 0.20
+Nodes (5): isHindi, _locale, LocaleController, setLocale, toggleLocale
 
 ### Community 48 - "card_tile_widget.dart"
-Cohesion: 0.22
-Nodes (7): build, _buildInitialsAvatar, card, _getInitials, _makeCall, onTap, _openWhatsApp
+Cohesion: 0.12
+Nodes (12): build, _buildInitialsAvatar, card, _getInitials, _makeCall, onTap, _openWhatsApp, build (+4 more)
 
 ### Community 49 - "contact_picker_test.dart"
 Cohesion: 0.15
 Nodes (8): createTestApp, main, tempDir, child, createTestApp, locale, main, tempDir
 
 ### Community 50 - "add_edit_reminder_sheet.dart"
-Cohesion: 0.10
-Nodes (17): _agendaController, _availableContacts, build, createState, dispose, _formKey, initialContactId, initState (+9 more)
+Cohesion: 0.08
+Nodes (20): _agendaController, _availableContacts, build, createState, dispose, _formKey, initialContactId, initState (+12 more)
 
 ### Community 51 - "State"
-Cohesion: 0.27
-Nodes (8): CardDetailScreen, _CardDetailScreenState, CardEditScreen, _CardEditScreenState, AddCategoryDialog, _AddCategoryDialogState, AddEditReminderSheet, _AddEditReminderSheetState
+Cohesion: 0.17
+Nodes (14): CardDetailScreen, _CardDetailScreenState, CardEditScreen, _CardEditScreenState, AddCategoryDialog, _AddCategoryDialogState, RemindersScreen, _RemindersScreenState (+6 more)
 
 ### Community 52 - "card_edit_and_vcard_test.dart"
 Cohesion: 0.11
@@ -294,28 +309,24 @@ Cohesion: 0.13
 Nodes (15): hashCode, operator, read, typeId, write, cardCount, copyWith, defaultCategories (+7 more)
 
 ### Community 55 - "categories_hub_test.dart"
-Cohesion: 0.14
-Nodes (6): child, createTestApp, locale, main, tempDir, main
-
-### Community 56 - "dart:io"
 Cohesion: 0.22
-Nodes (4): dispose, OcrService, processCardImage, _textRecognizer
+Nodes (5): child, createTestApp, locale, main, tempDir
+
+### Community 56 - "../../../core/theme/app_colors.dart"
+Cohesion: 0.15
+Nodes (10): CategoryCardTile, CategoryDrillDownSheet, ProfileScreen, build, CardTileSkeleton, CardTileWidget, DigitalCardCanvas, MeetingReminderCard (+2 more)
 
 ### Community 57 - "../../../data/models/contact_card.dart"
-Cohesion: 0.22
-Nodes (5): exportVCardFile, generateVCardString, shareAsText, shareVCard, VCardService
+Cohesion: 0.12
+Nodes (9): exportVCardFile, generateVCardString, shareAsText, shareVCard, VCardService, build, card, show (+1 more)
 
 ### Community 58 - "add_category_dialog.dart"
-Cohesion: 0.14
+Cohesion: 0.15
 Nodes (10): _availableIcons, build, createState, dispose, _formKey, _isSaving, _nameEnController, _nameHiController (+2 more)
 
-### Community 59 - "contact_picker_service.dart"
-Cohesion: 0.13
-Nodes (11): _channel, channelName, ContactPickerService, email, fromMap, instance, name, phone (+3 more)
-
 ### Community 60 - "notification_service.dart"
-Cohesion: 0.06
-Nodes (23): isHindi, _locale, LocaleController, setLocale, toggleLocale, cancelMeetingNotification, init, _initialized (+15 more)
+Cohesion: 0.08
+Nodes (18): cancelMeetingNotification, init, _initialized, instance, isInitialized, meetingChannelDesc, meetingChannelId, meetingChannelName (+10 more)
 
 ### Community 62 - "meeting_reminder_card.dart"
 Cohesion: 0.22
@@ -327,35 +338,55 @@ Nodes (3): createTestApp, main, tempDir
 
 ### Community 65 - "card_meetings_section.dart"
 Cohesion: 0.12
-Nodes (15): build, card, cardId, CardMeetingsSection, _CardMeetingsSectionState, _confirmDelete, createState, didUpdateWidget (+7 more)
+Nodes (13): build, card, cardId, _confirmDelete, createState, didUpdateWidget, initState, _isLoading (+5 more)
 
 ### Community 66 - "card_parser_test.dart"
 Cohesion: 0.15
 Nodes (6): 07AAAPG1234F1Z8, Hospital, Kumar, main, Physician, Saxena
 
+### Community 67 - "../../../data/local/storage_service.dart"
+Cohesion: 0.15
+Nodes (6): SyncStatus, build, CardSaathiApp, main, _buildSyncCard, _showDeleteAccountDialog
+
 ### Community 68 - "card_meetings_and_alarms_test.dart"
 Cohesion: 0.25
 Nodes (3): createTestApp, main, tempDir
 
+### Community 69 - "contact_picker_service.dart"
+Cohesion: 0.13
+Nodes (11): _channel, channelName, ContactPickerService, email, fromMap, instance, name, phone (+3 more)
+
+### Community 72 - "digital_card_templates_test.dart"
+Cohesion: 0.25
+Nodes (3): createTestApp, main, tempDir
+
+### Community 73 - "dart:io"
+Cohesion: 0.29
+Nodes (3): captureCardToImage, CardExportService, shareCardOnWhatsApp
+
+### Community 74 - "stitch_template_registry.dart"
+Cohesion: 0.29
+Nodes (4): allTemplates, getTemplateById, getTemplatesForCategory, StitchTemplateRegistry
+
 ## Knowledge Gaps
-- **1046 isolated node(s):** `XCTest`, `_locale`, `isHindi`, `setLocale`, `toggleLocale` (+1041 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 1229 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+- **1168 isolated node(s):** `XCTest`, `_locale`, `isHindi`, `setLocale`, `toggleLocale` (+1163 more)
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 1370 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
 - **12 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `ContactCard` connect `hive_registrar.dart` to `card_meetings_section.dart`, `card_edit_screen.dart`, `review_scan_screen.dart`, `card_detail_screen.dart`, `card_tile_widget.dart`, `contact_card.dart`, `contact_repository.dart`?**
-  _High betweenness centrality (0.016) - this node is a cross-community bridge._
+- **Why does `Category` connect `hive_registrar.dart` to `category_drilldown_sheet.dart`, `contact_picker_test.dart`, `card_edit_and_vcard_test.dart`, `category.dart`, `categories_hub_test.dart`, `category_repository.dart`?**
+  _High betweenness centrality (0.022) - this node is a cross-community bridge._
 - **What connects `XCTest`, `_locale`, `isHindi` to the rest of the system?**
-  _1046 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _1168 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `कार्डसाथी (CardSaathi) — फ़्लटर संपूर्ण क्रियान्वयन योजना` be split into smaller, more focused modules?**
   _Cohesion score 0.1111111111111111 - nodes in this community are weakly interconnected._
-- **Why does `MeetingReminder` connect `hive_registrar.dart` to `meeting_reminder.dart`, `add_edit_reminder_sheet.dart`, `reminder_repository.dart`, `meeting_reminder_card.dart`?**
-  _High betweenness centrality (0.012) - this node is a cross-community bridge._
+- **Why does `ContactCard` connect `hive_registrar.dart` to `card_meetings_section.dart`, `card_edit_screen.dart`, `review_scan_screen.dart`, `digital_card_screen.dart`, `card_detail_screen.dart`, `card_tile_widget.dart`, `contact_card.dart`, `../../../data/models/contact_card.dart`, `contact_repository.dart`?**
+  _High betweenness centrality (0.022) - this node is a cross-community bridge._
 - **Should `app_colors.dart` be split into smaller, more focused modules?**
   _Cohesion score 0.05714285714285714 - nodes in this community are weakly interconnected._
-- **Why does `Category` connect `hive_registrar.dart` to `category_drilldown_sheet.dart`, `contact_picker_test.dart`, `card_edit_and_vcard_test.dart`, `category.dart`, `categories_hub_test.dart`, `category_repository.dart`?**
-  _High betweenness centrality (0.010) - this node is a cross-community bridge._
-- **Should `AppDelegate` be split into smaller, more focused modules?**
-  _Cohesion score 0.11052631578947368 - nodes in this community are weakly interconnected._
+- **Why does `MeetingReminder` connect `hive_registrar.dart` to `meeting_reminder.dart`, `add_edit_reminder_sheet.dart`, `reminder_repository.dart`, `meeting_reminder_card.dart`?**
+  _High betweenness centrality (0.014) - this node is a cross-community bridge._
+- **Should `digital_card_screen.dart` be split into smaller, more focused modules?**
+  _Cohesion score 0.0553306342780027 - nodes in this community are weakly interconnected._

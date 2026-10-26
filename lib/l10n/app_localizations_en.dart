@@ -471,4 +471,47 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get scheduleNow => 'Schedule Meeting';
+
+  @override
+  String get digitalCard => 'Digital Card';
+
+  @override
+  String get selectTemplate => 'Choose Card Template';
+
+  @override
+  String get recommendedForYou => 'Recommended for Your Trade';
+
+  @override
+  String get allTemplates => 'All Templates';
+
+  @override
+  String get shareWhatsAppCard => 'Share on WhatsApp (4:5 Card)';
+
+  @override
+  String get viewQrCode => 'Show QR Code';
+
+  @override
+  String get offlineVCardQr => 'Offline Contact QR Code';
+
+  @override
+  String get scanToSaveContact =>
+      'Scan with any phone camera to instantly save contact';
+
+  @override
+  String get syncStatusSynced => 'Cloud Synced';
+
+  @override
+  String get syncStatusSyncing => 'Syncing with Cloud...';
+
+  @override
+  String get syncStatusOffline => 'Working Offline';
+
+  @override
+  String get syncStatusError => 'Sync Error';
+
+  @override
+  String get syncNow => 'Sync Now';
+
+  @override
+  String get loginToBackup => 'Sign In for Cloud Backup';
 }

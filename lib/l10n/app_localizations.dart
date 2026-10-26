@@ -1003,6 +1003,90 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Schedule Meeting'**
   String get scheduleNow;
+
+  /// No description provided for @digitalCard.
+  ///
+  /// In en, this message translates to:
+  /// **'Digital Card'**
+  String get digitalCard;
+
+  /// No description provided for @selectTemplate.
+  ///
+  /// In en, this message translates to:
+  /// **'Choose Card Template'**
+  String get selectTemplate;
+
+  /// No description provided for @recommendedForYou.
+  ///
+  /// In en, this message translates to:
+  /// **'Recommended for Your Trade'**
+  String get recommendedForYou;
+
+  /// No description provided for @allTemplates.
+  ///
+  /// In en, this message translates to:
+  /// **'All Templates'**
+  String get allTemplates;
+
+  /// No description provided for @shareWhatsAppCard.
+  ///
+  /// In en, this message translates to:
+  /// **'Share on WhatsApp (4:5 Card)'**
+  String get shareWhatsAppCard;
+
+  /// No description provided for @viewQrCode.
+  ///
+  /// In en, this message translates to:
+  /// **'Show QR Code'**
+  String get viewQrCode;
+
+  /// No description provided for @offlineVCardQr.
+  ///
+  /// In en, this message translates to:
+  /// **'Offline Contact QR Code'**
+  String get offlineVCardQr;
+
+  /// No description provided for @scanToSaveContact.
+  ///
+  /// In en, this message translates to:
+  /// **'Scan with any phone camera to instantly save contact'**
+  String get scanToSaveContact;
+
+  /// No description provided for @syncStatusSynced.
+  ///
+  /// In en, this message translates to:
+  /// **'Cloud Synced'**
+  String get syncStatusSynced;
+
+  /// No description provided for @syncStatusSyncing.
+  ///
+  /// In en, this message translates to:
+  /// **'Syncing with Cloud...'**
+  String get syncStatusSyncing;
+
+  /// No description provided for @syncStatusOffline.
+  ///
+  /// In en, this message translates to:
+  /// **'Working Offline'**
+  String get syncStatusOffline;
+
+  /// No description provided for @syncStatusError.
+  ///
+  /// In en, this message translates to:
+  /// **'Sync Error'**
+  String get syncStatusError;
+
+  /// No description provided for @syncNow.
+  ///
+  /// In en, this message translates to:
+  /// **'Sync Now'**
+  String get syncNow;
+
+  /// No description provided for @loginToBackup.
+  ///
+  /// In en, this message translates to:
+  /// **'Sign In for Cloud Backup'**
+  String get loginToBackup;
 }
 
 class _AppLocalizationsDelegate

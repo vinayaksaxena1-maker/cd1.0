@@ -5,6 +5,7 @@ import 'core/theme/app_theme.dart';
 import 'core/routing/app_router.dart';
 import 'core/localization/locale_controller.dart';
 import 'core/services/notification_service.dart';
+import 'core/services/firebase_service.dart';
 import 'data/local/storage_service.dart';
 import 'data/models/contact_card.dart';
 import 'data/models/meeting_reminder.dart';
@@ -14,6 +15,7 @@ Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await StorageService.instance.initAll();
   await NotificationService.instance.init();
+  await FirebaseService.instance.init();
 
   if (StorageService.instance.contactRepo.getAllCards().isEmpty) {
     final now = DateTime.now();

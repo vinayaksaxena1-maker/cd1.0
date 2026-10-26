@@ -471,4 +471,47 @@ class AppLocalizationsHi extends AppLocalizations {
 
   @override
   String get scheduleNow => 'मीटिंग तय करें';
+
+  @override
+  String get digitalCard => 'डिजिटल कार्ड';
+
+  @override
+  String get selectTemplate => 'कार्ड टेम्प्लेट चुनें';
+
+  @override
+  String get recommendedForYou => 'आपके व्यापार के लिए अनुशंसित';
+
+  @override
+  String get allTemplates => 'सभी टेम्प्लेट्स';
+
+  @override
+  String get shareWhatsAppCard => 'व्हाट्सएप पर शेयर करें (4:5 कार्ड)';
+
+  @override
+  String get viewQrCode => 'QR कोड देखें';
+
+  @override
+  String get offlineVCardQr => 'ऑफ़लाइन संपर्क QR कोड';
+
+  @override
+  String get scanToSaveContact =>
+      'किसी भी फ़ोन कैमरे से स्कैन करके संपर्क तुरंत सेव करें';
+
+  @override
+  String get syncStatusSynced => 'क्लाउड सिंक पूर्ण';
+
+  @override
+  String get syncStatusSyncing => 'क्लाउड से सिंक हो रहा है...';
+
+  @override
+  String get syncStatusOffline => 'ऑफ़लाइन मोड';
+
+  @override
+  String get syncStatusError => 'सिंक त्रुटि';
+
+  @override
+  String get syncNow => 'अभी सिंक करें';
+
+  @override
+  String get loginToBackup => 'क्लाउड बैकअप के लिए लॉगिन करें';
 }
