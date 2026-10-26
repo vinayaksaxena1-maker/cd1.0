@@ -306,21 +306,21 @@
     "semantic_hash": ""
   },
   "lib/l10n/app_localizations.dart": {
-    "mtime": 1793031182.3067112,
-    "seen": 1793031409.5305502,
-    "ast_hash": "936f0c85b06f3da90189b983a9dde0ca",
+    "mtime": 1793036216.7181928,
+    "seen": 1793036667.8451428,
+    "ast_hash": "881eb47cd1290b43c598778dc3d56f27",
     "semantic_hash": ""
   },
   "lib/l10n/app_localizations_en.dart": {
-    "mtime": 1793031182.2949953,
-    "seen": 1793031409.5305502,
-    "ast_hash": "7aba8e6a6782fa25be96ece5b25bd773",
+    "mtime": 1793036216.7074525,
+    "seen": 1793036667.8451428,
+    "ast_hash": "2718dc8decc10b1e553e22bc376106ca",
     "semantic_hash": ""
   },
   "lib/l10n/app_localizations_hi.dart": {
-    "mtime": 1793031182.298901,
-    "seen": 1793031409.5305502,
-    "ast_hash": "439deb0596d1f7580cc4ad5861ae8f89",
+    "mtime": 1793036216.711358,
+    "seen": 1793036667.8451428,
+    "ast_hash": "73d803e56df6ffe6acf450bb861c60bd",
     "semantic_hash": ""
   },
   "lib/presentation/navigation/main_shell.dart": {
@@ -330,9 +330,9 @@
     "semantic_hash": ""
   },
   "lib/presentation/screens/cards/cards_screen.dart": {
-    "mtime": 1793025608.604714,
-    "seen": 1793026700.3663013,
-    "ast_hash": "fe7f353cf840bd25a5605f4e14e3a8f9",
+    "mtime": 1793032554.2649212,
+    "seen": 1793036667.8451428,
+    "ast_hash": "fefc47541a71a3810e816bd4c2b26a1b",
     "semantic_hash": ""
   },
   "lib/presentation/screens/categories/categories_screen.dart": {
@@ -486,9 +486,9 @@
     "semantic_hash": ""
   },
   "android/app/src/main/kotlin/com/cardsaathi/app/MainActivity.kt": {
-    "mtime": 1793003786.704139,
-    "seen": 1793006576.9997113,
-    "ast_hash": "91fcf4ac80139fa463c8361c64f63806",
+    "mtime": 1793031646.6214604,
+    "seen": 1793036667.8451428,
+    "ast_hash": "81881160b5c8ceebc423a68f1feaa90a",
     "semantic_hash": ""
   },
   "lib/presentation/widgets/scan/camera_disclosure_dialog.dart": {
@@ -639,6 +639,18 @@
     "mtime": 1793030821.8153565,
     "seen": 1793031409.5305502,
     "ast_hash": "729f85b76a9b64841f580076d1b0c8a2",
+    "semantic_hash": ""
+  },
+  "lib/core/services/contact_picker_service.dart": {
+    "mtime": 1793031654.6706257,
+    "seen": 1793036667.8451428,
+    "ast_hash": "eb8b94bbc94933f7f3bda5824c0e9158",
+    "semantic_hash": ""
+  },
+  "test/contact_picker_test.dart": {
+    "mtime": 1793035959.5829344,
+    "seen": 1793036667.8451428,
+    "ast_hash": "5a271f11d81f8dcc7fd0b61c71323814",
     "semantic_hash": ""
   }
 }

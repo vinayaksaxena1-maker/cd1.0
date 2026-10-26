@@ -391,4 +391,59 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get contactImported => 'Contact imported successfully';
+
+  @override
+  String get todayTab => 'Today';
+
+  @override
+  String get upcomingTab => 'Upcoming';
+
+  @override
+  String get overdueTab => 'Overdue';
+
+  @override
+  String get completedTab => 'Completed';
+
+  @override
+  String get addMeeting => 'Schedule Meeting';
+
+  @override
+  String get editMeeting => 'Edit Meeting';
+
+  @override
+  String get meetingTitle => 'Meeting Title *';
+
+  @override
+  String get agenda => 'Agenda / Discussion Note';
+
+  @override
+  String get selectDate => 'Select Date';
+
+  @override
+  String get selectTime => 'Select Time';
+
+  @override
+  String get linkContact => 'Link Contact';
+
+  @override
+  String get noLinkedContact => 'None (General Meeting)';
+
+  @override
+  String get noMeetingsScheduled => 'No meetings scheduled';
+
+  @override
+  String get meetingSaved => 'Meeting reminder saved successfully';
+
+  @override
+  String get meetingDeleted => 'Meeting reminder deleted';
+
+  @override
+  String get deleteMeeting => 'Delete Meeting Reminder';
+
+  @override
+  String get deleteMeetingConfirm =>
+      'Are you sure you want to delete this meeting reminder?';
+
+  @override
+  String get titleRequired => 'Title is required';
 }

@@ -847,6 +847,114 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Contact imported successfully'**
   String get contactImported;
+
+  /// No description provided for @todayTab.
+  ///
+  /// In en, this message translates to:
+  /// **'Today'**
+  String get todayTab;
+
+  /// No description provided for @upcomingTab.
+  ///
+  /// In en, this message translates to:
+  /// **'Upcoming'**
+  String get upcomingTab;
+
+  /// No description provided for @overdueTab.
+  ///
+  /// In en, this message translates to:
+  /// **'Overdue'**
+  String get overdueTab;
+
+  /// No description provided for @completedTab.
+  ///
+  /// In en, this message translates to:
+  /// **'Completed'**
+  String get completedTab;
+
+  /// No description provided for @addMeeting.
+  ///
+  /// In en, this message translates to:
+  /// **'Schedule Meeting'**
+  String get addMeeting;
+
+  /// No description provided for @editMeeting.
+  ///
+  /// In en, this message translates to:
+  /// **'Edit Meeting'**
+  String get editMeeting;
+
+  /// No description provided for @meetingTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Meeting Title *'**
+  String get meetingTitle;
+
+  /// No description provided for @agenda.
+  ///
+  /// In en, this message translates to:
+  /// **'Agenda / Discussion Note'**
+  String get agenda;
+
+  /// No description provided for @selectDate.
+  ///
+  /// In en, this message translates to:
+  /// **'Select Date'**
+  String get selectDate;
+
+  /// No description provided for @selectTime.
+  ///
+  /// In en, this message translates to:
+  /// **'Select Time'**
+  String get selectTime;
+
+  /// No description provided for @linkContact.
+  ///
+  /// In en, this message translates to:
+  /// **'Link Contact'**
+  String get linkContact;
+
+  /// No description provided for @noLinkedContact.
+  ///
+  /// In en, this message translates to:
+  /// **'None (General Meeting)'**
+  String get noLinkedContact;
+
+  /// No description provided for @noMeetingsScheduled.
+  ///
+  /// In en, this message translates to:
+  /// **'No meetings scheduled'**
+  String get noMeetingsScheduled;
+
+  /// No description provided for @meetingSaved.
+  ///
+  /// In en, this message translates to:
+  /// **'Meeting reminder saved successfully'**
+  String get meetingSaved;
+
+  /// No description provided for @meetingDeleted.
+  ///
+  /// In en, this message translates to:
+  /// **'Meeting reminder deleted'**
+  String get meetingDeleted;
+
+  /// No description provided for @deleteMeeting.
+  ///
+  /// In en, this message translates to:
+  /// **'Delete Meeting Reminder'**
+  String get deleteMeeting;
+
+  /// No description provided for @deleteMeetingConfirm.
+  ///
+  /// In en, this message translates to:
+  /// **'Are you sure you want to delete this meeting reminder?'**
+  String get deleteMeetingConfirm;
+
+  /// No description provided for @titleRequired.
+  ///
+  /// In en, this message translates to:
+  /// **'Title is required'**
+  String get titleRequired;
 }
 
 class _AppLocalizationsDelegate

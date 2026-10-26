@@ -45,7 +45,7 @@ void main() {
       // Tap "Reminders" tab
       await tester.tap(find.byIcon(Icons.calendar_today_outlined));
       await tester.pumpAndSettle();
-      expect(find.text('Upcoming Meetings'), findsOneWidget);
+      expect(find.widgetWithText(Tab, 'Today'), findsOneWidget);
 
       // Tap "Profile" tab
       await tester.tap(find.byIcon(Icons.person_outline));

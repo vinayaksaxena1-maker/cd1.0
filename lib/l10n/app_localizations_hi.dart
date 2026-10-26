@@ -391,4 +391,59 @@ class AppLocalizationsHi extends AppLocalizations {
 
   @override
   String get contactImported => 'संपर्क सफलतापूर्वक जोड़ा गया';
+
+  @override
+  String get todayTab => 'आज';
+
+  @override
+  String get upcomingTab => 'आगामी';
+
+  @override
+  String get overdueTab => 'अतिदेय';
+
+  @override
+  String get completedTab => 'पूर्ण';
+
+  @override
+  String get addMeeting => 'मीटिंग तय करें';
+
+  @override
+  String get editMeeting => 'मीटिंग संपादित करें';
+
+  @override
+  String get meetingTitle => 'मीटिंग का विषय *';
+
+  @override
+  String get agenda => 'एजेंडा / चर्चा का विषय';
+
+  @override
+  String get selectDate => 'दिनांक चुनें';
+
+  @override
+  String get selectTime => 'समय चुनें';
+
+  @override
+  String get linkContact => 'संपर्क लिंक करें';
+
+  @override
+  String get noLinkedContact => 'कोई नहीं (सामान्य मीटिंग)';
+
+  @override
+  String get noMeetingsScheduled => 'कोई मीटिंग तय नहीं है';
+
+  @override
+  String get meetingSaved => 'मीटिंग रिमाइंडर सहेज लिया गया';
+
+  @override
+  String get meetingDeleted => 'मीटिंग रिमाइंडर हटा दिया गया';
+
+  @override
+  String get deleteMeeting => 'मीटिंग रिमाइंडर हटाएं';
+
+  @override
+  String get deleteMeetingConfirm =>
+      'क्या आप वाकई इस मीटिंग रिमाइंडर को हटाना चाहते हैं?';
+
+  @override
+  String get titleRequired => 'विषय अनिवार्य है';
 }
