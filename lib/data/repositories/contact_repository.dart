@@ -11,6 +11,9 @@ class ContactRepository {
   }
 
   List<ContactCard> getAllCards() {
+    if (_box == null && !Hive.isBoxOpen(HiveRegistrar.contactCardsBox)) {
+      return [];
+    }
     final box = _box ?? Hive.box<ContactCard>(HiveRegistrar.contactCardsBox);
     final list = box.values.toList();
     list.sort((a, b) => b.createdAt.compareTo(a.createdAt));

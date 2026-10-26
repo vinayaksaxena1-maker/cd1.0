@@ -542,4 +542,52 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get signOut => 'Sign Out';
+
+  @override
+  String get editProfile => 'Edit Business Profile';
+
+  @override
+  String get businessProfile => 'Business Profile & Card Identity';
+
+  @override
+  String get profileUpdated => 'Profile updated successfully';
+
+  @override
+  String get backupAndExport => 'Data Backup & Export';
+
+  @override
+  String get exportJsonBackup => 'Offline Full Backup (JSON)';
+
+  @override
+  String get exportJsonSubtitle =>
+      'Export all cards, reminders & categories into JSON';
+
+  @override
+  String get exportVcfContacts => 'Export All Contacts (vCard .vcf)';
+
+  @override
+  String get exportVcfSubtitle =>
+      'RFC 6350 contacts archive for phone & Google Contacts';
+
+  @override
+  String get privacyPolicy => 'Privacy Policy & Data Safety';
+
+  @override
+  String get privacyPolicySubtitle => 'Google Play 2026 Policy Disclosures';
+
+  @override
+  String get appInfo => 'About CardSaathi';
+
+  @override
+  String get appVersion => 'Version 1.0.0 (Release Build)';
+
+  @override
+  String get dataErasedSuccess =>
+      'All local data and account information erased successfully';
+
+  @override
+  String get selectLogo => 'Choose Logo / Photo';
+
+  @override
+  String get removeLogo => 'Remove Logo';
 }

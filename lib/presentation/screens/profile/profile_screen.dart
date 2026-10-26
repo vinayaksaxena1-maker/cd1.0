@@ -1,3 +1,4 @@
+import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import '../../../core/theme/app_colors.dart';
@@ -9,10 +10,17 @@ import '../../../data/local/storage_service.dart';
 import '../../../l10n/app_localizations.dart';
 import '../../widgets/auth/auth_modal.dart';
 import '../../widgets/profile/cloud_sync_card.dart';
+import '../../widgets/profile/data_export_card.dart';
+import '../../widgets/profile/privacy_policy_modal.dart';
 
-class ProfileScreen extends StatelessWidget {
+class ProfileScreen extends StatefulWidget {
   const ProfileScreen({super.key});
 
+  @override
+  State<ProfileScreen> createState() => _ProfileScreenState();
+}
+
+class _ProfileScreenState extends State<ProfileScreen> {
   void _showDeleteAccountDialog(BuildContext context, AppLocalizations l10n) {
     showDialog(
       context: context,
@@ -32,21 +40,25 @@ class ProfileScreen extends StatelessWidget {
               minimumSize: const Size(100, 44),
             ),
             onPressed: () async {
+              final messenger = ScaffoldMessenger.of(context);
               Navigator.of(ctx).pop();
               // Wipe local storage
               await StorageService.instance.contactRepo.clearAllCards();
               await StorageService.instance.reminderRepo.clearAllReminders();
+              await StorageService.instance.userProfileRepo.clearProfile();
               // Wipe cloud storage
               await CloudSyncService.instance.wipeUserData();
+              // Sign out Firebase
+              await FirebaseService.instance.signOut();
 
-              if (context.mounted) {
-                ScaffoldMessenger.of(context).showSnackBar(
-                  SnackBar(
-                    backgroundColor: AppColors.error,
-                    content: Text('${l10n.deleteAccountData} - ${l10n.success}'),
-                  ),
-                );
-              }
+              if (!mounted) return;
+              setState(() {});
+              messenger.showSnackBar(
+                SnackBar(
+                  backgroundColor: AppColors.error,
+                  content: Text(l10n.dataErasedSuccess),
+                ),
+              );
             },
             child: Text(l10n.confirm, style: AppTypography.labelLarge(color: Colors.white)),
           ),
@@ -99,15 +111,61 @@ class ProfileScreen extends StatelessWidget {
               )
             : TextButton(
                 onPressed: () async {
+                  final messenger = ScaffoldMessenger.of(context);
                   await fbService.signOut();
-                  if (context.mounted) {
-                    ScaffoldMessenger.of(context).showSnackBar(
-                      SnackBar(content: Text(l10n.guestMode)),
-                    );
-                  }
+                  if (!mounted) return;
+                  setState(() {});
+                  messenger.showSnackBar(
+                    SnackBar(content: Text(l10n.guestMode)),
+                  );
                 },
                 child: Text(l10n.signOut, style: AppTypography.labelLarge(color: AppColors.error)),
               ),
+      ),
+    );
+  }
+
+  Widget _buildBusinessProfileCard(BuildContext context, AppLocalizations l10n) {
+    final profile = StorageService.instance.userProfileRepo.getProfile();
+    final hasProfile = profile != null && profile.name.isNotEmpty;
+
+    return Card(
+      color: AppColors.surfaceCard,
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(16),
+        side: const BorderSide(color: AppColors.borderSubtle),
+      ),
+      child: ListTile(
+        contentPadding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+        leading: CircleAvatar(
+          radius: 22,
+          backgroundColor: AppColors.surfaceSage,
+          backgroundImage: profile?.logoPath != null && File(profile!.logoPath!).existsSync()
+              ? FileImage(File(profile.logoPath!)) as ImageProvider
+              : null,
+          child: profile?.logoPath == null || !File(profile!.logoPath!).existsSync()
+              ? const Icon(Icons.badge_outlined, color: AppColors.forestGreen)
+              : null,
+        ),
+        title: Text(
+          hasProfile ? profile.name : l10n.businessProfile,
+          style: AppTypography.titleMedium(),
+        ),
+        subtitle: Text(
+          hasProfile && profile.company.isNotEmpty ? profile.company : l10n.editProfile,
+          style: AppTypography.bodySmall(),
+        ),
+        trailing: OutlinedButton(
+          onPressed: () async {
+            await context.push('/profile/edit');
+            if (mounted) setState(() {});
+          },
+          style: OutlinedButton.styleFrom(
+            padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 4),
+            minimumSize: const Size(60, 32),
+          ),
+          child: Text(l10n.editCard, style: AppTypography.labelLarge(color: AppColors.forestGreen)),
+        ),
       ),
     );
   }
@@ -127,6 +185,10 @@ class ProfileScreen extends StatelessWidget {
           _buildAccountCard(context, l10n),
           const SizedBox(height: 12),
 
+          // Business Profile Identity Card
+          _buildBusinessProfileCard(context, l10n),
+          const SizedBox(height: 12),
+
           // Digital Card Teaser
           Card(
             color: AppColors.surfaceSage,
@@ -137,12 +199,12 @@ class ProfileScreen extends StatelessWidget {
                 child: Icon(Icons.qr_code, color: Colors.white),
               ),
               title: Text('My Digital Card (vCard)', style: AppTypography.titleMedium()),
-              subtitle: Text('NFC & QR Offline Sharing', style: AppTypography.bodySmall()),
+              subtitle: Text('20 Stitch Templates & Offline QR', style: AppTypography.bodySmall()),
               trailing: const Icon(Icons.arrow_forward_ios, size: 16, color: AppColors.forestGreen),
               onTap: () => context.push('/digital-card'),
             ),
           ),
-          const SizedBox(height: 16),
+          const SizedBox(height: 12),
 
           // Categories Hub Link
           Card(
@@ -158,6 +220,10 @@ class ProfileScreen extends StatelessWidget {
 
           // Google Firebase Cloud Sync Card
           const CloudSyncCard(),
+          const SizedBox(height: 12),
+
+          // Offline Data Backup & Multi-vCard Export Card
+          const DataExportCard(),
           const SizedBox(height: 12),
 
           // Bilingual Language Selector
@@ -176,7 +242,19 @@ class ProfileScreen extends StatelessWidget {
               ),
             ),
           ),
-          const SizedBox(height: 32),
+          const SizedBox(height: 12),
+
+          // Google Play 2026 Privacy Policy Tile
+          Card(
+            child: ListTile(
+              leading: const Icon(Icons.policy_outlined, color: AppColors.forestGreen),
+              title: Text(l10n.privacyPolicy, style: AppTypography.titleMedium()),
+              subtitle: Text(l10n.privacyPolicySubtitle, style: AppTypography.bodySmall()),
+              trailing: const Icon(Icons.arrow_forward_ios, size: 16, color: AppColors.textSecondary),
+              onTap: () => PrivacyPolicyModal.show(context),
+            ),
+          ),
+          const SizedBox(height: 24),
 
           // Google Play 2026 Mandatory Account Deletion Section (Section 4.4)
           Card(
@@ -198,6 +276,16 @@ class ProfileScreen extends StatelessWidget {
               onTap: () => _showDeleteAccountDialog(context, l10n),
             ),
           ),
+          const SizedBox(height: 16),
+
+          // App Info Footer
+          Center(
+            child: Text(
+              '${l10n.appInfo} · ${l10n.appVersion}',
+              style: AppTypography.bodySmall(color: AppColors.textSecondary),
+            ),
+          ),
+          const SizedBox(height: 24),
         ],
       ),
     );

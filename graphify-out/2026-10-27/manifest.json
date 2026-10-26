@@ -306,21 +306,21 @@
     "semantic_hash": ""
   },
   "lib/l10n/app_localizations.dart": {
-    "mtime": 1793044899.9941485,
-    "seen": 1793046232.9092424,
-    "ast_hash": "3a4231d649fcb8210b0c21670e6e7d0e",
+    "mtime": 1793047411.4527638,
+    "seen": 1793047813.7848878,
+    "ast_hash": "fbda0956a21f08f6ea6300a65917d2bb",
     "semantic_hash": ""
   },
   "lib/l10n/app_localizations_en.dart": {
-    "mtime": 1793044899.9785297,
-    "seen": 1793046232.9092424,
-    "ast_hash": "b90c5c573d34abfe35507861a3b8a822",
+    "mtime": 1793047411.4333947,
+    "seen": 1793047813.7848878,
+    "ast_hash": "4de5e2b11717100b38763a685077b85b",
     "semantic_hash": ""
   },
   "lib/l10n/app_localizations_hi.dart": {
-    "mtime": 1793044899.9824338,
-    "seen": 1793046232.9092424,
-    "ast_hash": "8fc81744be50ddcbf336f20182361736",
+    "mtime": 1793047411.4392529,
+    "seen": 1793047813.7848878,
+    "ast_hash": "db57b359fb9f393f37e2d3a9613d8371",
     "semantic_hash": ""
   },
   "lib/presentation/navigation/main_shell.dart": {
@@ -354,9 +354,9 @@
     "semantic_hash": ""
   },
   "lib/presentation/screens/profile/profile_screen.dart": {
-    "mtime": 1793044606.326157,
-    "seen": 1793046232.9092424,
-    "ast_hash": "cf47c857e5a17aeec69ece654a09ddf6",
+    "mtime": 1793047129.6712594,
+    "seen": 1793047813.7848878,
+    "ast_hash": "0acf51351528d156f783847cbe178baf",
     "semantic_hash": ""
   },
   "lib/presentation/screens/reminders/reminders_screen.dart": {
@@ -726,9 +726,9 @@
     "semantic_hash": ""
   },
   "lib/core/services/firebase_service.dart": {
-    "mtime": 1793044470.943946,
-    "seen": 1793046232.9092424,
-    "ast_hash": "139cece338055a02e217a99b369c9238",
+    "mtime": 1793046925.7169702,
+    "seen": 1793047813.7848878,
+    "ast_hash": "d7ed101d1439dd5158ee00c06fd5d128",
     "semantic_hash": ""
   },
   "lib/data/models/digital_card_template.dart": {
@@ -756,15 +756,27 @@
     "semantic_hash": ""
   },
   "test/cloud_sync_test.dart": {
-    "mtime": 1793044636.118107,
-    "seen": 1793046232.9092424,
-    "ast_hash": "0596594e25670c2597bf4b2549a25b0f",
+    "mtime": 1793047072.6850715,
+    "seen": 1793047813.7848878,
+    "ast_hash": "19aced6f7859e8c4ce36f160276f8dac",
     "semantic_hash": ""
   },
   "test/digital_card_templates_test.dart": {
     "mtime": 1793044297.3049088,
     "seen": 1793046232.9092424,
     "ast_hash": "b35916757174a718f82a624fea1709de",
+    "semantic_hash": ""
+  },
+  "lib/presentation/widgets/auth/auth_modal.dart": {
+    "mtime": 1793046942.555468,
+    "seen": 1793047813.7848878,
+    "ast_hash": "c4c3fff434f16f494c3f7086a9843583",
+    "semantic_hash": ""
+  },
+  "lib/presentation/widgets/profile/cloud_sync_card.dart": {
+    "mtime": 1793046963.2393224,
+    "seen": 1793047813.7848878,
+    "ast_hash": "328464c23fa7289e3a83f123fe2a3ca1",
     "semantic_hash": ""
   }
 }

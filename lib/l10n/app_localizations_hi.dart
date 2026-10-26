@@ -542,4 +542,53 @@ class AppLocalizationsHi extends AppLocalizations {
 
   @override
   String get signOut => 'लॉग आउट करें';
+
+  @override
+  String get editProfile => 'व्यापारिक प्रोफ़ाइल संपादित करें';
+
+  @override
+  String get businessProfile => 'व्यावसायिक प्रोफ़ाइल व कार्ड पहचान';
+
+  @override
+  String get profileUpdated => 'प्रोफ़ाइल सफलतापूर्वक अपडेट हो गई';
+
+  @override
+  String get backupAndExport => 'डेटा बैकअप व एक्सपोर्ट';
+
+  @override
+  String get exportJsonBackup => 'ऑफ़लाइन संपूर्ण बैकअप (JSON)';
+
+  @override
+  String get exportJsonSubtitle =>
+      'सभी कार्ड्स, मीटिंग्स व श्रेणियां एकल फ़ाइल में सेव करें';
+
+  @override
+  String get exportVcfContacts => 'सभी संपर्क एक्सपोर्ट करें (.vcf)';
+
+  @override
+  String get exportVcfSubtitle =>
+      'फ़ोन व गूगल कॉन्टैक्ट्स में सीधे इम्पोर्ट करने योग्य vCard';
+
+  @override
+  String get privacyPolicy => 'प्राइवेसी पॉलिसी व डेटा सुरक्षा';
+
+  @override
+  String get privacyPolicySubtitle =>
+      'Google Play 2026 कानूनी व डेटा प्रकटीकरण';
+
+  @override
+  String get appInfo => 'कार्डसाथी के बारे में';
+
+  @override
+  String get appVersion => 'संस्करण 1.0.0 (रिलीज़ बिल्ड)';
+
+  @override
+  String get dataErasedSuccess =>
+      'सभी लोकल डेटा और अकाउंट विवरण सफलतापूर्वक हटा दिए गए';
+
+  @override
+  String get selectLogo => 'लोगो / फ़ोटो चुनें';
+
+  @override
+  String get removeLogo => 'लोगो हटाएं';
 }

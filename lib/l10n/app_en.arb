@@ -180,5 +180,20 @@
   "enterOtp": "Enter 6-digit OTP",
   "verifyOtp": "Verify & Sign In",
   "guestNotice": "As a guest, all visiting cards & meetings are saved safely on your device.",
-  "signOut": "Sign Out"
+  "signOut": "Sign Out",
+  "editProfile": "Edit Business Profile",
+  "businessProfile": "Business Profile & Card Identity",
+  "profileUpdated": "Profile updated successfully",
+  "backupAndExport": "Data Backup & Export",
+  "exportJsonBackup": "Offline Full Backup (JSON)",
+  "exportJsonSubtitle": "Export all cards, reminders & categories into JSON",
+  "exportVcfContacts": "Export All Contacts (vCard .vcf)",
+  "exportVcfSubtitle": "RFC 6350 contacts archive for phone & Google Contacts",
+  "privacyPolicy": "Privacy Policy & Data Safety",
+  "privacyPolicySubtitle": "Google Play 2026 Policy Disclosures",
+  "appInfo": "About CardSaathi",
+  "appVersion": "Version 1.0.0 (Release Build)",
+  "dataErasedSuccess": "All local data and account information erased successfully",
+  "selectLogo": "Choose Logo / Photo",
+  "removeLogo": "Remove Logo"
 }

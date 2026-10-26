@@ -1141,6 +1141,96 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Sign Out'**
   String get signOut;
+
+  /// No description provided for @editProfile.
+  ///
+  /// In en, this message translates to:
+  /// **'Edit Business Profile'**
+  String get editProfile;
+
+  /// No description provided for @businessProfile.
+  ///
+  /// In en, this message translates to:
+  /// **'Business Profile & Card Identity'**
+  String get businessProfile;
+
+  /// No description provided for @profileUpdated.
+  ///
+  /// In en, this message translates to:
+  /// **'Profile updated successfully'**
+  String get profileUpdated;
+
+  /// No description provided for @backupAndExport.
+  ///
+  /// In en, this message translates to:
+  /// **'Data Backup & Export'**
+  String get backupAndExport;
+
+  /// No description provided for @exportJsonBackup.
+  ///
+  /// In en, this message translates to:
+  /// **'Offline Full Backup (JSON)'**
+  String get exportJsonBackup;
+
+  /// No description provided for @exportJsonSubtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Export all cards, reminders & categories into JSON'**
+  String get exportJsonSubtitle;
+
+  /// No description provided for @exportVcfContacts.
+  ///
+  /// In en, this message translates to:
+  /// **'Export All Contacts (vCard .vcf)'**
+  String get exportVcfContacts;
+
+  /// No description provided for @exportVcfSubtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'RFC 6350 contacts archive for phone & Google Contacts'**
+  String get exportVcfSubtitle;
+
+  /// No description provided for @privacyPolicy.
+  ///
+  /// In en, this message translates to:
+  /// **'Privacy Policy & Data Safety'**
+  String get privacyPolicy;
+
+  /// No description provided for @privacyPolicySubtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Google Play 2026 Policy Disclosures'**
+  String get privacyPolicySubtitle;
+
+  /// No description provided for @appInfo.
+  ///
+  /// In en, this message translates to:
+  /// **'About CardSaathi'**
+  String get appInfo;
+
+  /// No description provided for @appVersion.
+  ///
+  /// In en, this message translates to:
+  /// **'Version 1.0.0 (Release Build)'**
+  String get appVersion;
+
+  /// No description provided for @dataErasedSuccess.
+  ///
+  /// In en, this message translates to:
+  /// **'All local data and account information erased successfully'**
+  String get dataErasedSuccess;
+
+  /// No description provided for @selectLogo.
+  ///
+  /// In en, this message translates to:
+  /// **'Choose Logo / Photo'**
+  String get selectLogo;
+
+  /// No description provided for @removeLogo.
+  ///
+  /// In en, this message translates to:
+  /// **'Remove Logo'**
+  String get removeLogo;
 }
 
 class _AppLocalizationsDelegate
