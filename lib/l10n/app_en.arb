@@ -1,0 +1,52 @@
+{
+  "@@locale": "en",
+  "appTitle": "CardSaathi",
+  "appTagline": "Your Smart Digital Business Card Partner",
+  
+  "navHome": "Home",
+  "navCards": "Cards",
+  "navCategories": "Categories",
+  "navReminders": "Reminders",
+  "navProfile": "Profile",
+
+  "scanCardButton": "Scan Visiting Card",
+  "quickActions": "Quick Actions",
+  "recentCards": "Recent Cards",
+  "upcomingMeetings": "Upcoming Meetings",
+  "noCardsYet": "No cards added yet",
+  "noMeetingsToday": "No meetings scheduled for today",
+  "viewAll": "View All",
+
+  "scanTitle": "Scan Visiting Card",
+  "scanInstructions": "Align the business card within the frame",
+  "reviewTitle": "Review Card Details",
+  "saveCard": "Save Card",
+  "retakePhoto": "Retake",
+
+  "fullName": "Full Name",
+  "company": "Company / Business",
+  "jobTitle": "Designation / Role",
+  "phoneNumber": "Phone Number",
+  "emailAddress": "Email Address",
+  "address": "Business Address",
+  "gstin": "GSTIN / Tax ID",
+  "category": "Business Category",
+  "notes": "Notes & Key Context",
+
+  "shareOnWhatsApp": "Share on WhatsApp",
+  "whatsAppGreeting": "Great meeting you! Here is my digital business card.",
+  "callDirectly": "Call Directly",
+  "recordVoiceMemo": "Record 10s Voice Memo",
+  "voiceMemoSaved": "Voice memo attached",
+
+  "settingsTitle": "Settings",
+  "languageToggle": "Language / भाषा",
+  "cameraDisclosure": "CardSaathi only uses camera to scan physical visiting cards. Your data stays securely on your phone.",
+  "deleteAccountData": "Permanently Delete Account & All Data",
+  "deleteConfirmTitle": "Delete All Data?",
+  "deleteConfirmMessage": "This action cannot be undone. All your scanned cards, voice notes, and categories will be permanently removed.",
+  "confirm": "Confirm",
+  "cancel": "Cancel",
+  "success": "Success",
+  "error": "Error"
+}

@@ -1,0 +1,85 @@
+import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
+
+import '../../presentation/navigation/main_shell.dart';
+import '../../presentation/screens/home/home_screen.dart';
+import '../../presentation/screens/cards/cards_screen.dart';
+import '../../presentation/screens/reminders/reminders_screen.dart';
+import '../../presentation/screens/profile/profile_screen.dart';
+import '../../presentation/screens/scan/scan_screen.dart';
+import '../../presentation/screens/categories/categories_screen.dart';
+import '../../presentation/screens/digital_card/digital_card_screen.dart';
+
+/// Declarative Routing Configuration for CardSaathi using go_router
+abstract final class AppRouter {
+  static final _rootNavigatorKey = GlobalKey<NavigatorState>();
+
+  static final router = GoRouter(
+    navigatorKey: _rootNavigatorKey,
+    initialLocation: '/',
+    debugLogDiagnostics: false,
+    routes: [
+      // Stateful Nested Shell for Bottom Navigation Tabs
+      StatefulShellRoute.indexedStack(
+        builder: (context, state, navigationShell) {
+          return MainShell(navigationShell: navigationShell);
+        },
+        branches: [
+          // Branch 0: Home Dashboard
+          StatefulShellBranch(
+            routes: [
+              GoRoute(
+                path: '/',
+                builder: (context, state) => const HomeScreen(),
+              ),
+            ],
+          ),
+          // Branch 1: Cards & Contacts
+          StatefulShellBranch(
+            routes: [
+              GoRoute(
+                path: '/cards',
+                builder: (context, state) => const CardsScreen(),
+              ),
+            ],
+          ),
+          // Branch 2: Reminders & Meetings
+          StatefulShellBranch(
+            routes: [
+              GoRoute(
+                path: '/reminders',
+                builder: (context, state) => const RemindersScreen(),
+              ),
+            ],
+          ),
+          // Branch 3: Profile & Settings
+          StatefulShellBranch(
+            routes: [
+              GoRoute(
+                path: '/profile',
+                builder: (context, state) => const ProfileScreen(),
+              ),
+            ],
+          ),
+        ],
+      ),
+
+      // Full-Screen Push Routes (Overlaying Navigation Shell)
+      GoRoute(
+        path: '/scan',
+        parentNavigatorKey: _rootNavigatorKey,
+        builder: (context, state) => const ScanScreen(),
+      ),
+      GoRoute(
+        path: '/categories',
+        parentNavigatorKey: _rootNavigatorKey,
+        builder: (context, state) => const CategoriesScreen(),
+      ),
+      GoRoute(
+        path: '/digital-card',
+        parentNavigatorKey: _rootNavigatorKey,
+        builder: (context, state) => const DigitalCardScreen(),
+      ),
+    ],
+  );
+}

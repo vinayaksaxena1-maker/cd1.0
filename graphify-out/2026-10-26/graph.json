@@ -213,6 +213,18 @@
       "source_location": "L70"
     },
     {
+      "id": "cardsaathi_antigravity_flutter_implementation_plan_6_\u0905\u0928_\u0936_\u0938_\u0924_\u0915_\u0930_\u092f_\u0928_\u0935\u092f\u0928_\u0915_\u0930\u092e_recommended_6_milestone_order",
+      "label": "\ud83c\udfd7\ufe0f 6. \u0905\u0928\u0941\u0936\u0902\u0938\u093f\u0924 \u0915\u094d\u0930\u093f\u092f\u093e\u0928\u094d\u0935\u092f\u0928 \u0915\u094d\u0930\u092e (Recommended 6-Milestone Order)",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "\u0915\u093e\u0930\u094d\u0921\u0938\u093e\u0925\u0940 (CardSaathi) \u2014 \u092b\u093c\u094d\u0932\u091f\u0930 \u0938\u0902\u092a\u0942\u0930\u094d\u0923 \u0915\u094d\u0930\u093f\u092f\u093e\u0928\u094d\u0935\u092f\u0928 \u092f\u094b\u091c\u0928\u093e",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "\ud83c\udfd7\ufe0f 6. \u0905\u0928\u0941\u0936\u0902\u0938\u093f\u0924 \u0915\u0930\u093f\u092f\u093e\u0928\u0935\u092f\u0928 \u0915\u0930\u092e (recommended 6-milestone order)",
+      "source_file": "CardSaathi-Antigravity-Flutter-Implementation-Plan.md",
+      "source_location": "L78"
+    },
+    {
       "id": "cardsaathi_antigravity_flutter_implementation_plan_7_\u092e_\u0907\u0932\u0938_\u091f_\u0928_\u0938_\u0924\u0930_\u092f_\u091f_\u0938_\u091f_\u0917_\u091f_\u090f\u0935_\u0930_\u0917_\u0930_\u0936\u0928_\u092a_\u0930_\u091f_\u0915_\u0932_quality_gates",
       "label": "\ud83e\uddea 7. \u092e\u093e\u0907\u0932\u0938\u094d\u091f\u094b\u0928-\u0938\u094d\u0924\u0930\u0940\u092f \u091f\u0947\u0938\u094d\u091f-\u0917\u0947\u091f \u090f\u0935\u0902 \u0930\u093f\u0917\u094d\u0930\u0947\u0936\u0928 \u092a\u094d\u0930\u094b\u091f\u094b\u0915\u0949\u0932 (Quality Gates)",
       "_origin": "ast",
@@ -249,6 +261,78 @@
       "source_location": "L181"
     },
     {
+      "id": "cardsaathi_antigravity_flutter_implementation_plan_milestone_1_foundation_\u092c_\u0928_\u092f_\u0926",
+      "label": "\ud83d\udd39 Milestone 1: Foundation (\u092c\u0941\u0928\u093f\u092f\u093e\u0926)",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "\u0915\u093e\u0930\u094d\u0921\u0938\u093e\u0925\u0940 (CardSaathi) \u2014 \u092b\u093c\u094d\u0932\u091f\u0930 \u0938\u0902\u092a\u0942\u0930\u094d\u0923 \u0915\u094d\u0930\u093f\u092f\u093e\u0928\u094d\u0935\u092f\u0928 \u092f\u094b\u091c\u0928\u093e",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "\ud83d\udd39 milestone 1: foundation (\u092c\u0941\u0928\u093f\u092f\u093e\u0926)",
+      "source_file": "CardSaathi-Antigravity-Flutter-Implementation-Plan.md",
+      "source_location": "L83"
+    },
+    {
+      "id": "cardsaathi_antigravity_flutter_implementation_plan_milestone_2_contacts_\u0938_\u092a\u0930_\u0915_\u090f\u0935_\u0915_\u091f_\u0917\u0930_\u0939\u092c",
+      "label": "\ud83d\udd39 Milestone 2: Contacts (\u0938\u0902\u092a\u0930\u094d\u0915 \u090f\u0935\u0902 \u0915\u0948\u091f\u0947\u0917\u0930\u0940 \u0939\u092c)",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "\u0915\u093e\u0930\u094d\u0921\u0938\u093e\u0925\u0940 (CardSaathi) \u2014 \u092b\u093c\u094d\u0932\u091f\u0930 \u0938\u0902\u092a\u0942\u0930\u094d\u0923 \u0915\u094d\u0930\u093f\u092f\u093e\u0928\u094d\u0935\u092f\u0928 \u092f\u094b\u091c\u0928\u093e",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "\ud83d\udd39 milestone 2: contacts (\u0938\u0902\u092a\u0930\u0915 \u090f\u0935\u0902 \u0915\u0948\u091f\u0947\u0917\u0930\u0940 \u0939\u092c)",
+      "source_file": "CardSaathi-Antigravity-Flutter-Implementation-Plan.md",
+      "source_location": "L97"
+    },
+    {
+      "id": "cardsaathi_antigravity_flutter_implementation_plan_milestone_3_card_scanning_\u0938_\u0915_\u0928_\u0917_\u090f\u0935_ocr_\u092a_\u0907\u092a\u0932_\u0907\u0928",
+      "label": "\ud83d\udd39 Milestone 3: Card Scanning (\u0938\u094d\u0915\u0948\u0928\u093f\u0902\u0917 \u090f\u0935\u0902 OCR \u092a\u093e\u0907\u092a\u0932\u093e\u0907\u0928)",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "\u0915\u093e\u0930\u094d\u0921\u0938\u093e\u0925\u0940 (CardSaathi) \u2014 \u092b\u093c\u094d\u0932\u091f\u0930 \u0938\u0902\u092a\u0942\u0930\u094d\u0923 \u0915\u094d\u0930\u093f\u092f\u093e\u0928\u094d\u0935\u092f\u0928 \u092f\u094b\u091c\u0928\u093e",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "\ud83d\udd39 milestone 3: card scanning (\u0938\u0915\u0948\u0928\u093f\u0902\u0917 \u090f\u0935\u0902 ocr \u092a\u093e\u0907\u092a\u0932\u093e\u0907\u0928)",
+      "source_file": "CardSaathi-Antigravity-Flutter-Implementation-Plan.md",
+      "source_location": "L106"
+    },
+    {
+      "id": "cardsaathi_antigravity_flutter_implementation_plan_milestone_4_reminders_\u092e_\u091f_\u0917_\u0938_\u0936_\u0921_\u092f_\u0932\u0930_\u090f\u0935_\u0905\u0932_\u0930_\u092e",
+      "label": "\ud83d\udd39 Milestone 4: Reminders (\u092e\u0940\u091f\u093f\u0902\u0917\u094d\u0938, \u0936\u0947\u0921\u094d\u092f\u0942\u0932\u0930 \u090f\u0935\u0902 \u0905\u0932\u093e\u0930\u094d\u092e)",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "\u0915\u093e\u0930\u094d\u0921\u0938\u093e\u0925\u0940 (CardSaathi) \u2014 \u092b\u093c\u094d\u0932\u091f\u0930 \u0938\u0902\u092a\u0942\u0930\u094d\u0923 \u0915\u094d\u0930\u093f\u092f\u093e\u0928\u094d\u0935\u092f\u0928 \u092f\u094b\u091c\u0928\u093e",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "\ud83d\udd39 milestone 4: reminders (\u092e\u0940\u091f\u093f\u0902\u0917\u0938, \u0936\u0947\u0921\u092f\u0942\u0932\u0930 \u090f\u0935\u0902 \u0905\u0932\u093e\u0930\u092e)",
+      "source_file": "CardSaathi-Antigravity-Flutter-Implementation-Plan.md",
+      "source_location": "L119"
+    },
+    {
+      "id": "cardsaathi_antigravity_flutter_implementation_plan_milestone_5_digital_card_sharing_\u0921_\u091c_\u091f\u0932_\u0915_\u0930_\u0921_\u0935_\u0936_\u092f\u0930_\u0917",
+      "label": "\ud83d\udd39 Milestone 5: Digital Card Sharing (\u0921\u093f\u091c\u093f\u091f\u0932 \u0915\u093e\u0930\u094d\u0921 \u0935 \u0936\u0947\u092f\u0930\u093f\u0902\u0917)",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "\u0915\u093e\u0930\u094d\u0921\u0938\u093e\u0925\u0940 (CardSaathi) \u2014 \u092b\u093c\u094d\u0932\u091f\u0930 \u0938\u0902\u092a\u0942\u0930\u094d\u0923 \u0915\u094d\u0930\u093f\u092f\u093e\u0928\u094d\u0935\u092f\u0928 \u092f\u094b\u091c\u0928\u093e",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "\ud83d\udd39 milestone 5: digital card sharing (\u0921\u093f\u091c\u093f\u091f\u0932 \u0915\u093e\u0930\u0921 \u0935 \u0936\u0947\u092f\u0930\u093f\u0902\u0917)",
+      "source_file": "CardSaathi-Antigravity-Flutter-Implementation-Plan.md",
+      "source_location": "L127"
+    },
+    {
+      "id": "cardsaathi_antigravity_flutter_implementation_plan_milestone_6_settings_\u0938_\u091f_\u0917_\u0938_\u0921_\u091f_\u092a_\u0930\u092c_\u0927\u0928_\u092a_\u0930_\u0907\u0935_\u0938_\u090f\u0935_\u0910\u0921_\u0938",
+      "label": "\ud83d\udd39 Milestone 6: Settings (\u0938\u0947\u091f\u093f\u0902\u0917\u094d\u0938, \u0921\u0947\u091f\u093e \u092a\u094d\u0930\u092c\u0902\u0927\u0928, \u092a\u094d\u0930\u093e\u0907\u0935\u0947\u0938\u0940 \u090f\u0935\u0902 \u0910\u0921\u094d\u0938)",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "\u0915\u093e\u0930\u094d\u0921\u0938\u093e\u0925\u0940 (CardSaathi) \u2014 \u092b\u093c\u094d\u0932\u091f\u0930 \u0938\u0902\u092a\u0942\u0930\u094d\u0923 \u0915\u094d\u0930\u093f\u092f\u093e\u0928\u094d\u0935\u092f\u0928 \u092f\u094b\u091c\u0928\u093e",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "\ud83d\udd39 milestone 6: settings (\u0938\u0947\u091f\u093f\u0902\u0917\u0938, \u0921\u0947\u091f\u093e \u092a\u0930\u092c\u0902\u0927\u0928, \u092a\u0930\u093e\u0907\u0935\u0947\u0938\u0940 \u090f\u0935\u0902 \u0910\u0921\u0938)",
+      "source_file": "CardSaathi-Antigravity-Flutter-Implementation-Plan.md",
+      "source_location": "L135"
+    },
+    {
       "id": "cardsaathi_antigravity_flutter_implementation_plan_\u0915_\u0930_\u0921\u0938_\u0925_cardsaathi_\u092b_\u0932\u091f\u0930_\u0938_\u092a_\u0930_\u0923_\u0915_\u0930_\u092f_\u0928_\u0935\u092f\u0928_\u092f_\u091c\u0928",
       "label": "\u0915\u093e\u0930\u094d\u0921\u0938\u093e\u0925\u0940 (CardSaathi) \u2014 \u092b\u093c\u094d\u0932\u091f\u0930 \u0938\u0902\u092a\u0942\u0930\u094d\u0923 \u0915\u094d\u0930\u093f\u092f\u093e\u0928\u094d\u0935\u092f\u0928 \u092f\u094b\u091c\u0928\u093e",
       "_origin": "ast",
@@ -261,11 +345,88 @@
       "source_location": "L1"
     },
     {
+      "id": "app_colors_dart",
+      "label": "app_colors.dart",
+      "_origin": "ast",
+      "community": 10,
+      "community_name": "theme_test.dart",
+      "file_type": "code",
+      "norm_label": "app_colors.dart",
+      "source_file": null,
+      "source_location": null
+    },
+    {
+      "id": "app_typography_dart",
+      "label": "app_typography.dart",
+      "_origin": "ast",
+      "community": 10,
+      "community_name": "theme_test.dart",
+      "file_type": "code",
+      "norm_label": "app_typography.dart",
+      "source_file": null,
+      "source_location": null
+    },
+    {
+      "id": "lib_core_theme_app_theme",
+      "label": "app_theme.dart",
+      "_origin": "ast",
+      "community": 10,
+      "community_name": "theme_test.dart",
+      "file_type": "code",
+      "norm_label": "app_theme.dart",
+      "source_file": "lib/core/theme/app_theme.dart",
+      "source_location": null
+    },
+    {
+      "id": "lib_core_theme_app_theme_apptheme",
+      "label": "AppTheme",
+      "_origin": "ast",
+      "community": 10,
+      "community_name": "theme_test.dart",
+      "file_type": "code",
+      "norm_label": "apptheme",
+      "source_file": "lib/core/theme/app_theme.dart",
+      "source_location": "L7"
+    },
+    {
+      "id": "package_cardsaathi_core_theme_app_colors_dart",
+      "label": "package:cardsaathi/core/theme/app_colors.dart",
+      "_origin": "ast",
+      "community": 10,
+      "community_name": "theme_test.dart",
+      "file_type": "code",
+      "norm_label": "package:cardsaathi/core/theme/app_colors.dart",
+      "source_file": null,
+      "source_location": null
+    },
+    {
+      "id": "package_cardsaathi_core_theme_app_theme_dart",
+      "label": "package:cardsaathi/core/theme/app_theme.dart",
+      "_origin": "ast",
+      "community": 10,
+      "community_name": "theme_test.dart",
+      "file_type": "code",
+      "norm_label": "package:cardsaathi/core/theme/app_theme.dart",
+      "source_file": null,
+      "source_location": null
+    },
+    {
+      "id": "package_cardsaathi_core_theme_app_typography_dart",
+      "label": "package:cardsaathi/core/theme/app_typography.dart",
+      "_origin": "ast",
+      "community": 10,
+      "community_name": "theme_test.dart",
+      "file_type": "code",
+      "norm_label": "package:cardsaathi/core/theme/app_typography.dart",
+      "source_file": null,
+      "source_location": null
+    },
+    {
       "id": "package_cardsaathi_main_dart",
       "label": "package:cardsaathi/main.dart",
       "_origin": "ast",
       "community": 10,
-      "community_name": "widget_test.dart",
+      "community_name": "theme_test.dart",
       "file_type": "code",
       "norm_label": "package:cardsaathi/main.dart",
       "source_file": null,
@@ -276,9 +437,20 @@
       "label": "package:flutter/material.dart",
       "_origin": "ast",
       "community": 10,
-      "community_name": "widget_test.dart",
+      "community_name": "theme_test.dart",
       "file_type": "code",
       "norm_label": "package:flutter/material.dart",
+      "source_file": null,
+      "source_location": null
+    },
+    {
+      "id": "package_flutter_services_dart",
+      "label": "package:flutter/services.dart",
+      "_origin": "ast",
+      "community": 10,
+      "community_name": "theme_test.dart",
+      "file_type": "code",
+      "norm_label": "package:flutter/services.dart",
       "source_file": null,
       "source_location": null
     },
@@ -287,18 +459,51 @@
       "label": "package:flutter_test/flutter_test.dart",
       "_origin": "ast",
       "community": 10,
-      "community_name": "widget_test.dart",
+      "community_name": "theme_test.dart",
       "file_type": "code",
       "norm_label": "package:flutter_test/flutter_test.dart",
       "source_file": null,
       "source_location": null
     },
     {
+      "id": "package_google_fonts_google_fonts_dart",
+      "label": "package:google_fonts/google_fonts.dart",
+      "_origin": "ast",
+      "community": 10,
+      "community_name": "theme_test.dart",
+      "file_type": "code",
+      "norm_label": "package:google_fonts/google_fonts.dart",
+      "source_file": null,
+      "source_location": null
+    },
+    {
+      "id": "test_theme_test",
+      "label": "theme_test.dart",
+      "_origin": "ast",
+      "community": 10,
+      "community_name": "theme_test.dart",
+      "file_type": "code",
+      "norm_label": "theme_test.dart",
+      "source_file": "test/theme_test.dart",
+      "source_location": null
+    },
+    {
+      "id": "test_theme_test_main",
+      "label": "main",
+      "_origin": "ast",
+      "community": 10,
+      "community_name": "theme_test.dart",
+      "file_type": "code",
+      "norm_label": "main",
+      "source_file": "test/theme_test.dart",
+      "source_location": "L8"
+    },
+    {
       "id": "test_widget_test",
       "label": "widget_test.dart",
       "_origin": "ast",
       "community": 10,
-      "community_name": "widget_test.dart",
+      "community_name": "theme_test.dart",
       "file_type": "code",
       "norm_label": "widget_test.dart",
       "source_file": "test/widget_test.dart",
@@ -309,11 +514,11 @@
       "label": "main",
       "_origin": "ast",
       "community": 10,
-      "community_name": "widget_test.dart",
+      "community_name": "theme_test.dart",
       "file_type": "code",
       "norm_label": "main",
       "source_file": "test/widget_test.dart",
-      "source_location": "L13"
+      "source_location": "L14"
     },
     {
       "id": "android_app_src_main_kotlin_com_cardsaathi_app_cardsaathi_mainactivity",
@@ -406,88 +611,543 @@
       "source_location": "L1"
     },
     {
-      "id": "cardsaathi_antigravity_flutter_implementation_plan_6_\u0905\u0928_\u0936_\u0938_\u0924_\u0915_\u0930_\u092f_\u0928_\u0935\u092f\u0928_\u0915_\u0930\u092e_recommended_6_milestone_order",
-      "label": "\ud83c\udfd7\ufe0f 6. \u0905\u0928\u0941\u0936\u0902\u0938\u093f\u0924 \u0915\u094d\u0930\u093f\u092f\u093e\u0928\u094d\u0935\u092f\u0928 \u0915\u094d\u0930\u092e (Recommended 6-Milestone Order)",
+      "id": "lib_core_theme_app_typography",
+      "label": "app_typography.dart",
       "_origin": "ast",
-      "community": 2,
-      "community_name": "\ud83c\udfd7\ufe0f 6. \u0905\u0928\u0941\u0936\u0902\u0938\u093f\u0924 \u0915\u094d\u0930\u093f\u092f\u093e\u0928\u094d\u0935\u092f\u0928 \u0915\u094d\u0930\u092e (Recommended 6-Milestone Order)",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "\ud83c\udfd7\ufe0f 6. \u0905\u0928\u0941\u0936\u0902\u0938\u093f\u0924 \u0915\u0930\u093f\u092f\u093e\u0928\u0935\u092f\u0928 \u0915\u0930\u092e (recommended 6-milestone order)",
-      "source_file": "CardSaathi-Antigravity-Flutter-Implementation-Plan.md",
-      "source_location": "L78"
+      "community": 17,
+      "community_name": "app_typography.dart",
+      "file_type": "code",
+      "norm_label": "app_typography.dart",
+      "source_file": "lib/core/theme/app_typography.dart",
+      "source_location": null
     },
     {
-      "id": "cardsaathi_antigravity_flutter_implementation_plan_milestone_1_foundation_\u092c_\u0928_\u092f_\u0926",
-      "label": "\ud83d\udd39 Milestone 1: Foundation (\u092c\u0941\u0928\u093f\u092f\u093e\u0926)",
+      "id": "lib_core_theme_app_typography_apptypography",
+      "label": "AppTypography",
       "_origin": "ast",
-      "community": 2,
-      "community_name": "\ud83c\udfd7\ufe0f 6. \u0905\u0928\u0941\u0936\u0902\u0938\u093f\u0924 \u0915\u094d\u0930\u093f\u092f\u093e\u0928\u094d\u0935\u092f\u0928 \u0915\u094d\u0930\u092e (Recommended 6-Milestone Order)",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "\ud83d\udd39 milestone 1: foundation (\u092c\u0941\u0928\u093f\u092f\u093e\u0926)",
-      "source_file": "CardSaathi-Antigravity-Flutter-Implementation-Plan.md",
+      "community": 17,
+      "community_name": "app_typography.dart",
+      "file_type": "code",
+      "norm_label": "apptypography",
+      "source_file": "lib/core/theme/app_typography.dart",
+      "source_location": "L6"
+    },
+    {
+      "id": "lib_core_theme_app_typography_bodylarge",
+      "label": "bodyLarge",
+      "_origin": "ast",
+      "community": 17,
+      "community_name": "app_typography.dart",
+      "file_type": "code",
+      "norm_label": "bodylarge",
+      "source_file": "lib/core/theme/app_typography.dart",
+      "source_location": "L42"
+    },
+    {
+      "id": "lib_core_theme_app_typography_bodymedium",
+      "label": "bodyMedium",
+      "_origin": "ast",
+      "community": 17,
+      "community_name": "app_typography.dart",
+      "file_type": "code",
+      "norm_label": "bodymedium",
+      "source_file": "lib/core/theme/app_typography.dart",
+      "source_location": "L50"
+    },
+    {
+      "id": "lib_core_theme_app_typography_bodysmall",
+      "label": "bodySmall",
+      "_origin": "ast",
+      "community": 17,
+      "community_name": "app_typography.dart",
+      "file_type": "code",
+      "norm_label": "bodysmall",
+      "source_file": "lib/core/theme/app_typography.dart",
+      "source_location": "L58"
+    },
+    {
+      "id": "lib_core_theme_app_typography_headlinelarge",
+      "label": "headlineLarge",
+      "_origin": "ast",
+      "community": 17,
+      "community_name": "app_typography.dart",
+      "file_type": "code",
+      "norm_label": "headlinelarge",
+      "source_file": "lib/core/theme/app_typography.dart",
+      "source_location": "L8"
+    },
+    {
+      "id": "lib_core_theme_app_typography_headlinemedium",
+      "label": "headlineMedium",
+      "_origin": "ast",
+      "community": 17,
+      "community_name": "app_typography.dart",
+      "file_type": "code",
+      "norm_label": "headlinemedium",
+      "source_file": "lib/core/theme/app_typography.dart",
+      "source_location": "L16"
+    },
+    {
+      "id": "lib_core_theme_app_typography_headlinesmall",
+      "label": "headlineSmall",
+      "_origin": "ast",
+      "community": 17,
+      "community_name": "app_typography.dart",
+      "file_type": "code",
+      "norm_label": "headlinesmall",
+      "source_file": "lib/core/theme/app_typography.dart",
+      "source_location": "L24"
+    },
+    {
+      "id": "lib_core_theme_app_typography_labellarge",
+      "label": "labelLarge",
+      "_origin": "ast",
+      "community": 17,
+      "community_name": "app_typography.dart",
+      "file_type": "code",
+      "norm_label": "labellarge",
+      "source_file": "lib/core/theme/app_typography.dart",
+      "source_location": "L67"
+    },
+    {
+      "id": "lib_core_theme_app_typography_labelmedium",
+      "label": "labelMedium",
+      "_origin": "ast",
+      "community": 17,
+      "community_name": "app_typography.dart",
+      "file_type": "code",
+      "norm_label": "labelmedium",
+      "source_file": "lib/core/theme/app_typography.dart",
+      "source_location": "L75"
+    },
+    {
+      "id": "lib_core_theme_app_typography_labelsmall",
+      "label": "labelSmall",
+      "_origin": "ast",
+      "community": 17,
+      "community_name": "app_typography.dart",
+      "file_type": "code",
+      "norm_label": "labelsmall",
+      "source_file": "lib/core/theme/app_typography.dart",
       "source_location": "L83"
     },
     {
-      "id": "cardsaathi_antigravity_flutter_implementation_plan_milestone_2_contacts_\u0938_\u092a\u0930_\u0915_\u090f\u0935_\u0915_\u091f_\u0917\u0930_\u0939\u092c",
-      "label": "\ud83d\udd39 Milestone 2: Contacts (\u0938\u0902\u092a\u0930\u094d\u0915 \u090f\u0935\u0902 \u0915\u0948\u091f\u0947\u0917\u0930\u0940 \u0939\u092c)",
+      "id": "lib_core_theme_app_typography_texttheme",
+      "label": "textTheme",
       "_origin": "ast",
-      "community": 2,
-      "community_name": "\ud83c\udfd7\ufe0f 6. \u0905\u0928\u0941\u0936\u0902\u0938\u093f\u0924 \u0915\u094d\u0930\u093f\u092f\u093e\u0928\u094d\u0935\u092f\u0928 \u0915\u094d\u0930\u092e (Recommended 6-Milestone Order)",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "\ud83d\udd39 milestone 2: contacts (\u0938\u0902\u092a\u0930\u0915 \u090f\u0935\u0902 \u0915\u0948\u091f\u0947\u0917\u0930\u0940 \u0939\u092c)",
-      "source_file": "CardSaathi-Antigravity-Flutter-Implementation-Plan.md",
-      "source_location": "L97"
+      "community": 17,
+      "community_name": "app_typography.dart",
+      "file_type": "code",
+      "norm_label": "texttheme",
+      "source_file": "lib/core/theme/app_typography.dart",
+      "source_location": "L92"
     },
     {
-      "id": "cardsaathi_antigravity_flutter_implementation_plan_milestone_3_card_scanning_\u0938_\u0915_\u0928_\u0917_\u090f\u0935_ocr_\u092a_\u0907\u092a\u0932_\u0907\u0928",
-      "label": "\ud83d\udd39 Milestone 3: Card Scanning (\u0938\u094d\u0915\u0948\u0928\u093f\u0902\u0917 \u090f\u0935\u0902 OCR \u092a\u093e\u0907\u092a\u0932\u093e\u0907\u0928)",
+      "id": "lib_core_theme_app_typography_titlemedium",
+      "label": "titleMedium",
       "_origin": "ast",
-      "community": 2,
-      "community_name": "\ud83c\udfd7\ufe0f 6. \u0905\u0928\u0941\u0936\u0902\u0938\u093f\u0924 \u0915\u094d\u0930\u093f\u092f\u093e\u0928\u094d\u0935\u092f\u0928 \u0915\u094d\u0930\u092e (Recommended 6-Milestone Order)",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "\ud83d\udd39 milestone 3: card scanning (\u0938\u0915\u0948\u0928\u093f\u0902\u0917 \u090f\u0935\u0902 ocr \u092a\u093e\u0907\u092a\u0932\u093e\u0907\u0928)",
-      "source_file": "CardSaathi-Antigravity-Flutter-Implementation-Plan.md",
-      "source_location": "L106"
+      "community": 17,
+      "community_name": "app_typography.dart",
+      "file_type": "code",
+      "norm_label": "titlemedium",
+      "source_file": "lib/core/theme/app_typography.dart",
+      "source_location": "L33"
     },
     {
-      "id": "cardsaathi_antigravity_flutter_implementation_plan_milestone_4_reminders_\u092e_\u091f_\u0917_\u0938_\u0936_\u0921_\u092f_\u0932\u0930_\u090f\u0935_\u0905\u0932_\u0930_\u092e",
-      "label": "\ud83d\udd39 Milestone 4: Reminders (\u092e\u0940\u091f\u093f\u0902\u0917\u094d\u0938, \u0936\u0947\u0921\u094d\u092f\u0942\u0932\u0930 \u090f\u0935\u0902 \u0905\u0932\u093e\u0930\u094d\u092e)",
+      "id": "static_texttheme_get",
+      "label": "static TextTheme get",
       "_origin": "ast",
-      "community": 2,
-      "community_name": "\ud83c\udfd7\ufe0f 6. \u0905\u0928\u0941\u0936\u0902\u0938\u093f\u0924 \u0915\u094d\u0930\u093f\u092f\u093e\u0928\u094d\u0935\u092f\u0928 \u0915\u094d\u0930\u092e (Recommended 6-Milestone Order)",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "\ud83d\udd39 milestone 4: reminders (\u092e\u0940\u091f\u093f\u0902\u0917\u0938, \u0936\u0947\u0921\u092f\u0942\u0932\u0930 \u090f\u0935\u0902 \u0905\u0932\u093e\u0930\u092e)",
-      "source_file": "CardSaathi-Antigravity-Flutter-Implementation-Plan.md",
-      "source_location": "L119"
+      "community": 17,
+      "community_name": "app_typography.dart",
+      "file_type": "code",
+      "norm_label": "static texttheme get",
+      "source_file": null,
+      "source_location": null
     },
     {
-      "id": "cardsaathi_antigravity_flutter_implementation_plan_milestone_5_digital_card_sharing_\u0921_\u091c_\u091f\u0932_\u0915_\u0930_\u0921_\u0935_\u0936_\u092f\u0930_\u0917",
-      "label": "\ud83d\udd39 Milestone 5: Digital Card Sharing (\u0921\u093f\u091c\u093f\u091f\u0932 \u0915\u093e\u0930\u094d\u0921 \u0935 \u0936\u0947\u092f\u0930\u093f\u0902\u0917)",
+      "id": "lib_core_theme_app_colors",
+      "label": "app_colors.dart",
       "_origin": "ast",
       "community": 2,
-      "community_name": "\ud83c\udfd7\ufe0f 6. \u0905\u0928\u0941\u0936\u0902\u0938\u093f\u0924 \u0915\u094d\u0930\u093f\u092f\u093e\u0928\u094d\u0935\u092f\u0928 \u0915\u094d\u0930\u092e (Recommended 6-Milestone Order)",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "\ud83d\udd39 milestone 5: digital card sharing (\u0921\u093f\u091c\u093f\u091f\u0932 \u0915\u093e\u0930\u0921 \u0935 \u0936\u0947\u092f\u0930\u093f\u0902\u0917)",
-      "source_file": "CardSaathi-Antigravity-Flutter-Implementation-Plan.md",
-      "source_location": "L127"
+      "community_name": "app_colors.dart",
+      "file_type": "code",
+      "norm_label": "app_colors.dart",
+      "source_file": "lib/core/theme/app_colors.dart",
+      "source_location": null
     },
     {
-      "id": "cardsaathi_antigravity_flutter_implementation_plan_milestone_6_settings_\u0938_\u091f_\u0917_\u0938_\u0921_\u091f_\u092a_\u0930\u092c_\u0927\u0928_\u092a_\u0930_\u0907\u0935_\u0938_\u090f\u0935_\u0910\u0921_\u0938",
-      "label": "\ud83d\udd39 Milestone 6: Settings (\u0938\u0947\u091f\u093f\u0902\u0917\u094d\u0938, \u0921\u0947\u091f\u093e \u092a\u094d\u0930\u092c\u0902\u0927\u0928, \u092a\u094d\u0930\u093e\u0907\u0935\u0947\u0938\u0940 \u090f\u0935\u0902 \u0910\u0921\u094d\u0938)",
+      "id": "lib_core_theme_app_colors_appcolors",
+      "label": "AppColors",
       "_origin": "ast",
       "community": 2,
-      "community_name": "\ud83c\udfd7\ufe0f 6. \u0905\u0928\u0941\u0936\u0902\u0938\u093f\u0924 \u0915\u094d\u0930\u093f\u092f\u093e\u0928\u094d\u0935\u092f\u0928 \u0915\u094d\u0930\u092e (Recommended 6-Milestone Order)",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "\ud83d\udd39 milestone 6: settings (\u0938\u0947\u091f\u093f\u0902\u0917\u0938, \u0921\u0947\u091f\u093e \u092a\u0930\u092c\u0902\u0927\u0928, \u092a\u0930\u093e\u0907\u0935\u0947\u0938\u0940 \u090f\u0935\u0902 \u0910\u0921\u0938)",
-      "source_file": "CardSaathi-Antigravity-Flutter-Implementation-Plan.md",
-      "source_location": "L135"
+      "community_name": "app_colors.dart",
+      "file_type": "code",
+      "norm_label": "appcolors",
+      "source_file": "lib/core/theme/app_colors.dart",
+      "source_location": "L4"
+    },
+    {
+      "id": "lib_core_theme_app_colors_bordersubtle",
+      "label": "borderSubtle",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "app_colors.dart",
+      "file_type": "code",
+      "norm_label": "bordersubtle",
+      "source_file": "lib/core/theme/app_colors.dart",
+      "source_location": "L41"
+    },
+    {
+      "id": "lib_core_theme_app_colors_canvasivory",
+      "label": "canvasIvory",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "app_colors.dart",
+      "file_type": "code",
+      "norm_label": "canvasivory",
+      "source_file": "lib/core/theme/app_colors.dart",
+      "source_location": "L13"
+    },
+    {
+      "id": "lib_core_theme_app_colors_error",
+      "label": "error",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "app_colors.dart",
+      "file_type": "code",
+      "norm_label": "error",
+      "source_file": "lib/core/theme/app_colors.dart",
+      "source_location": "L46"
+    },
+    {
+      "id": "lib_core_theme_app_colors_errorcontainer",
+      "label": "errorContainer",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "app_colors.dart",
+      "file_type": "code",
+      "norm_label": "errorcontainer",
+      "source_file": "lib/core/theme/app_colors.dart",
+      "source_location": "L48"
+    },
+    {
+      "id": "lib_core_theme_app_colors_forestgreen",
+      "label": "forestGreen",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "app_colors.dart",
+      "file_type": "code",
+      "norm_label": "forestgreen",
+      "source_file": "lib/core/theme/app_colors.dart",
+      "source_location": "L6"
+    },
+    {
+      "id": "lib_core_theme_app_colors_onerror",
+      "label": "onError",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "app_colors.dart",
+      "file_type": "code",
+      "norm_label": "onerror",
+      "source_file": "lib/core/theme/app_colors.dart",
+      "source_location": "L47"
+    },
+    {
+      "id": "lib_core_theme_app_colors_onprimary",
+      "label": "onPrimary",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "app_colors.dart",
+      "file_type": "code",
+      "norm_label": "onprimary",
+      "source_file": "lib/core/theme/app_colors.dart",
+      "source_location": "L9"
+    },
+    {
+      "id": "lib_core_theme_app_colors_onprimarycontainer",
+      "label": "onPrimaryContainer",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "app_colors.dart",
+      "file_type": "code",
+      "norm_label": "onprimarycontainer",
+      "source_file": "lib/core/theme/app_colors.dart",
+      "source_location": "L10"
+    },
+    {
+      "id": "lib_core_theme_app_colors_onsecondary",
+      "label": "onSecondary",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "app_colors.dart",
+      "file_type": "code",
+      "norm_label": "onsecondary",
+      "source_file": "lib/core/theme/app_colors.dart",
+      "source_location": "L25"
+    },
+    {
+      "id": "lib_core_theme_app_colors_onsecondarycontainer",
+      "label": "onSecondaryContainer",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "app_colors.dart",
+      "file_type": "code",
+      "norm_label": "onsecondarycontainer",
+      "source_file": "lib/core/theme/app_colors.dart",
+      "source_location": "L26"
+    },
+    {
+      "id": "lib_core_theme_app_colors_onsurface",
+      "label": "onSurface",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "app_colors.dart",
+      "file_type": "code",
+      "norm_label": "onsurface",
+      "source_file": "lib/core/theme/app_colors.dart",
+      "source_location": "L37"
+    },
+    {
+      "id": "lib_core_theme_app_colors_onsurfacevariant",
+      "label": "onSurfaceVariant",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "app_colors.dart",
+      "file_type": "code",
+      "norm_label": "onsurfacevariant",
+      "source_file": "lib/core/theme/app_colors.dart",
+      "source_location": "L38"
+    },
+    {
+      "id": "lib_core_theme_app_colors_ontertiary",
+      "label": "onTertiary",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "app_colors.dart",
+      "file_type": "code",
+      "norm_label": "ontertiary",
+      "source_file": "lib/core/theme/app_colors.dart",
+      "source_location": "L32"
+    },
+    {
+      "id": "lib_core_theme_app_colors_outline",
+      "label": "outline",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "app_colors.dart",
+      "file_type": "code",
+      "norm_label": "outline",
+      "source_file": "lib/core/theme/app_colors.dart",
+      "source_location": "L42"
+    },
+    {
+      "id": "lib_core_theme_app_colors_outlinevariant",
+      "label": "outlineVariant",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "app_colors.dart",
+      "file_type": "code",
+      "norm_label": "outlinevariant",
+      "source_file": "lib/core/theme/app_colors.dart",
+      "source_location": "L43"
+    },
+    {
+      "id": "lib_core_theme_app_colors_primary",
+      "label": "primary",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "app_colors.dart",
+      "file_type": "code",
+      "norm_label": "primary",
+      "source_file": "lib/core/theme/app_colors.dart",
+      "source_location": "L7"
+    },
+    {
+      "id": "lib_core_theme_app_colors_primarycontainer",
+      "label": "primaryContainer",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "app_colors.dart",
+      "file_type": "code",
+      "norm_label": "primarycontainer",
+      "source_file": "lib/core/theme/app_colors.dart",
+      "source_location": "L8"
+    },
+    {
+      "id": "lib_core_theme_app_colors_saffron",
+      "label": "saffron",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "app_colors.dart",
+      "file_type": "code",
+      "norm_label": "saffron",
+      "source_file": "lib/core/theme/app_colors.dart",
+      "source_location": "L29"
+    },
+    {
+      "id": "lib_core_theme_app_colors_saffroncontainer",
+      "label": "saffronContainer",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "app_colors.dart",
+      "file_type": "code",
+      "norm_label": "saffroncontainer",
+      "source_file": "lib/core/theme/app_colors.dart",
+      "source_location": "L30"
+    },
+    {
+      "id": "lib_core_theme_app_colors_secondary",
+      "label": "secondary",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "app_colors.dart",
+      "file_type": "code",
+      "norm_label": "secondary",
+      "source_file": "lib/core/theme/app_colors.dart",
+      "source_location": "L23"
+    },
+    {
+      "id": "lib_core_theme_app_colors_secondarycontainer",
+      "label": "secondaryContainer",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "app_colors.dart",
+      "file_type": "code",
+      "norm_label": "secondarycontainer",
+      "source_file": "lib/core/theme/app_colors.dart",
+      "source_location": "L24"
+    },
+    {
+      "id": "lib_core_theme_app_colors_success",
+      "label": "success",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "app_colors.dart",
+      "file_type": "code",
+      "norm_label": "success",
+      "source_file": "lib/core/theme/app_colors.dart",
+      "source_location": "L49"
+    },
+    {
+      "id": "lib_core_theme_app_colors_surface",
+      "label": "surface",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "app_colors.dart",
+      "file_type": "code",
+      "norm_label": "surface",
+      "source_file": "lib/core/theme/app_colors.dart",
+      "source_location": "L16"
+    },
+    {
+      "id": "lib_core_theme_app_colors_surfacecard",
+      "label": "surfaceCard",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "app_colors.dart",
+      "file_type": "code",
+      "norm_label": "surfacecard",
+      "source_file": "lib/core/theme/app_colors.dart",
+      "source_location": "L14"
+    },
+    {
+      "id": "lib_core_theme_app_colors_surfacecontainer",
+      "label": "surfaceContainer",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "app_colors.dart",
+      "file_type": "code",
+      "norm_label": "surfacecontainer",
+      "source_file": "lib/core/theme/app_colors.dart",
+      "source_location": "L19"
+    },
+    {
+      "id": "lib_core_theme_app_colors_surfacecontainerhigh",
+      "label": "surfaceContainerHigh",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "app_colors.dart",
+      "file_type": "code",
+      "norm_label": "surfacecontainerhigh",
+      "source_file": "lib/core/theme/app_colors.dart",
+      "source_location": "L20"
+    },
+    {
+      "id": "lib_core_theme_app_colors_surfacecontainerlow",
+      "label": "surfaceContainerLow",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "app_colors.dart",
+      "file_type": "code",
+      "norm_label": "surfacecontainerlow",
+      "source_file": "lib/core/theme/app_colors.dart",
+      "source_location": "L18"
+    },
+    {
+      "id": "lib_core_theme_app_colors_surfacedim",
+      "label": "surfaceDim",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "app_colors.dart",
+      "file_type": "code",
+      "norm_label": "surfacedim",
+      "source_file": "lib/core/theme/app_colors.dart",
+      "source_location": "L17"
+    },
+    {
+      "id": "lib_core_theme_app_colors_surfacesage",
+      "label": "surfaceSage",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "app_colors.dart",
+      "file_type": "code",
+      "norm_label": "surfacesage",
+      "source_file": "lib/core/theme/app_colors.dart",
+      "source_location": "L15"
+    },
+    {
+      "id": "lib_core_theme_app_colors_tertiary",
+      "label": "tertiary",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "app_colors.dart",
+      "file_type": "code",
+      "norm_label": "tertiary",
+      "source_file": "lib/core/theme/app_colors.dart",
+      "source_location": "L31"
+    },
+    {
+      "id": "lib_core_theme_app_colors_textprimary",
+      "label": "textPrimary",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "app_colors.dart",
+      "file_type": "code",
+      "norm_label": "textprimary",
+      "source_file": "lib/core/theme/app_colors.dart",
+      "source_location": "L35"
+    },
+    {
+      "id": "lib_core_theme_app_colors_textsecondary",
+      "label": "textSecondary",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "app_colors.dart",
+      "file_type": "code",
+      "norm_label": "textsecondary",
+      "source_file": "lib/core/theme/app_colors.dart",
+      "source_location": "L36"
+    },
+    {
+      "id": "static_const_color",
+      "label": "static const Color",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "app_colors.dart",
+      "file_type": "code",
+      "norm_label": "static const color",
+      "source_file": null,
+      "source_location": null
     },
     {
       "id": "agents_rules_flutter",
@@ -837,6 +1497,17 @@
       "source_location": "L147"
     },
     {
+      "id": "core_theme_app_theme_dart",
+      "label": "core/theme/app_theme.dart",
+      "_origin": "ast",
+      "community": 7,
+      "community_name": "main.dart",
+      "file_type": "code",
+      "norm_label": "core/theme/app_theme.dart",
+      "source_file": null,
+      "source_location": null
+    },
+    {
       "id": "lib_main",
       "label": "main.dart",
       "_origin": "ast",
@@ -856,7 +1527,7 @@
       "file_type": "code",
       "norm_label": "build",
       "source_file": "lib/main.dart",
-      "source_location": "L12"
+      "source_location": "L13"
     },
     {
       "id": "lib_main_counter",
@@ -867,7 +1538,7 @@
       "file_type": "code",
       "norm_label": "_counter",
       "source_file": "lib/main.dart",
-      "source_location": "L57"
+      "source_location": "L42"
     },
     {
       "id": "lib_main_createstate",
@@ -878,7 +1549,7 @@
       "file_type": "code",
       "norm_label": "createstate",
       "source_file": "lib/main.dart",
-      "source_location": "L53"
+      "source_location": "L38"
     },
     {
       "id": "lib_main_incrementcounter",
@@ -889,7 +1560,7 @@
       "file_type": "code",
       "norm_label": "_incrementcounter",
       "source_file": "lib/main.dart",
-      "source_location": "L59"
+      "source_location": "L44"
     },
     {
       "id": "lib_main_main",
@@ -900,7 +1571,7 @@
       "file_type": "code",
       "norm_label": "main",
       "source_file": "lib/main.dart",
-      "source_location": "L3"
+      "source_location": "L4"
     },
     {
       "id": "lib_main_myapp",
@@ -911,7 +1582,7 @@
       "file_type": "code",
       "norm_label": "myapp",
       "source_file": "lib/main.dart",
-      "source_location": "L7"
+      "source_location": "L8"
     },
     {
       "id": "lib_main_myhomepage",
@@ -922,7 +1593,7 @@
       "file_type": "code",
       "norm_label": "myhomepage",
       "source_file": "lib/main.dart",
-      "source_location": "L38"
+      "source_location": "L23"
     },
     {
       "id": "lib_main_myhomepagestate",
@@ -933,7 +1604,7 @@
       "file_type": "code",
       "norm_label": "_myhomepagestate",
       "source_file": "lib/main.dart",
-      "source_location": "L56"
+      "source_location": "L41"
     },
     {
       "id": "lib_main_title",
@@ -944,7 +1615,7 @@
       "file_type": "code",
       "norm_label": "title",
       "source_file": "lib/main.dart",
-      "source_location": "L50"
+      "source_location": "L35"
     },
     {
       "id": "state",
@@ -987,7 +1658,7 @@
       "community_name": "RunnerTests.swift",
       "file_type": "code",
       "norm_label": "flutter",
-      "source_file": "ios/RunnerTests/RunnerTests.swift",
+      "source_file": "ios/Runner/SceneDelegate.swift",
       "source_location": "L1",
       "type": "module"
     },
@@ -1043,7 +1714,7 @@
       "community_name": "RunnerTests.swift",
       "file_type": "code",
       "norm_label": "uikit",
-      "source_file": "ios/RunnerTests/RunnerTests.swift",
+      "source_file": "ios/Runner/SceneDelegate.swift",
       "source_location": "L2",
       "type": "module"
     },
@@ -1309,6 +1980,30 @@
       },
       "source_file": "ios/Runner/AppDelegate.swift",
       "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_core_theme_app_colors",
+      "target": "static_const_color",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "variable_type",
+      "source_file": "lib/core/theme/app_colors.dart",
+      "source_location": "L49",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_core_theme_app_typography",
+      "target": "static_texttheme_get",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "variable_type",
+      "source_file": "lib/core/theme/app_typography.dart",
+      "source_location": "L92",
       "weight": 1.0
     },
     {
@@ -1829,14 +2524,509 @@
       "weight": 1.0
     },
     {
-      "source": "lib_main",
-      "target": "lib_main_main",
+      "source": "lib_core_theme_app_colors",
+      "target": "lib_core_theme_app_colors_onprimarycontainer",
       "relation": "defines",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "lib/main.dart",
-      "source_location": "L3",
+      "source_file": "lib/core/theme/app_colors.dart",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_core_theme_app_colors",
+      "target": "lib_core_theme_app_colors_canvasivory",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/core/theme/app_colors.dart",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_core_theme_app_colors",
+      "target": "lib_core_theme_app_colors_surfacecard",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/core/theme/app_colors.dart",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_core_theme_app_colors",
+      "target": "lib_core_theme_app_colors_surfacesage",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/core/theme/app_colors.dart",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_core_theme_app_colors",
+      "target": "lib_core_theme_app_colors_surface",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/core/theme/app_colors.dart",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_core_theme_app_colors",
+      "target": "lib_core_theme_app_colors_surfacedim",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/core/theme/app_colors.dart",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_core_theme_app_colors",
+      "target": "lib_core_theme_app_colors_surfacecontainerlow",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/core/theme/app_colors.dart",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_core_theme_app_colors",
+      "target": "lib_core_theme_app_colors_surfacecontainer",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/core/theme/app_colors.dart",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_core_theme_app_colors",
+      "target": "lib_core_theme_app_colors_surfacecontainerhigh",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/core/theme/app_colors.dart",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_core_theme_app_colors",
+      "target": "lib_core_theme_app_colors_secondary",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/core/theme/app_colors.dart",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_core_theme_app_colors",
+      "target": "lib_core_theme_app_colors_secondarycontainer",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/core/theme/app_colors.dart",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_core_theme_app_colors",
+      "target": "lib_core_theme_app_colors_onsecondary",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/core/theme/app_colors.dart",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_core_theme_app_colors",
+      "target": "lib_core_theme_app_colors_onsecondarycontainer",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/core/theme/app_colors.dart",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_core_theme_app_colors",
+      "target": "lib_core_theme_app_colors_saffron",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/core/theme/app_colors.dart",
+      "source_location": "L29",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_core_theme_app_colors",
+      "target": "lib_core_theme_app_colors_saffroncontainer",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/core/theme/app_colors.dart",
+      "source_location": "L30",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_core_theme_app_colors",
+      "target": "lib_core_theme_app_colors_tertiary",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/core/theme/app_colors.dart",
+      "source_location": "L31",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_core_theme_app_colors",
+      "target": "lib_core_theme_app_colors_ontertiary",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/core/theme/app_colors.dart",
+      "source_location": "L32",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_core_theme_app_colors",
+      "target": "lib_core_theme_app_colors_textprimary",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/core/theme/app_colors.dart",
+      "source_location": "L35",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_core_theme_app_colors",
+      "target": "lib_core_theme_app_colors_textsecondary",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/core/theme/app_colors.dart",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_core_theme_app_colors",
+      "target": "lib_core_theme_app_colors_onsurface",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/core/theme/app_colors.dart",
+      "source_location": "L37",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_core_theme_app_colors",
+      "target": "lib_core_theme_app_colors_onsurfacevariant",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/core/theme/app_colors.dart",
+      "source_location": "L38",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_core_theme_app_colors",
+      "target": "lib_core_theme_app_colors_appcolors",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/core/theme/app_colors.dart",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_core_theme_app_colors",
+      "target": "lib_core_theme_app_colors_bordersubtle",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/core/theme/app_colors.dart",
+      "source_location": "L41",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_core_theme_app_colors",
+      "target": "lib_core_theme_app_colors_outline",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/core/theme/app_colors.dart",
+      "source_location": "L42",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_core_theme_app_colors",
+      "target": "lib_core_theme_app_colors_outlinevariant",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/core/theme/app_colors.dart",
+      "source_location": "L43",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_core_theme_app_colors",
+      "target": "lib_core_theme_app_colors_error",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/core/theme/app_colors.dart",
+      "source_location": "L46",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_core_theme_app_colors",
+      "target": "lib_core_theme_app_colors_onerror",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/core/theme/app_colors.dart",
+      "source_location": "L47",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_core_theme_app_colors",
+      "target": "lib_core_theme_app_colors_errorcontainer",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/core/theme/app_colors.dart",
+      "source_location": "L48",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_core_theme_app_colors",
+      "target": "lib_core_theme_app_colors_success",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/core/theme/app_colors.dart",
+      "source_location": "L49",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_core_theme_app_colors",
+      "target": "lib_core_theme_app_colors_forestgreen",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/core/theme/app_colors.dart",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_core_theme_app_colors",
+      "target": "lib_core_theme_app_colors_primary",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/core/theme/app_colors.dart",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_core_theme_app_colors",
+      "target": "lib_core_theme_app_colors_primarycontainer",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/core/theme/app_colors.dart",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_core_theme_app_colors",
+      "target": "lib_core_theme_app_colors_onprimary",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/core/theme/app_colors.dart",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_core_theme_app_theme",
+      "target": "lib_core_theme_app_theme_apptheme",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/core/theme/app_theme.dart",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_core_theme_app_typography",
+      "target": "lib_core_theme_app_typography_headlinemedium",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/core/theme/app_typography.dart",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_core_theme_app_typography",
+      "target": "lib_core_theme_app_typography_headlinesmall",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/core/theme/app_typography.dart",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_core_theme_app_typography",
+      "target": "lib_core_theme_app_typography_titlemedium",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/core/theme/app_typography.dart",
+      "source_location": "L33",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_core_theme_app_typography",
+      "target": "lib_core_theme_app_typography_bodylarge",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/core/theme/app_typography.dart",
+      "source_location": "L42",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_core_theme_app_typography",
+      "target": "lib_core_theme_app_typography_bodymedium",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/core/theme/app_typography.dart",
+      "source_location": "L50",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_core_theme_app_typography",
+      "target": "lib_core_theme_app_typography_bodysmall",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/core/theme/app_typography.dart",
+      "source_location": "L58",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_core_theme_app_typography",
+      "target": "lib_core_theme_app_typography_apptypography",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/core/theme/app_typography.dart",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_core_theme_app_typography",
+      "target": "lib_core_theme_app_typography_labellarge",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/core/theme/app_typography.dart",
+      "source_location": "L67",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_core_theme_app_typography",
+      "target": "lib_core_theme_app_typography_labelmedium",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/core/theme/app_typography.dart",
+      "source_location": "L75",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_core_theme_app_typography",
+      "target": "lib_core_theme_app_typography_headlinelarge",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/core/theme/app_typography.dart",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_core_theme_app_typography",
+      "target": "lib_core_theme_app_typography_labelsmall",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/core/theme/app_typography.dart",
+      "source_location": "L83",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_core_theme_app_typography",
+      "target": "lib_core_theme_app_typography_texttheme",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/core/theme/app_typography.dart",
+      "source_location": "L92",
       "weight": 1.0
     },
     {
@@ -1847,7 +3037,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "lib/main.dart",
-      "source_location": "L38",
+      "source_location": "L23",
       "weight": 1.0
     },
     {
@@ -1858,7 +3048,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "lib/main.dart",
-      "source_location": "L50",
+      "source_location": "L35",
       "weight": 1.0
     },
     {
@@ -1869,7 +3059,18 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "lib/main.dart",
-      "source_location": "L53",
+      "source_location": "L38",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_main",
+      "target": "lib_main_main",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/main.dart",
+      "source_location": "L4",
       "weight": 1.0
     },
     {
@@ -1880,7 +3081,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "lib/main.dart",
-      "source_location": "L56",
+      "source_location": "L41",
       "weight": 1.0
     },
     {
@@ -1891,7 +3092,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "lib/main.dart",
-      "source_location": "L57",
+      "source_location": "L42",
       "weight": 1.0
     },
     {
@@ -1902,18 +3103,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "lib/main.dart",
-      "source_location": "L59",
-      "weight": 1.0
-    },
-    {
-      "source": "lib_main",
-      "target": "lib_main_myapp",
-      "relation": "defines",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "lib/main.dart",
-      "source_location": "L7",
+      "source_location": "L44",
       "weight": 1.0
     },
     {
@@ -1924,7 +3114,29 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "lib/main.dart",
-      "source_location": "L71",
+      "source_location": "L56",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_main",
+      "target": "lib_main_myapp",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/main.dart",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "test_theme_test",
+      "target": "test_theme_test_main",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "test/theme_test.dart",
+      "source_location": "L8",
       "weight": 1.0
     },
     {
@@ -1935,7 +3147,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "test/widget_test.dart",
-      "source_location": "L13",
+      "source_location": "L14",
       "weight": 1.0
     },
     {
@@ -1950,6 +3162,94 @@
       "weight": 1.0
     },
     {
+      "source": "lib_core_theme_app_colors",
+      "target": "package_flutter_material_dart",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/core/theme/app_colors.dart",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_core_theme_app_theme",
+      "target": "package_flutter_material_dart",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/core/theme/app_theme.dart",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_core_theme_app_theme",
+      "target": "package_flutter_services_dart",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/core/theme/app_theme.dart",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_core_theme_app_theme",
+      "target": "app_colors_dart",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/core/theme/app_theme.dart",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_core_theme_app_theme",
+      "target": "app_typography_dart",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/core/theme/app_theme.dart",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_core_theme_app_typography",
+      "target": "package_flutter_material_dart",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/core/theme/app_typography.dart",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_core_theme_app_typography",
+      "target": "package_google_fonts_google_fonts_dart",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/core/theme/app_typography.dart",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "lib_core_theme_app_typography",
+      "target": "app_colors_dart",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/core/theme/app_typography.dart",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
       "source": "lib_main",
       "target": "package_flutter_material_dart",
       "relation": "imports",
@@ -1961,6 +3261,94 @@
       "weight": 1.0
     },
     {
+      "source": "lib_main",
+      "target": "core_theme_app_theme_dart",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "lib/main.dart",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "test_theme_test",
+      "target": "package_flutter_material_dart",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "test/theme_test.dart",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "test_theme_test",
+      "target": "package_flutter_test_flutter_test_dart",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "test/theme_test.dart",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "test_theme_test",
+      "target": "package_google_fonts_google_fonts_dart",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "test/theme_test.dart",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "test_theme_test",
+      "target": "package_cardsaathi_core_theme_app_colors_dart",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "test/theme_test.dart",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "test_theme_test",
+      "target": "package_cardsaathi_core_theme_app_typography_dart",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "test/theme_test.dart",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "test_theme_test",
+      "target": "package_cardsaathi_core_theme_app_theme_dart",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "test/theme_test.dart",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "test_widget_test",
+      "target": "package_google_fonts_google_fonts_dart",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "test/widget_test.dart",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
       "source": "test_widget_test",
       "target": "package_cardsaathi_main_dart",
       "relation": "imports",
@@ -1968,7 +3356,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "test/widget_test.dart",
-      "source_location": "L11",
+      "source_location": "L12",
       "weight": 1.0
     },
     {
@@ -2045,7 +3433,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "lib/main.dart",
-      "source_location": "L7",
+      "source_location": "L8",
       "weight": 1.0
     },
     {
@@ -2056,7 +3444,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "lib/main.dart",
-      "source_location": "L38",
+      "source_location": "L23",
       "weight": 1.0
     },
     {
@@ -2067,7 +3455,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "lib/main.dart",
-      "source_location": "L56",
+      "source_location": "L41",
       "weight": 1.0
     },
     {
@@ -2111,7 +3499,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "lib/main.dart",
-      "source_location": "L56",
+      "source_location": "L41",
       "weight": 1.0
     }
   ],

@@ -1,7 +1,7 @@
 {
   "0": "README.md",
   "1": "कार्डसाथी (CardSaathi) — फ़्लटर संपूर्ण क्रियान्वयन योजना",
-  "2": "🏗️ 6. अनुशंसित क्रियान्वयन क्रम (Recommended 6-Milestone Order)",
+  "2": "app_colors.dart",
   "3": "Flutter Engineering & Skill Routing Protocol",
   "4": "Workspace Agent Guidelines & Active Skills",
   "5": "Google Artemis Testing Protocol",
@@ -9,11 +9,12 @@
   "7": "main.dart",
   "8": "RunnerTests.swift",
   "9": "AppDelegate",
-  "10": "widget_test.dart",
+  "10": "theme_test.dart",
   "11": "MainActivity.kt",
   "12": "d_cd1_0_ios_runner_generatedpluginregistrant_h",
   "13": "LaunchImage.imageset/README.md",
   "14": "app/build.gradle.kts",
   "15": "android/build.gradle.kts",
-  "16": "settings.gradle.kts"
+  "16": "settings.gradle.kts",
+  "17": "app_typography.dart"
 }

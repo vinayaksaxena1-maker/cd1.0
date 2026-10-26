@@ -102,15 +102,15 @@
     "semantic_hash": ""
   },
   "lib/main.dart": {
-    "mtime": 1792992665.6127636,
-    "seen": 1792992879.961774,
-    "ast_hash": "69617c0fc3dadefc5632aaea8ee2f59d",
+    "mtime": 1792993318.7770445,
+    "seen": 1792993502.7826748,
+    "ast_hash": "b0bbe33d906d57bb2f98ba77df8185aa",
     "semantic_hash": ""
   },
   "test/widget_test.dart": {
-    "mtime": 1792992665.6449788,
-    "seen": 1792992879.961774,
-    "ast_hash": "896edaf18ea9c4365d940a6e920d5010",
+    "mtime": 1792993426.824919,
+    "seen": 1792993502.7826748,
+    "ast_hash": "f4a9284d4e698679c00abd2249a376ea",
     "semantic_hash": ""
   },
   "analysis_options.yaml": {
@@ -132,9 +132,9 @@
     "semantic_hash": ""
   },
   "pubspec.yaml": {
-    "mtime": 1792992800.7621992,
-    "seen": 1792992879.961774,
-    "ast_hash": "15aa60564f7d15646c8a2176d5c0d293",
+    "mtime": 1792993177.024519,
+    "seen": 1792993502.7826748,
+    "ast_hash": "0a17d3161f78f600278297d88d103636",
     "semantic_hash": ""
   },
   "android/app/src/main/res/mipmap-hdpi/ic_launcher.png": {
@@ -273,6 +273,30 @@
     "mtime": 1792094486.0712216,
     "seen": 1792992879.961774,
     "ast_hash": "978c1bee49d7ad5fc1a4d81099b13e18",
+    "semantic_hash": ""
+  },
+  "lib/core/theme/app_colors.dart": {
+    "mtime": 1792993203.2165804,
+    "seen": 1792993502.7826748,
+    "ast_hash": "5a8aed2fb4dc086a30a80d53b835dfd3",
+    "semantic_hash": ""
+  },
+  "lib/core/theme/app_theme.dart": {
+    "mtime": 1792993227.5203412,
+    "seen": 1792993502.7826748,
+    "ast_hash": "65c41f65d54051c62eaa002f4ab0042d",
+    "semantic_hash": ""
+  },
+  "lib/core/theme/app_typography.dart": {
+    "mtime": 1792993212.6089554,
+    "seen": 1792993502.7826748,
+    "ast_hash": "ef6b17b1bc9b822e71efacaa3aae678c",
+    "semantic_hash": ""
+  },
+  "test/theme_test.dart": {
+    "mtime": 1792993399.859147,
+    "seen": 1792993502.7826748,
+    "ast_hash": "6aa8440fd73cfc369b87c45142c7dc19",
     "semantic_hash": ""
   }
 }
