@@ -223,4 +223,46 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get cardDetails => 'Card Details';
+
+  @override
+  String get cardNotFound => 'Card not found or has been deleted';
+
+  @override
+  String get copiedToClipboard => 'Copied to clipboard';
+
+  @override
+  String get copyGstin => 'Copy GSTIN';
+
+  @override
+  String get openMaps => 'Google Maps';
+
+  @override
+  String get sendEmail => 'Email';
+
+  @override
+  String get deleteCard => 'Delete Card';
+
+  @override
+  String get editCard => 'Edit Card';
+
+  @override
+  String get shareContact => 'Share Contact';
+
+  @override
+  String get viewFront => 'Front';
+
+  @override
+  String get viewBack => 'Back';
+
+  @override
+  String get noCardImage => 'No physical card photo attached';
+
+  @override
+  String get pinchToZoomHint => 'Pinch to zoom card';
+
+  @override
+  String get audioMemo => 'Voice Memo';
+
+  @override
+  String get deleteConfirm => 'Are you sure you want to delete this card?';
 }

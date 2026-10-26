@@ -394,7 +394,10 @@ class _CardsScreenState extends State<CardsScreen> {
         final card = _filteredCards[index];
         return CardTileWidget(
           card: card,
-          onTap: () => _showQuickCardPreview(card),
+          onTap: () async {
+            await context.push('/cards/${card.id}');
+            _loadInitialData();
+          },
         );
       },
     );
@@ -459,50 +462,6 @@ class _CardsScreenState extends State<CardsScreen> {
                     Navigator.pop(context);
                   },
                 ),
-              ],
-            ),
-          ),
-        );
-      },
-    );
-  }
-
-  void _showQuickCardPreview(ContactCard card) {
-    showModalBottomSheet(
-      context: context,
-      shape: const RoundedRectangleBorder(
-        borderRadius: BorderRadius.vertical(top: Radius.circular(20)),
-      ),
-      builder: (context) {
-        return SafeArea(
-          child: Padding(
-            padding: const EdgeInsets.all(20),
-            child: Column(
-              mainAxisSize: MainAxisSize.min,
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Text(card.name, style: AppTypography.headlineMedium()),
-                if (card.company.isNotEmpty)
-                  Text(card.company, style: AppTypography.bodyMedium(color: AppColors.textSecondary)),
-                const Divider(height: 24),
-                if (card.phones.isNotEmpty)
-                  ListTile(
-                    contentPadding: EdgeInsets.zero,
-                    leading: const Icon(Icons.phone, color: AppColors.forestGreen),
-                    title: Text(card.phones.join(', ')),
-                  ),
-                if (card.email.isNotEmpty)
-                  ListTile(
-                    contentPadding: EdgeInsets.zero,
-                    leading: const Icon(Icons.email, color: AppColors.forestGreen),
-                    title: Text(card.email),
-                  ),
-                if (card.gstin.isNotEmpty)
-                  ListTile(
-                    contentPadding: EdgeInsets.zero,
-                    leading: const Icon(Icons.verified, color: AppColors.forestGreen),
-                    title: Text('GSTIN: ${card.gstin}'),
-                  ),
               ],
             ),
           ),

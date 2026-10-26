@@ -75,5 +75,19 @@
   "clearFilters": "Clear Filters",
   "tapToCall": "Call",
   "tapToWhatsApp": "WhatsApp",
-  "cardDetails": "Card Details"
+  "cardDetails": "Card Details",
+  "cardNotFound": "Card not found or has been deleted",
+  "copiedToClipboard": "Copied to clipboard",
+  "copyGstin": "Copy GSTIN",
+  "openMaps": "Google Maps",
+  "sendEmail": "Email",
+  "deleteCard": "Delete Card",
+  "editCard": "Edit Card",
+  "shareContact": "Share Contact",
+  "viewFront": "Front",
+  "viewBack": "Back",
+  "noCardImage": "No physical card photo attached",
+  "pinchToZoomHint": "Pinch to zoom card",
+  "audioMemo": "Voice Memo",
+  "deleteConfirm": "Are you sure you want to delete this card?"
 }

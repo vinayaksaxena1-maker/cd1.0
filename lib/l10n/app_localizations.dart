@@ -517,6 +517,90 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Card Details'**
   String get cardDetails;
+
+  /// No description provided for @cardNotFound.
+  ///
+  /// In en, this message translates to:
+  /// **'Card not found or has been deleted'**
+  String get cardNotFound;
+
+  /// No description provided for @copiedToClipboard.
+  ///
+  /// In en, this message translates to:
+  /// **'Copied to clipboard'**
+  String get copiedToClipboard;
+
+  /// No description provided for @copyGstin.
+  ///
+  /// In en, this message translates to:
+  /// **'Copy GSTIN'**
+  String get copyGstin;
+
+  /// No description provided for @openMaps.
+  ///
+  /// In en, this message translates to:
+  /// **'Google Maps'**
+  String get openMaps;
+
+  /// No description provided for @sendEmail.
+  ///
+  /// In en, this message translates to:
+  /// **'Email'**
+  String get sendEmail;
+
+  /// No description provided for @deleteCard.
+  ///
+  /// In en, this message translates to:
+  /// **'Delete Card'**
+  String get deleteCard;
+
+  /// No description provided for @editCard.
+  ///
+  /// In en, this message translates to:
+  /// **'Edit Card'**
+  String get editCard;
+
+  /// No description provided for @shareContact.
+  ///
+  /// In en, this message translates to:
+  /// **'Share Contact'**
+  String get shareContact;
+
+  /// No description provided for @viewFront.
+  ///
+  /// In en, this message translates to:
+  /// **'Front'**
+  String get viewFront;
+
+  /// No description provided for @viewBack.
+  ///
+  /// In en, this message translates to:
+  /// **'Back'**
+  String get viewBack;
+
+  /// No description provided for @noCardImage.
+  ///
+  /// In en, this message translates to:
+  /// **'No physical card photo attached'**
+  String get noCardImage;
+
+  /// No description provided for @pinchToZoomHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Pinch to zoom card'**
+  String get pinchToZoomHint;
+
+  /// No description provided for @audioMemo.
+  ///
+  /// In en, this message translates to:
+  /// **'Voice Memo'**
+  String get audioMemo;
+
+  /// No description provided for @deleteConfirm.
+  ///
+  /// In en, this message translates to:
+  /// **'Are you sure you want to delete this card?'**
+  String get deleteConfirm;
 }
 
 class _AppLocalizationsDelegate

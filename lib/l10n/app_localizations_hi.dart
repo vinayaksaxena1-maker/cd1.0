@@ -223,4 +223,46 @@ class AppLocalizationsHi extends AppLocalizations {
 
   @override
   String get cardDetails => 'कार्ड विवरण';
+
+  @override
+  String get cardNotFound => 'विज़िटिंग कार्ड नहीं मिला या हटा दिया गया है';
+
+  @override
+  String get copiedToClipboard => 'क्लिपबोर्ड पर कॉपी हो गया';
+
+  @override
+  String get copyGstin => 'GSTIN कॉपी करें';
+
+  @override
+  String get openMaps => 'गूगल मैप्स';
+
+  @override
+  String get sendEmail => 'ईमेल';
+
+  @override
+  String get deleteCard => 'कार्ड हटाएं';
+
+  @override
+  String get editCard => 'कार्ड बदलें';
+
+  @override
+  String get shareContact => 'संपर्क साझा करें';
+
+  @override
+  String get viewFront => 'आगे';
+
+  @override
+  String get viewBack => 'पीछे';
+
+  @override
+  String get noCardImage => 'कार्ड की फ़ोटो उपलब्ध नहीं है';
+
+  @override
+  String get pinchToZoomHint => 'कार्ड को बड़ा करने के लिए पिंच करें';
+
+  @override
+  String get audioMemo => 'वॉइस मेमो';
+
+  @override
+  String get deleteConfirm => 'क्या आप वाकई इस कार्ड को हटाना चाहते हैं?';
 }

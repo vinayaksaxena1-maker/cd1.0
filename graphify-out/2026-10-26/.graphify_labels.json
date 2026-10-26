@@ -25,7 +25,7 @@
   "23": "AppLocalizations",
   "24": "@cardsaathi",
   "25": "user_profile.dart",
-  "26": "meeting_reminder.dart",
+  "26": "cards_screen.dart",
   "27": "hive_registrar.dart",
   "28": "contact_repository.dart",
   "29": "reminder_repository.dart",
@@ -44,5 +44,14 @@
   "42": "package:flutter_test/flutter_test.dart",
   "43": "review_scan_test.dart",
   "44": "theme_test.dart",
-  "45": "build"
+  "45": "build",
+  "46": "ocr_service.dart",
+  "47": "locale_controller.dart",
+  "48": "card_tile_widget.dart",
+  "49": "build",
+  "50": "main.dart",
+  "51": "camera_disclosure_dialog.dart",
+  "52": "main_shell.dart",
+  "53": "models_test.dart",
+  "54": "voice_memo_test.dart"
 }

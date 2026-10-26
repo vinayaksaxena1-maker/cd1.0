@@ -75,5 +75,19 @@
   "clearFilters": "फ़िल्टर हटाएं",
   "tapToCall": "कॉल करें",
   "tapToWhatsApp": "व्हाट्सएप",
-  "cardDetails": "कार्ड विवरण"
+  "cardDetails": "कार्ड विवरण",
+  "cardNotFound": "विज़िटिंग कार्ड नहीं मिला या हटा दिया गया है",
+  "copiedToClipboard": "क्लिपबोर्ड पर कॉपी हो गया",
+  "copyGstin": "GSTIN कॉपी करें",
+  "openMaps": "गूगल मैप्स",
+  "sendEmail": "ईमेल",
+  "deleteCard": "कार्ड हटाएं",
+  "editCard": "कार्ड बदलें",
+  "shareContact": "संपर्क साझा करें",
+  "viewFront": "आगे",
+  "viewBack": "पीछे",
+  "noCardImage": "कार्ड की फ़ोटो उपलब्ध नहीं है",
+  "pinchToZoomHint": "कार्ड को बड़ा करने के लिए पिंच करें",
+  "audioMemo": "वॉइस मेमो",
+  "deleteConfirm": "क्या आप वाकई इस कार्ड को हटाना चाहते हैं?"
 }

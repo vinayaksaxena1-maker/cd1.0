@@ -126,9 +126,9 @@
     "semantic_hash": ""
   },
   "pubspec.yaml": {
-    "mtime": 1793008576.4974136,
-    "seen": 1793008988.9426742,
-    "ast_hash": "e8629069f883d17be66958dc3e0dfc02",
+    "mtime": 1793014874.4783192,
+    "seen": 1793016872.490635,
+    "ast_hash": "26ef8a2f7f58dbdf6f954864733793fe",
     "semantic_hash": ""
   },
   "android/app/src/main/res/mipmap-hdpi/ic_launcher.png": {
@@ -306,21 +306,21 @@
     "semantic_hash": ""
   },
   "lib/l10n/app_localizations.dart": {
-    "mtime": 1793008620.7110734,
-    "seen": 1793008988.9426742,
-    "ast_hash": "ded93971906cceeb9d4c4cd729d81a35",
+    "mtime": 1793015845.3143394,
+    "seen": 1793016872.490635,
+    "ast_hash": "22666707334d5fc490183041420bbfb2",
     "semantic_hash": ""
   },
   "lib/l10n/app_localizations_en.dart": {
-    "mtime": 1793008620.7022848,
-    "seen": 1793008988.9426742,
-    "ast_hash": "e3ef10291bdf497324388b884459e539",
+    "mtime": 1793015845.3016477,
+    "seen": 1793016872.490635,
+    "ast_hash": "fda4456b40f26834a3c25872bee837ab",
     "semantic_hash": ""
   },
   "lib/l10n/app_localizations_hi.dart": {
-    "mtime": 1793008620.7071676,
-    "seen": 1793008988.9426742,
-    "ast_hash": "2a959e2b575390912c3f911e1f2c299c",
+    "mtime": 1793015845.308482,
+    "seen": 1793016872.490635,
+    "ast_hash": "62fffaf78295e848de25e77a7dcb5b5b",
     "semantic_hash": ""
   },
   "lib/presentation/navigation/main_shell.dart": {
@@ -330,9 +330,9 @@
     "semantic_hash": ""
   },
   "lib/presentation/screens/cards/cards_screen.dart": {
-    "mtime": 1793001781.797159,
-    "seen": 1793002186.911186,
-    "ast_hash": "f6fd30d7e72d8a5260b69c24cdd4f0a4",
+    "mtime": 1793015188.7442281,
+    "seen": 1793016872.490635,
+    "ast_hash": "a0c7f3bf847a8d7f0ee25649cff8b4a5",
     "semantic_hash": ""
   },
   "lib/presentation/screens/categories/categories_screen.dart": {
@@ -561,6 +561,24 @@
     "mtime": 1793011420.5355916,
     "seen": 1793011591.7726643,
     "ast_hash": "3726b9780976bad1716dcb014607b252",
+    "semantic_hash": ""
+  },
+  "lib/presentation/widgets/cards/card_tile_skeleton.dart": {
+    "mtime": 1793015138.731447,
+    "seen": 1793016872.490635,
+    "ast_hash": "36e5383073dc6f5b1596d422d101cf76",
+    "semantic_hash": ""
+  },
+  "lib/presentation/widgets/cards/card_tile_widget.dart": {
+    "mtime": 1793015161.8634775,
+    "seen": 1793016872.490635,
+    "ast_hash": "c91da63dfe7dc19f49c15b9d557f4a8b",
+    "semantic_hash": ""
+  },
+  "test/cards_directory_test.dart": {
+    "mtime": 1793015255.093994,
+    "seen": 1793016872.490635,
+    "ast_hash": "c5f8afdd68e68778e630faad8c1a37b2",
     "semantic_hash": ""
   }
 }
