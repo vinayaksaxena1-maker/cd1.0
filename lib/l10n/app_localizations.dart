@@ -263,7 +263,7 @@ abstract class AppLocalizations {
   /// No description provided for @notes.
   ///
   /// In en, this message translates to:
-  /// **'Notes & Key Context'**
+  /// **'Notes'**
   String get notes;
 
   /// No description provided for @shareOnWhatsApp.
@@ -727,6 +727,108 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Retry'**
   String get retry;
+
+  /// No description provided for @cardUpdated.
+  ///
+  /// In en, this message translates to:
+  /// **'Card updated successfully'**
+  String get cardUpdated;
+
+  /// No description provided for @undo.
+  ///
+  /// In en, this message translates to:
+  /// **'Undo'**
+  String get undo;
+
+  /// No description provided for @cardRestored.
+  ///
+  /// In en, this message translates to:
+  /// **'Card restored successfully'**
+  String get cardRestored;
+
+  /// No description provided for @shareVCard.
+  ///
+  /// In en, this message translates to:
+  /// **'Share Contact as vCard (.vcf)'**
+  String get shareVCard;
+
+  /// No description provided for @shareAsText.
+  ///
+  /// In en, this message translates to:
+  /// **'Share Contact as Text'**
+  String get shareAsText;
+
+  /// No description provided for @shareOptions.
+  ///
+  /// In en, this message translates to:
+  /// **'Share Options'**
+  String get shareOptions;
+
+  /// No description provided for @invalidGstin.
+  ///
+  /// In en, this message translates to:
+  /// **'Invalid 15-character GSTIN format'**
+  String get invalidGstin;
+
+  /// No description provided for @invalidEmail.
+  ///
+  /// In en, this message translates to:
+  /// **'Please enter a valid email address'**
+  String get invalidEmail;
+
+  /// No description provided for @nameRequired.
+  ///
+  /// In en, this message translates to:
+  /// **'Contact name is required'**
+  String get nameRequired;
+
+  /// No description provided for @phoneRequired.
+  ///
+  /// In en, this message translates to:
+  /// **'Phone number is required'**
+  String get phoneRequired;
+
+  /// No description provided for @saveChanges.
+  ///
+  /// In en, this message translates to:
+  /// **'Save Changes'**
+  String get saveChanges;
+
+  /// No description provided for @discardChangesConfirm.
+  ///
+  /// In en, this message translates to:
+  /// **'Discard unsaved changes?'**
+  String get discardChangesConfirm;
+
+  /// No description provided for @discard.
+  ///
+  /// In en, this message translates to:
+  /// **'Discard'**
+  String get discard;
+
+  /// No description provided for @tags.
+  ///
+  /// In en, this message translates to:
+  /// **'Tags'**
+  String get tags;
+
+  /// No description provided for @addTag.
+  ///
+  /// In en, this message translates to:
+  /// **'Add Tag'**
+  String get addTag;
+
+  /// No description provided for @secondaryPhone.
+  ///
+  /// In en, this message translates to:
+  /// **'Secondary Phone'**
+  String get secondaryPhone;
+
+  /// No description provided for @website.
+  ///
+  /// In en, this message translates to:
+  /// **'Website'**
+  String get website;
 }
 
 class _AppLocalizationsDelegate

@@ -11,6 +11,7 @@ import '../../presentation/screens/categories/categories_screen.dart';
 import '../../presentation/screens/digital_card/digital_card_screen.dart';
 import '../../presentation/screens/scan/review_scan_screen.dart';
 import '../../presentation/screens/cards/card_detail_screen.dart';
+import '../../presentation/screens/cards/card_edit_screen.dart';
 import '../../data/models/extracted_card_data.dart';
 
 /// Declarative Routing Configuration for CardSaathi using go_router
@@ -100,6 +101,14 @@ abstract final class AppRouter {
         builder: (context, state) {
           final id = state.pathParameters['id'] ?? '';
           return CardDetailScreen(cardId: id);
+        },
+      ),
+      GoRoute(
+        path: '/cards/:id/edit',
+        parentNavigatorKey: _rootNavigatorKey,
+        builder: (context, state) {
+          final id = state.pathParameters['id'] ?? '';
+          return CardEditScreen(cardId: id);
         },
       ),
     ],

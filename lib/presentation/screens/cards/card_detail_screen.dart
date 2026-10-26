@@ -3,8 +3,8 @@ import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:go_router/go_router.dart';
-import 'package:share_plus/share_plus.dart';
 import 'package:url_launcher/url_launcher.dart';
+import '../../../core/services/vcard_service.dart';
 import '../../../core/theme/app_colors.dart';
 import '../../../core/theme/app_typography.dart';
 import '../../../data/local/storage_service.dart';
@@ -161,22 +161,62 @@ class _CardDetailScreenState extends State<CardDetailScreen> {
 
   void _shareCard() {
     if (_card == null) return;
-    final lines = [
-      _card!.name,
-      if (_card!.jobTitle.isNotEmpty) _card!.jobTitle,
-      if (_card!.company.isNotEmpty) '🏢 ${_card!.company}',
-      if (_card!.phones.isNotEmpty) '📞 ${_card!.phones.join(", ")}',
-      if (_card!.email.isNotEmpty) '✉️ ${_card!.email}',
-      if (_card!.website.isNotEmpty) '🌐 ${_card!.website}',
-      if (_card!.gstin.isNotEmpty) '🆔 GSTIN: ${_card!.gstin}',
-      if (_card!.address.isNotEmpty) '📍 ${_card!.address}',
-      '',
-      'Shared via CardSaathi — Your Smart Business Card Partner',
-    ];
-    SharePlus.instance.share(
-      ShareParams(
-        text: lines.join('\n'),
-        subject: '${_card!.name} Visiting Card',
+    final l10n = AppLocalizations.of(context)!;
+
+    showModalBottomSheet(
+      context: context,
+      backgroundColor: AppColors.canvasIvory,
+      shape: const RoundedRectangleBorder(
+        borderRadius: BorderRadius.vertical(top: Radius.circular(20)),
+      ),
+      builder: (ctx) => SafeArea(
+        child: Padding(
+          padding: const EdgeInsets.symmetric(vertical: 16, horizontal: 20),
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            crossAxisAlignment: CrossAxisAlignment.stretch,
+            children: [
+              Text(
+                l10n.shareOptions,
+                style: AppTypography.titleMedium(color: AppColors.textPrimary),
+              ),
+              const SizedBox(height: 16),
+              ListTile(
+                leading: Container(
+                  padding: const EdgeInsets.all(8),
+                  decoration: BoxDecoration(
+                    color: AppColors.surfaceSage,
+                    borderRadius: BorderRadius.circular(10),
+                  ),
+                  child: const Icon(Icons.contact_page_rounded, color: AppColors.forestGreen),
+                ),
+                title: Text(l10n.shareVCard, style: AppTypography.bodyLarge()),
+                subtitle: Text('Directly imports into phone contacts (Zero permissions)', style: AppTypography.bodySmall()),
+                onTap: () {
+                  Navigator.pop(ctx);
+                  VCardService.shareVCard(_card!);
+                },
+              ),
+              const Divider(height: 1),
+              ListTile(
+                leading: Container(
+                  padding: const EdgeInsets.all(8),
+                  decoration: BoxDecoration(
+                    color: AppColors.surfaceSage,
+                    borderRadius: BorderRadius.circular(10),
+                  ),
+                  child: const Icon(Icons.chat_outlined, color: AppColors.forestGreen),
+                ),
+                title: Text(l10n.shareAsText, style: AppTypography.bodyLarge()),
+                subtitle: Text('Formatted WhatsApp / text message', style: AppTypography.bodySmall()),
+                onTap: () {
+                  Navigator.pop(ctx);
+                  VCardService.shareAsText(_card!);
+                },
+              ),
+            ],
+          ),
+        ),
       ),
     );
   }
@@ -202,15 +242,27 @@ class _CardDetailScreenState extends State<CardDetailScreen> {
     );
 
     if (confirmed == true && mounted) {
+      final deletedCard = _card!;
+      final messenger = ScaffoldMessenger.of(context);
       await StorageService.instance.contactRepo.deleteCard(widget.cardId);
       if (mounted) {
-        context.pop();
-        ScaffoldMessenger.of(context).showSnackBar(
+        messenger.showSnackBar(
           SnackBar(
-            content: Text('${_card?.name ?? "Card"} deleted'),
+            content: Text('${deletedCard.name.isNotEmpty ? deletedCard.name : "Card"} deleted'),
             backgroundColor: AppColors.forestGreen,
+            duration: const Duration(seconds: 5),
+            action: SnackBarAction(
+              label: l10n.undo,
+              textColor: AppColors.saffron,
+              onPressed: () async {
+                await StorageService.instance.contactRepo.saveCard(deletedCard);
+              },
+            ),
           ),
         );
+        if (Navigator.of(context).canPop()) {
+          Navigator.of(context).pop();
+        }
       }
     }
   }
@@ -238,7 +290,11 @@ class _CardDetailScreenState extends State<CardDetailScreen> {
               Text(l10n.cardNotFound, style: AppTypography.titleMedium()),
               const SizedBox(height: 20),
               ElevatedButton(
-                onPressed: () => context.pop(),
+                onPressed: () {
+                  if (Navigator.of(context).canPop()) {
+                    Navigator.of(context).pop();
+                  }
+                },
                 child: const Text('Go Back'),
               ),
             ],
@@ -261,6 +317,14 @@ class _CardDetailScreenState extends State<CardDetailScreen> {
       appBar: AppBar(
         title: Text(l10n.cardDetails, style: AppTypography.headlineMedium()),
         actions: [
+          IconButton(
+            icon: const Icon(Icons.edit_outlined),
+            tooltip: l10n.editCard,
+            onPressed: () async {
+              await context.push('/cards/${_card!.id}/edit');
+              _loadCard();
+            },
+          ),
           IconButton(
             icon: const Icon(Icons.share_outlined),
             tooltip: l10n.shareContact,

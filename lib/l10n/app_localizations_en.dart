@@ -91,7 +91,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get category => 'Business Category';
 
   @override
-  String get notes => 'Notes & Key Context';
+  String get notes => 'Notes';
 
   @override
   String get shareOnWhatsApp => 'Share on WhatsApp';
@@ -331,4 +331,55 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get retry => 'Retry';
+
+  @override
+  String get cardUpdated => 'Card updated successfully';
+
+  @override
+  String get undo => 'Undo';
+
+  @override
+  String get cardRestored => 'Card restored successfully';
+
+  @override
+  String get shareVCard => 'Share Contact as vCard (.vcf)';
+
+  @override
+  String get shareAsText => 'Share Contact as Text';
+
+  @override
+  String get shareOptions => 'Share Options';
+
+  @override
+  String get invalidGstin => 'Invalid 15-character GSTIN format';
+
+  @override
+  String get invalidEmail => 'Please enter a valid email address';
+
+  @override
+  String get nameRequired => 'Contact name is required';
+
+  @override
+  String get phoneRequired => 'Phone number is required';
+
+  @override
+  String get saveChanges => 'Save Changes';
+
+  @override
+  String get discardChangesConfirm => 'Discard unsaved changes?';
+
+  @override
+  String get discard => 'Discard';
+
+  @override
+  String get tags => 'Tags';
+
+  @override
+  String get addTag => 'Add Tag';
+
+  @override
+  String get secondaryPhone => 'Secondary Phone';
+
+  @override
+  String get website => 'Website';
 }

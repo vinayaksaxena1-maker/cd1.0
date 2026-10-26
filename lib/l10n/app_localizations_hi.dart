@@ -91,7 +91,7 @@ class AppLocalizationsHi extends AppLocalizations {
   String get category => 'व्यावसायिक श्रेणी';
 
   @override
-  String get notes => 'टिप्पणी एवं महत्वपूर्ण संदर्भ';
+  String get notes => 'टिप्पणी';
 
   @override
   String get shareOnWhatsApp => 'व्हाट्सएप पर शेयर करें';
@@ -331,4 +331,55 @@ class AppLocalizationsHi extends AppLocalizations {
 
   @override
   String get retry => 'पुनः प्रयास करें';
+
+  @override
+  String get cardUpdated => 'कार्ड सफलतापूर्वक अपडेट किया गया';
+
+  @override
+  String get undo => 'पूर्ववत करें';
+
+  @override
+  String get cardRestored => 'कार्ड सफलतापूर्वक पुनः स्थापित किया गया';
+
+  @override
+  String get shareVCard => 'vCard (.vcf) के रूप में शेयर करें';
+
+  @override
+  String get shareAsText => 'टेक्स्ट के रूप में शेयर करें';
+
+  @override
+  String get shareOptions => 'शेयर विकल्प';
+
+  @override
+  String get invalidGstin => 'अमान्य 15-अक्षर GSTIN प्रारूप';
+
+  @override
+  String get invalidEmail => 'कृपया एक मान्य ईमेल दर्ज करें';
+
+  @override
+  String get nameRequired => 'संपर्क का नाम अनिवार्य है';
+
+  @override
+  String get phoneRequired => 'फ़ोन नंबर अनिवार्य है';
+
+  @override
+  String get saveChanges => 'बदलाव सहेजें';
+
+  @override
+  String get discardChangesConfirm => 'क्या आप बदलाव रद्द करना चाहते हैं?';
+
+  @override
+  String get discard => 'रद्द करें';
+
+  @override
+  String get tags => 'टैग्स';
+
+  @override
+  String get addTag => 'टैग जोड़ें';
+
+  @override
+  String get secondaryPhone => 'द्वितीयक फ़ोन';
+
+  @override
+  String get website => 'वेबसाइट';
 }
