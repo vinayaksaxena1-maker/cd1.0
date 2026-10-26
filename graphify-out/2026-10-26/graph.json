@@ -5095,12 +5095,12 @@
     },
     {
       "id": "core_localization_locale_controller_dart",
-      "label": "../../../core/localization/locale_controller.dart",
+      "label": "core/localization/locale_controller.dart",
       "_origin": "ast",
       "community": 7,
       "community_name": "package:flutter/material.dart",
       "file_type": "code",
-      "norm_label": "../../../core/localization/locale_controller.dart",
+      "norm_label": "core/localization/locale_controller.dart",
       "source_file": null,
       "source_location": null
     },
@@ -5161,12 +5161,12 @@
     },
     {
       "id": "l10n_app_localizations_dart",
-      "label": "../../../l10n/app_localizations.dart",
+      "label": "l10n/app_localizations.dart",
       "_origin": "ast",
       "community": 7,
       "community_name": "package:flutter/material.dart",
       "file_type": "code",
-      "norm_label": "../../../l10n/app_localizations.dart",
+      "norm_label": "l10n/app_localizations.dart",
       "source_file": null,
       "source_location": null
     },
@@ -14145,5 +14145,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "f37a542e99afe48e62c872f1d7dc35d1b837deeb"
+  "built_at_commit": "c44963b6eed7021ea3db22531f1df1e461ecde1c"
 }

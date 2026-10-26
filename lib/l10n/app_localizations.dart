@@ -355,6 +355,66 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Error'**
   String get error;
+
+  /// No description provided for @gallery.
+  ///
+  /// In en, this message translates to:
+  /// **'Gallery'**
+  String get gallery;
+
+  /// No description provided for @cardFront.
+  ///
+  /// In en, this message translates to:
+  /// **'Front Side'**
+  String get cardFront;
+
+  /// No description provided for @cardBack.
+  ///
+  /// In en, this message translates to:
+  /// **'Back Side'**
+  String get cardBack;
+
+  /// No description provided for @cameraDisclosureTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Camera Permission Disclosure'**
+  String get cameraDisclosureTitle;
+
+  /// No description provided for @agreeAndEnable.
+  ///
+  /// In en, this message translates to:
+  /// **'Agree & Continue'**
+  String get agreeAndEnable;
+
+  /// No description provided for @useGalleryOnly.
+  ///
+  /// In en, this message translates to:
+  /// **'Use Gallery Only'**
+  String get useGalleryOnly;
+
+  /// No description provided for @alignCardInFrame.
+  ///
+  /// In en, this message translates to:
+  /// **'Align visiting card in frame'**
+  String get alignCardInFrame;
+
+  /// No description provided for @cardCaptured.
+  ///
+  /// In en, this message translates to:
+  /// **'Card captured successfully'**
+  String get cardCaptured;
+
+  /// No description provided for @holdSteadyHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Hold steady in bright light for clean OCR'**
+  String get holdSteadyHint;
+
+  /// No description provided for @offlinePrivacyNotice.
+  ///
+  /// In en, this message translates to:
+  /// **'Scans stored 100% locally on your phone. Safe & private.'**
+  String get offlinePrivacyNotice;
 }
 
 class _AppLocalizationsDelegate

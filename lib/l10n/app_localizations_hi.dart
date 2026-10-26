@@ -140,4 +140,35 @@ class AppLocalizationsHi extends AppLocalizations {
 
   @override
   String get error => 'त्रुटि';
+
+  @override
+  String get gallery => 'गैलरी';
+
+  @override
+  String get cardFront => 'आगे का भाग';
+
+  @override
+  String get cardBack => 'पीछे का भाग';
+
+  @override
+  String get cameraDisclosureTitle => 'कैमरा अनुमति प्रकटीकरण';
+
+  @override
+  String get agreeAndEnable => 'स्वीकार करें व आगे बढ़ें';
+
+  @override
+  String get useGalleryOnly => 'केवल गैलरी का उपयोग करें';
+
+  @override
+  String get alignCardInFrame => 'विज़िटिंग कार्ड को फ्रेम में रखें';
+
+  @override
+  String get cardCaptured => 'कार्ड फ़ोटो ली गई';
+
+  @override
+  String get holdSteadyHint => 'साफ़ OCR के लिए पर्याप्त रोशनी में सीधा रखें';
+
+  @override
+  String get offlinePrivacyNotice =>
+      'स्कैन 100% आपके फ़ोन पर सुरक्षित और ऑफ़लाइन रहते हैं।';
 }

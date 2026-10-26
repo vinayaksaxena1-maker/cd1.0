@@ -140,4 +140,35 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get error => 'Error';
+
+  @override
+  String get gallery => 'Gallery';
+
+  @override
+  String get cardFront => 'Front Side';
+
+  @override
+  String get cardBack => 'Back Side';
+
+  @override
+  String get cameraDisclosureTitle => 'Camera Permission Disclosure';
+
+  @override
+  String get agreeAndEnable => 'Agree & Continue';
+
+  @override
+  String get useGalleryOnly => 'Use Gallery Only';
+
+  @override
+  String get alignCardInFrame => 'Align visiting card in frame';
+
+  @override
+  String get cardCaptured => 'Card captured successfully';
+
+  @override
+  String get holdSteadyHint => 'Hold steady in bright light for clean OCR';
+
+  @override
+  String get offlinePrivacyNotice =>
+      'Scans stored 100% locally on your phone. Safe & private.';
 }

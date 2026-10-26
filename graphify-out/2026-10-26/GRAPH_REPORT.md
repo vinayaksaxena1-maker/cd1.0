@@ -11,7 +11,7 @@
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `f37a542e`
+- Built from commit: `c44963b6`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -48,8 +48,8 @@
 
 ## God Nodes (most connected - your core abstractions)
 1. `कार्डसाथी (CardSaathi) — फ़्लटर संपूर्ण क्रियान्वयन योजना` - 11 edges
-2. `AppLocalizations` - 7 edges
-3. `🏗️ 6. अनुशंसित क्रियान्वयन क्रम (Recommended 6-Milestone Order)` - 7 edges
+2. `🏗️ 6. अनुशंसित क्रियान्वयन क्रम (Recommended 6-Milestone Order)` - 7 edges
+3. `AppLocalizations` - 7 edges
 4. `Category` - 6 edges
 5. `ContactCard` - 6 edges
 6. `MeetingReminder` - 6 edges
@@ -176,7 +176,7 @@ Cohesion: 0.18
 Nodes (7): _box, clearProfile, getProfile, init, _profileKey, saveProfile, UserProfileRepository
 
 ## Knowledge Gaps
-- **319 isolated node(s):** `XCTest`, `_locale`, `isHindi`, `setLocale`, `toggleLocale` (+314 more)
+- **319 isolated node(s):** `HiveRegistrar`, `categoriesBox`, `contactCardsBox`, `remindersBox`, `userProfileBox` (+314 more)
   These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 430 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
 - **9 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -185,7 +185,7 @@ _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `ContactCard` connect `ContactCard` to `user_profile.dart`, `contact_repository.dart`, `hive_registrar.dart`, `contact_card.dart`?**
   _High betweenness centrality (0.045) - this node is a cross-community bridge._
-- **What connects `XCTest`, `_locale`, `isHindi` to the rest of the system?**
+- **What connects `HiveRegistrar`, `categoriesBox`, `contactCardsBox` to the rest of the system?**
   _319 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `कार्डसाथी (CardSaathi) — फ़्लटर संपूर्ण क्रियान्वयन योजना` be split into smaller, more focused modules?**
   _Cohesion score 0.1111111111111111 - nodes in this community are weakly interconnected._

@@ -48,5 +48,15 @@
   "confirm": "पुष्टि करें",
   "cancel": "रद्द करें",
   "success": "सफल",
-  "error": "त्रुटि"
+  "error": "त्रुटि",
+  "gallery": "गैलरी",
+  "cardFront": "आगे का भाग",
+  "cardBack": "पीछे का भाग",
+  "cameraDisclosureTitle": "कैमरा अनुमति प्रकटीकरण",
+  "agreeAndEnable": "स्वीकार करें व आगे बढ़ें",
+  "useGalleryOnly": "केवल गैलरी का उपयोग करें",
+  "alignCardInFrame": "विज़िटिंग कार्ड को फ्रेम में रखें",
+  "cardCaptured": "कार्ड फ़ोटो ली गई",
+  "holdSteadyHint": "साफ़ OCR के लिए पर्याप्त रोशनी में सीधा रखें",
+  "offlinePrivacyNotice": "स्कैन 100% आपके फ़ोन पर सुरक्षित और ऑफ़लाइन रहते हैं।"
 }

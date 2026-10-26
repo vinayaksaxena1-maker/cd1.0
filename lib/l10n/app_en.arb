@@ -48,5 +48,15 @@
   "confirm": "Confirm",
   "cancel": "Cancel",
   "success": "Success",
-  "error": "Error"
+  "error": "Error",
+  "gallery": "Gallery",
+  "cardFront": "Front Side",
+  "cardBack": "Back Side",
+  "cameraDisclosureTitle": "Camera Permission Disclosure",
+  "agreeAndEnable": "Agree & Continue",
+  "useGalleryOnly": "Use Gallery Only",
+  "alignCardInFrame": "Align visiting card in frame",
+  "cardCaptured": "Card captured successfully",
+  "holdSteadyHint": "Hold steady in bright light for clean OCR",
+  "offlinePrivacyNotice": "Scans stored 100% locally on your phone. Safe & private."
 }
