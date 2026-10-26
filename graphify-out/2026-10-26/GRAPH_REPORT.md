@@ -1,17 +1,17 @@
 # Graph Report - CD1.0  (2026-10-26)
 
 ## Corpus Check
-- 56 files · ~16,714 words
+- 59 files · ~19,064 words
 - Verdict: corpus is large enough that graph structure adds value.
 - Unclassified: 31 file(s) not represented in the graph (top: .xml 7, (none) 5, .plist 4)
 
 ## Summary
-- 577 nodes · 693 edges · 34 communities (25 shown, 9 thin omitted)
+- 664 nodes · 798 edges · 33 communities (25 shown, 8 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `c44963b6`
+- Built from commit: `db43711d`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -32,24 +32,23 @@
 - app_typography.dart
 - app_localizations_en.dart
 - app_localizations_hi.dart
-- app_router.dart
+- scan_screen.dart
 - storage_service.dart
 - contact_card.dart
 - AppLocalizations
 - user_profile.dart
 - meeting_reminder.dart
-- category.dart
+- hive_registrar.dart
 - contact_repository.dart
 - reminder_repository.dart
-- hive_registrar.dart
+- scan_test.dart
 - category_repository.dart
 - user_profile_repository.dart
-- ContactCard
 
 ## God Nodes (most connected - your core abstractions)
 1. `कार्डसाथी (CardSaathi) — फ़्लटर संपूर्ण क्रियान्वयन योजना` - 11 edges
-2. `🏗️ 6. अनुशंसित क्रियान्वयन क्रम (Recommended 6-Milestone Order)` - 7 edges
-3. `AppLocalizations` - 7 edges
+2. `AppLocalizations` - 7 edges
+3. `🏗️ 6. अनुशंसित क्रियान्वयन क्रम (Recommended 6-Milestone Order)` - 7 edges
 4. `Category` - 6 edges
 5. `ContactCard` - 6 edges
 6. `MeetingReminder` - 6 edges
@@ -59,21 +58,21 @@
 10. `Flutter Engineering & Skill Routing Protocol` - 5 edges
 
 ## Surprising Connections (you probably didn't know these)
-- `ContactCardAdapter` --references--> `ContactCard`  [EXTRACTED]
-  lib/data/models/contact_card.g.dart → lib/data/models/contact_card.dart
-- `UserProfileAdapter` --references--> `UserProfile`  [EXTRACTED]
-  lib/data/models/user_profile.g.dart → lib/data/models/user_profile.dart
 - `AppLocalizationsEn` --inherits--> `AppLocalizations`  [EXTRACTED]
   lib/l10n/app_localizations_en.dart → lib/l10n/app_localizations.dart
 - `AppLocalizationsHi` --inherits--> `AppLocalizations`  [EXTRACTED]
   lib/l10n/app_localizations_hi.dart → lib/l10n/app_localizations.dart
 - `CategoryAdapter` --references--> `Category`  [EXTRACTED]
   lib/data/models/category.g.dart → lib/data/models/category.dart
+- `ContactCardAdapter` --references--> `ContactCard`  [EXTRACTED]
+  lib/data/models/contact_card.g.dart → lib/data/models/contact_card.dart
+- `MeetingReminderAdapter` --references--> `MeetingReminder`  [EXTRACTED]
+  lib/data/models/meeting_reminder.g.dart → lib/data/models/meeting_reminder.dart
 
 ## Import Cycles
 - None detected.
 
-## Communities (34 total, 9 thin omitted)
+## Communities (33 total, 8 thin omitted)
 
 ### Community 1 - "कार्डसाथी (CardSaathi) — फ़्लटर संपूर्ण क्रियान्वयन योजना"
 Cohesion: 0.11
@@ -100,8 +99,8 @@ Cohesion: 0.15
 Nodes (12): Bottom Navigation, Brand & Style, Buttons, Cards & Contact Rows, Chips & Badges, Colors, Components, Elevation & Depth (+4 more)
 
 ### Community 7 - "package:flutter/material.dart"
-Cohesion: 0.07
-Nodes (23): build, CardSaathiApp, main, build, MainShell, navigationShell, _onDestinationSelected, build (+15 more)
+Cohesion: 0.06
+Nodes (26): build, CardSaathiApp, main, build, MainShell, navigationShell, _onDestinationSelected, build (+18 more)
 
 ### Community 8 - "AppDelegate"
 Cohesion: 0.11
@@ -109,27 +108,27 @@ Nodes (6): Flutter, AppDelegate, SceneDelegate, RunnerTests, UIKit, XCTest
 
 ### Community 9 - "app_localizations.dart"
 Cohesion: 0.03
-Nodes (51): address, appTagline, appTitle, callDirectly, cameraDisclosure, cancel, category, company (+43 more)
+Nodes (61): address, agreeAndEnable, alignCardInFrame, appTagline, appTitle, callDirectly, cameraDisclosure, cameraDisclosureTitle (+53 more)
 
 ### Community 10 - "repository_test.dart"
-Cohesion: 0.06
-Nodes (11): main, main, categoryRepo, contactRepo, main, profileRepo, reminderRepo, tempDir (+3 more)
+Cohesion: 0.12
+Nodes (7): main, categoryRepo, contactRepo, main, profileRepo, reminderRepo, tempDir
 
 ### Community 17 - "app_typography.dart"
-Cohesion: 0.11
-Nodes (13): AppTheme, AppTypography, bodyLarge, bodyMedium, bodySmall, headlineLarge, headlineMedium, headlineSmall (+5 more)
+Cohesion: 0.06
+Nodes (16): AppRouter, _rootNavigatorKey, router, AppTheme, AppTypography, bodyLarge, bodyMedium, bodySmall (+8 more)
 
 ### Community 18 - "app_localizations_en.dart"
 Cohesion: 0.04
-Nodes (43): address, appTagline, appTitle, callDirectly, cameraDisclosure, cancel, category, company (+35 more)
+Nodes (53): address, agreeAndEnable, alignCardInFrame, appTagline, appTitle, callDirectly, cameraDisclosure, cameraDisclosureTitle (+45 more)
 
 ### Community 19 - "app_localizations_hi.dart"
 Cohesion: 0.04
-Nodes (43): address, appTagline, appTitle, callDirectly, cameraDisclosure, cancel, category, company (+35 more)
+Nodes (53): address, agreeAndEnable, alignCardInFrame, appTagline, appTitle, callDirectly, cameraDisclosure, cameraDisclosureTitle (+45 more)
 
-### Community 20 - "app_router.dart"
-Cohesion: 0.14
-Nodes (3): AppRouter, _rootNavigatorKey, router
+### Community 20 - "scan_screen.dart"
+Cohesion: 0.05
+Nodes (32): _availableCameras, _backImagePath, build, _cameraController, _captureCard, _checkPermissionsAndInitCamera, createState, didChangeAppLifecycleState (+24 more)
 
 ### Community 21 - "storage_service.dart"
 Cohesion: 0.08
@@ -144,16 +143,16 @@ Cohesion: 0.33
 Nodes (5): AppLocalizations, _AppLocalizationsDelegate, AppLocalizationsEn, AppLocalizationsHi, of
 
 ### Community 25 - "user_profile.dart"
-Cohesion: 0.11
-Nodes (20): ContactCardAdapter, hashCode, operator, read, typeId, UserProfileAdapter, write, address (+12 more)
+Cohesion: 0.13
+Nodes (18): hashCode, operator, read, typeId, write, address, company, copyWith (+10 more)
 
 ### Community 26 - "meeting_reminder.dart"
-Cohesion: 0.12
-Nodes (18): hashCode, MeetingReminderAdapter, operator, read, typeId, write, agenda, contactCardId (+10 more)
-
-### Community 27 - "category.dart"
 Cohesion: 0.13
-Nodes (17): CategoryAdapter, hashCode, operator, read, typeId, write, cardCount, Category (+9 more)
+Nodes (16): hashCode, operator, read, typeId, write, agenda, contactCardId, copyWith (+8 more)
+
+### Community 27 - "hive_registrar.dart"
+Cohesion: 0.06
+Nodes (32): CategoryAdapter, hashCode, operator, read, typeId, write, ContactCardAdapter, MeetingReminderAdapter (+24 more)
 
 ### Community 28 - "contact_repository.dart"
 Cohesion: 0.14
@@ -163,9 +162,9 @@ Nodes (12): _box, clearAllCards, ContactRepository, deleteCard, findDuplicate, g
 Cohesion: 0.15
 Nodes (10): _box, clearAllReminders, deleteReminder, getAllReminders, getRemindersForContact, getUpcomingReminders, init, ReminderRepository (+2 more)
 
-### Community 30 - "hive_registrar.dart"
-Cohesion: 0.15
-Nodes (9): categoriesBox, clearAllUserData, contactCardsBox, HiveRegistrar, initHive, _initialized, registerAdapters, remindersBox (+1 more)
+### Community 30 - "scan_test.dart"
+Cohesion: 0.11
+Nodes (6): main, main, createTestApp, main, main, main
 
 ### Community 31 - "category_repository.dart"
 Cohesion: 0.15
@@ -176,24 +175,24 @@ Cohesion: 0.18
 Nodes (7): _box, clearProfile, getProfile, init, _profileKey, saveProfile, UserProfileRepository
 
 ## Knowledge Gaps
-- **319 isolated node(s):** `HiveRegistrar`, `categoriesBox`, `contactCardsBox`, `remindersBox`, `userProfileBox` (+314 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 430 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
-- **9 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **382 isolated node(s):** `XCTest`, `_locale`, `isHindi`, `setLocale`, `toggleLocale` (+377 more)
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 505 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+- **8 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `ContactCard` connect `ContactCard` to `user_profile.dart`, `contact_repository.dart`, `hive_registrar.dart`, `contact_card.dart`?**
-  _High betweenness centrality (0.045) - this node is a cross-community bridge._
-- **What connects `HiveRegistrar`, `categoriesBox`, `contactCardsBox` to the rest of the system?**
-  _319 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **Why does `ContactCard` connect `hive_registrar.dart` to `contact_repository.dart`, `contact_card.dart`?**
+  _High betweenness centrality (0.039) - this node is a cross-community bridge._
+- **What connects `XCTest`, `_locale`, `isHindi` to the rest of the system?**
+  _382 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `कार्डसाथी (CardSaathi) — फ़्लटर संपूर्ण क्रियान्वयन योजना` be split into smaller, more focused modules?**
   _Cohesion score 0.1111111111111111 - nodes in this community are weakly interconnected._
-- **Why does `MeetingReminder` connect `meeting_reminder.dart` to `ContactCard`, `reminder_repository.dart`, `hive_registrar.dart`?**
-  _High betweenness centrality (0.032) - this node is a cross-community bridge._
+- **Why does `Category` connect `hive_registrar.dart` to `category_repository.dart`?**
+  _High betweenness centrality (0.029) - this node is a cross-community bridge._
 - **Should `app_colors.dart` be split into smaller, more focused modules?**
   _Cohesion score 0.05714285714285714 - nodes in this community are weakly interconnected._
-- **Why does `Category` connect `category.dart` to `ContactCard`, `hive_registrar.dart`, `category_repository.dart`?**
-  _High betweenness centrality (0.031) - this node is a cross-community bridge._
+- **Why does `MeetingReminder` connect `hive_registrar.dart` to `meeting_reminder.dart`, `reminder_repository.dart`?**
+  _High betweenness centrality (0.028) - this node is a cross-community bridge._
 - **Should `package:flutter/material.dart` be split into smaller, more focused modules?**
-  _Cohesion score 0.07142857142857142 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.06386066763425254 - nodes in this community are weakly interconnected._

@@ -126,9 +126,9 @@
     "semantic_hash": ""
   },
   "pubspec.yaml": {
-    "mtime": 1793006044.7929194,
-    "seen": 1793006576.9997113,
-    "ast_hash": "ae4d483369126922d322dc43d60c44c1",
+    "mtime": 1793008000.4311411,
+    "seen": 1793008480.660313,
+    "ast_hash": "f55db999ca57ebf0f9cd219f93c0839e",
     "semantic_hash": ""
   },
   "android/app/src/main/res/mipmap-hdpi/ic_launcher.png": {
@@ -507,6 +507,30 @@
     "mtime": 1793006529.5402994,
     "seen": 1793006576.9997113,
     "ast_hash": "913fd24a2c04af100ca2ee0e2e35fbe3",
+    "semantic_hash": ""
+  },
+  "lib/core/services/card_parser_service.dart": {
+    "mtime": 1793008414.9243515,
+    "seen": 1793008480.660313,
+    "ast_hash": "0f8bcea48c93564282d54ae950e8d076",
+    "semantic_hash": ""
+  },
+  "lib/core/services/ocr_service.dart": {
+    "mtime": 1793008067.9751022,
+    "seen": 1793008480.660313,
+    "ast_hash": "7b39f8f9cb4197459bc40427f97edbd4",
+    "semantic_hash": ""
+  },
+  "lib/data/models/extracted_card_data.dart": {
+    "mtime": 1793008014.5716915,
+    "seen": 1793008480.660313,
+    "ast_hash": "c90b809884135e623045626f0574b143",
+    "semantic_hash": ""
+  },
+  "test/card_parser_test.dart": {
+    "mtime": 1793008090.7019136,
+    "seen": 1793008480.660313,
+    "ast_hash": "a73da3dd604d942a93de3f177c3e7b9b",
     "semantic_hash": ""
   }
 }

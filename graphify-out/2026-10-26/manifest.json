@@ -41,12 +41,6 @@
     "ast_hash": "83b7f1dc11fd57ff035c94f258b80520",
     "semantic_hash": ""
   },
-  "android/app/src/main/kotlin/com/cardsaathi/app/cardsaathi/MainActivity.kt": {
-    "mtime": 1792992665.1702933,
-    "seen": 1792992879.961774,
-    "ast_hash": "7fe524011ffff06e9968ae44f054e738",
-    "semantic_hash": ""
-  },
   "android/build.gradle.kts": {
     "mtime": 1792992665.1788273,
     "seen": 1792992879.961774,
@@ -132,9 +126,9 @@
     "semantic_hash": ""
   },
   "pubspec.yaml": {
-    "mtime": 1793002346.1456296,
-    "seen": 1793002741.3366084,
-    "ast_hash": "1419f63c3d7a491c092b83928ec7eb30",
+    "mtime": 1793006044.7929194,
+    "seen": 1793006576.9997113,
+    "ast_hash": "ae4d483369126922d322dc43d60c44c1",
     "semantic_hash": ""
   },
   "android/app/src/main/res/mipmap-hdpi/ic_launcher.png": {
@@ -312,21 +306,21 @@
     "semantic_hash": ""
   },
   "lib/l10n/app_localizations.dart": {
-    "mtime": 1793002343.0432894,
-    "seen": 1793002741.3366084,
-    "ast_hash": "6f237d322187bd5063025fbd24a2a3c3",
+    "mtime": 1793007356.9271438,
+    "seen": 1793007953.3473928,
+    "ast_hash": "11b9f2ec3e1a79cfb85803e5f8f900ab",
     "semantic_hash": ""
   },
   "lib/l10n/app_localizations_en.dart": {
-    "mtime": 1793002343.0362945,
-    "seen": 1793002741.3366084,
-    "ast_hash": "e64449d4adb9f268acf1b96a7535b1a6",
+    "mtime": 1793007356.9183578,
+    "seen": 1793007953.3473928,
+    "ast_hash": "aaef674c98df45805e8018651666b952",
     "semantic_hash": ""
   },
   "lib/l10n/app_localizations_hi.dart": {
-    "mtime": 1793002343.0392916,
-    "seen": 1793002741.3366084,
-    "ast_hash": "c126bab0b5d00028a56703998240c85b",
+    "mtime": 1793007356.9222624,
+    "seen": 1793007953.3473928,
+    "ast_hash": "55829a8a51909dd778db1d9b8f1371bb",
     "semantic_hash": ""
   },
   "lib/presentation/navigation/main_shell.dart": {
@@ -372,9 +366,9 @@
     "semantic_hash": ""
   },
   "lib/presentation/screens/scan/scan_screen.dart": {
-    "mtime": 1793002156.2971323,
-    "seen": 1793002186.911186,
-    "ast_hash": "e90cedf5655649a21f19987333d912d6",
+    "mtime": 1793006320.0308836,
+    "seen": 1793006576.9997113,
+    "ast_hash": "bec4513005a5b3657412402bc17d214f",
     "semantic_hash": ""
   },
   "test/l10n_test.dart": {
@@ -489,6 +483,30 @@
     "mtime": 1793002573.4541843,
     "seen": 1793002741.3366084,
     "ast_hash": "c6a90ee3594cfe241b37f6214d24cc75",
+    "semantic_hash": ""
+  },
+  "android/app/src/main/kotlin/com/cardsaathi/app/MainActivity.kt": {
+    "mtime": 1793003786.704139,
+    "seen": 1793006576.9997113,
+    "ast_hash": "91fcf4ac80139fa463c8361c64f63806",
+    "semantic_hash": ""
+  },
+  "lib/presentation/widgets/scan/camera_disclosure_dialog.dart": {
+    "mtime": 1793006314.5447228,
+    "seen": 1793006576.9997113,
+    "ast_hash": "f9ef49db8bd3760dd7ff49e1f3236d10",
+    "semantic_hash": ""
+  },
+  "lib/presentation/widgets/scan/card_guide_overlay.dart": {
+    "mtime": 1793006164.0466433,
+    "seen": 1793006576.9997113,
+    "ast_hash": "aaaf974bcb1e96b34ce04f9e9a8a0b32",
+    "semantic_hash": ""
+  },
+  "test/scan_test.dart": {
+    "mtime": 1793006529.5402994,
+    "seen": 1793006576.9997113,
+    "ast_hash": "913fd24a2c04af100ca2ee0e2e35fbe3",
     "semantic_hash": ""
   }
 }
