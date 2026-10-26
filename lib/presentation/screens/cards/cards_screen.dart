@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
+import 'package:uuid/uuid.dart';
+import '../../../core/services/contact_picker_service.dart';
 import '../../../core/theme/app_colors.dart';
 import '../../../core/theme/app_typography.dart';
 import '../../../data/local/storage_service.dart';
@@ -138,6 +140,84 @@ class _CardsScreenState extends State<CardsScreen> {
     _applyFiltersAndSort();
   }
 
+  Future<void> _importPhoneContact() async {
+    final l10n = AppLocalizations.of(context)!;
+    final picked = await ContactPickerService.instance.pickContact();
+    if (picked != null && mounted) {
+      final newCard = picked.toContactCard(id: const Uuid().v4());
+      await StorageService.instance.contactRepo.saveCard(newCard);
+      if (mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(
+            content: Text(l10n.contactImported),
+            backgroundColor: AppColors.forestGreen,
+          ),
+        );
+        try {
+          await context.push('/cards/${newCard.id}/edit');
+        } catch (_) {}
+        _loadInitialData();
+      }
+    }
+  }
+
+  void _showAddCardOptions() {
+    final l10n = AppLocalizations.of(context)!;
+    showModalBottomSheet(
+      context: context,
+      shape: const RoundedRectangleBorder(
+        borderRadius: BorderRadius.vertical(top: Radius.circular(20)),
+      ),
+      builder: (ctx) => SafeArea(
+        child: Padding(
+          padding: const EdgeInsets.symmetric(vertical: 20, horizontal: 16),
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              Container(
+                width: 40,
+                height: 4,
+                decoration: BoxDecoration(
+                  color: AppColors.borderSubtle,
+                  borderRadius: BorderRadius.circular(2),
+                ),
+              ),
+              const SizedBox(height: 16),
+              ListTile(
+                leading: const CircleAvatar(
+                  backgroundColor: AppColors.surfaceSage,
+                  child: Icon(Icons.add_a_photo_outlined, color: AppColors.forestGreen),
+                ),
+                title: Text(l10n.scanCardButton, style: AppTypography.titleMedium()),
+                subtitle: const Text('Scan physical visiting card with camera or gallery'),
+                onTap: () async {
+                  Navigator.pop(ctx);
+                  try {
+                    await context.push('/scan');
+                  } catch (_) {}
+                  _loadInitialData();
+                },
+              ),
+              const Divider(),
+              ListTile(
+                leading: const CircleAvatar(
+                  backgroundColor: AppColors.surfaceSage,
+                  child: Icon(Icons.contacts_outlined, color: AppColors.forestGreen),
+                ),
+                title: Text(l10n.importFromPhone, style: AppTypography.titleMedium()),
+                subtitle: const Text('Pick directly from your phone address book'),
+                onTap: () {
+                  Navigator.pop(ctx);
+                  _importPhoneContact();
+                },
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     final l10n = AppLocalizations.of(context)!;
@@ -147,6 +227,11 @@ class _CardsScreenState extends State<CardsScreen> {
       appBar: AppBar(
         title: Text(l10n.navCards, style: AppTypography.headlineMedium()),
         actions: [
+          IconButton(
+            icon: const Icon(Icons.person_add_alt_1_outlined, color: AppColors.textPrimary),
+            tooltip: l10n.importFromPhone,
+            onPressed: _importPhoneContact,
+          ),
           IconButton(
             icon: const Icon(Icons.category_outlined, color: AppColors.forestGreen),
             tooltip: l10n.navCategories,
@@ -233,12 +318,10 @@ class _CardsScreenState extends State<CardsScreen> {
         ),
       ),
       floatingActionButton: FloatingActionButton(
-        onPressed: () async {
-          await context.push('/scan');
-          _loadInitialData();
-        },
+        onPressed: _showAddCardOptions,
         backgroundColor: AppColors.forestGreen,
-        child: const Icon(Icons.add_a_photo_outlined, color: Colors.white),
+        tooltip: l10n.scanCardButton,
+        child: const Icon(Icons.add, color: Colors.white, size: 28),
       ),
     );
   }
@@ -348,7 +431,7 @@ class _CardsScreenState extends State<CardsScreen> {
               const SizedBox(height: 20),
               ElevatedButton.icon(
                 style: ElevatedButton.styleFrom(
-                  minimumSize: const Size(220, 50),
+                  minimumSize: const Size(240, 50),
                   backgroundColor: AppColors.forestGreen,
                   foregroundColor: Colors.white,
                 ),
@@ -358,6 +441,17 @@ class _CardsScreenState extends State<CardsScreen> {
                 },
                 icon: const Icon(Icons.add_a_photo_outlined),
                 label: Text(l10n.scanCardButton),
+              ),
+              const SizedBox(height: 12),
+              OutlinedButton.icon(
+                style: OutlinedButton.styleFrom(
+                  minimumSize: const Size(240, 50),
+                  foregroundColor: AppColors.forestGreen,
+                  side: const BorderSide(color: AppColors.forestGreen, width: 1.5),
+                ),
+                onPressed: _importPhoneContact,
+                icon: const Icon(Icons.contacts_outlined),
+                label: Text(l10n.importFromPhone),
               ),
             ],
           ),

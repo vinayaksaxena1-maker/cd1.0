@@ -382,4 +382,13 @@ class AppLocalizationsHi extends AppLocalizations {
 
   @override
   String get website => 'वेबसाइट';
+
+  @override
+  String get importContact => 'संपर्क आयात करें';
+
+  @override
+  String get importFromPhone => 'फ़ोन संपर्कों से जोड़ें';
+
+  @override
+  String get contactImported => 'संपर्क सफलतापूर्वक जोड़ा गया';
 }

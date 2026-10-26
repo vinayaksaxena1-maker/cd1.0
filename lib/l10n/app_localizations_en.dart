@@ -382,4 +382,13 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get website => 'Website';
+
+  @override
+  String get importContact => 'Import Contact';
+
+  @override
+  String get importFromPhone => 'Import from Phone Contacts';
+
+  @override
+  String get contactImported => 'Contact imported successfully';
 }

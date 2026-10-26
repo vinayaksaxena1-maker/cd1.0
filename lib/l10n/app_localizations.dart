@@ -829,6 +829,24 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Website'**
   String get website;
+
+  /// No description provided for @importContact.
+  ///
+  /// In en, this message translates to:
+  /// **'Import Contact'**
+  String get importContact;
+
+  /// No description provided for @importFromPhone.
+  ///
+  /// In en, this message translates to:
+  /// **'Import from Phone Contacts'**
+  String get importFromPhone;
+
+  /// No description provided for @contactImported.
+  ///
+  /// In en, this message translates to:
+  /// **'Contact imported successfully'**
+  String get contactImported;
 }
 
 class _AppLocalizationsDelegate

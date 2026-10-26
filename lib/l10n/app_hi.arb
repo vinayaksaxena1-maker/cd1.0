@@ -128,5 +128,8 @@
   "addTag": "टैग जोड़ें",
   "secondaryPhone": "द्वितीयक फ़ोन",
   "website": "वेबसाइट",
-  "notes": "टिप्पणी"
+  "notes": "टिप्पणी",
+  "importContact": "संपर्क आयात करें",
+  "importFromPhone": "फ़ोन संपर्कों से जोड़ें",
+  "contactImported": "संपर्क सफलतापूर्वक जोड़ा गया"
 }

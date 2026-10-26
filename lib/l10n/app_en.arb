@@ -128,5 +128,8 @@
   "addTag": "Add Tag",
   "secondaryPhone": "Secondary Phone",
   "website": "Website",
-  "notes": "Notes"
+  "notes": "Notes",
+  "importContact": "Import Contact",
+  "importFromPhone": "Import from Phone Contacts",
+  "contactImported": "Contact imported successfully"
 }
