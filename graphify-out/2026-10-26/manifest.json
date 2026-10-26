@@ -102,15 +102,15 @@
     "semantic_hash": ""
   },
   "lib/main.dart": {
-    "mtime": 1792993318.7770445,
-    "seen": 1792993502.7826748,
-    "ast_hash": "b0bbe33d906d57bb2f98ba77df8185aa",
+    "mtime": 1793001880.9895692,
+    "seen": 1793002186.911186,
+    "ast_hash": "1cf9590bab45f6c7456ddb21d53bc088",
     "semantic_hash": ""
   },
   "test/widget_test.dart": {
-    "mtime": 1792993426.824919,
-    "seen": 1792993502.7826748,
-    "ast_hash": "f4a9284d4e698679c00abd2249a376ea",
+    "mtime": 1793001907.8374026,
+    "seen": 1793002186.911186,
+    "ast_hash": "4f1fed92a11db55abe192cc637be480e",
     "semantic_hash": ""
   },
   "analysis_options.yaml": {
@@ -132,9 +132,9 @@
     "semantic_hash": ""
   },
   "pubspec.yaml": {
-    "mtime": 1792993177.024519,
-    "seen": 1792993502.7826748,
-    "ast_hash": "0a17d3161f78f600278297d88d103636",
+    "mtime": 1793001631.6722603,
+    "seen": 1793002186.911186,
+    "ast_hash": "869c9c55626917c3ac37608ee0e7e840",
     "semantic_hash": ""
   },
   "android/app/src/main/res/mipmap-hdpi/ic_launcher.png": {
@@ -297,6 +297,102 @@
     "mtime": 1792993399.859147,
     "seen": 1792993502.7826748,
     "ast_hash": "6aa8440fd73cfc369b87c45142c7dc19",
+    "semantic_hash": ""
+  },
+  "lib/core/localization/locale_controller.dart": {
+    "mtime": 1793001737.8623922,
+    "seen": 1793002186.911186,
+    "ast_hash": "e7d331824ff9346feaa7794a8835ea32",
+    "semantic_hash": ""
+  },
+  "lib/core/routing/app_router.dart": {
+    "mtime": 1793001863.9880826,
+    "seen": 1793002186.911186,
+    "ast_hash": "1c6c09e234f6b76a18356dd1818cf775",
+    "semantic_hash": ""
+  },
+  "lib/l10n/app_localizations.dart": {
+    "mtime": 1793001718.418152,
+    "seen": 1793002186.911186,
+    "ast_hash": "6f237d322187bd5063025fbd24a2a3c3",
+    "semantic_hash": ""
+  },
+  "lib/l10n/app_localizations_en.dart": {
+    "mtime": 1793001718.4111533,
+    "seen": 1793002186.911186,
+    "ast_hash": "e64449d4adb9f268acf1b96a7535b1a6",
+    "semantic_hash": ""
+  },
+  "lib/l10n/app_localizations_hi.dart": {
+    "mtime": 1793001718.4141533,
+    "seen": 1793002186.911186,
+    "ast_hash": "c126bab0b5d00028a56703998240c85b",
+    "semantic_hash": ""
+  },
+  "lib/presentation/navigation/main_shell.dart": {
+    "mtime": 1793001749.5887535,
+    "seen": 1793002186.911186,
+    "ast_hash": "8896203107aa6945c3adce6feda79e60",
+    "semantic_hash": ""
+  },
+  "lib/presentation/screens/cards/cards_screen.dart": {
+    "mtime": 1793001781.797159,
+    "seen": 1793002186.911186,
+    "ast_hash": "f6fd30d7e72d8a5260b69c24cdd4f0a4",
+    "semantic_hash": ""
+  },
+  "lib/presentation/screens/categories/categories_screen.dart": {
+    "mtime": 1793002127.7009227,
+    "seen": 1793002186.911186,
+    "ast_hash": "36d80b6072bd6955ed4d9216e0082f99",
+    "semantic_hash": ""
+  },
+  "lib/presentation/screens/digital_card/digital_card_screen.dart": {
+    "mtime": 1793002138.4405959,
+    "seen": 1793002186.911186,
+    "ast_hash": "49daae496c8a846283f44fb2b1c6711e",
+    "semantic_hash": ""
+  },
+  "lib/presentation/screens/home/home_screen.dart": {
+    "mtime": 1793001764.2068717,
+    "seen": 1793002186.911186,
+    "ast_hash": "3df99eee56580f136aba78223dd7b557",
+    "semantic_hash": ""
+  },
+  "lib/presentation/screens/profile/profile_screen.dart": {
+    "mtime": 1793002150.5581124,
+    "seen": 1793002186.911186,
+    "ast_hash": "d43e835eb59cf89b7e7922a7b52d5865",
+    "semantic_hash": ""
+  },
+  "lib/presentation/screens/reminders/reminders_screen.dart": {
+    "mtime": 1793001788.6874323,
+    "seen": 1793002186.911186,
+    "ast_hash": "8c0a4c3570baf3f58dfe03a3ddaa9834",
+    "semantic_hash": ""
+  },
+  "lib/presentation/screens/scan/scan_screen.dart": {
+    "mtime": 1793002156.2971323,
+    "seen": 1793002186.911186,
+    "ast_hash": "e90cedf5655649a21f19987333d912d6",
+    "semantic_hash": ""
+  },
+  "test/l10n_test.dart": {
+    "mtime": 1793001891.781037,
+    "seen": 1793002186.911186,
+    "ast_hash": "6481d3ab1e05dd215225facbeb89d980",
+    "semantic_hash": ""
+  },
+  "test/router_test.dart": {
+    "mtime": 1793002010.7637844,
+    "seen": 1793002186.911186,
+    "ast_hash": "7d8a6af0cd6add24122fc1bf878fde5b",
+    "semantic_hash": ""
+  },
+  "l10n.yaml": {
+    "mtime": 1793001639.4144292,
+    "seen": 1793002186.911186,
+    "ast_hash": "4725a0e1d7a200afc68ee8f909547cfb",
     "semantic_hash": ""
   }
 }
