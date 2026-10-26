@@ -1,0 +1,38 @@
+{
+  "README.md": {
+    "mtime": 1792988257.972886,
+    "seen": 1792988421.4933186,
+    "ast_hash": "96fb03d42bdf21bfcb0e536842efd207",
+    "semantic_hash": ""
+  },
+  "CardSaathi-Antigravity-Flutter-Implementation-Plan.md": {
+    "mtime": 1792988788.144317,
+    "seen": 1792989981.550526,
+    "ast_hash": "0d9803ab5867e6b758669d8c76747b40",
+    "semantic_hash": ""
+  },
+  ".agents/rules/artemis.md": {
+    "mtime": 1792988766.0855398,
+    "seen": 1792989981.550526,
+    "ast_hash": "f9d468495217195ef5d5454e31e172d8",
+    "semantic_hash": ""
+  },
+  ".agents/rules/flutter.md": {
+    "mtime": 1792989956.6927736,
+    "seen": 1792989981.550526,
+    "ast_hash": "101d7e8d2111c0f7f44f6ee0fcec0f75",
+    "semantic_hash": ""
+  },
+  "AGENTS.md": {
+    "mtime": 1792992401.0300286,
+    "seen": 1792992408.4808226,
+    "ast_hash": "b35e3d30934a03c7c4d10096f06d9745",
+    "semantic_hash": ""
+  },
+  "google-services.json": {
+    "mtime": 1792991971.4348974,
+    "seen": 1792992408.4808226,
+    "ast_hash": "83b7f1dc11fd57ff035c94f258b80520",
+    "semantic_hash": ""
+  }
+}

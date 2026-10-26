@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "814929397341",
+    "project_id": "card-holder1",
+    "storage_bucket": "card-holder1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:814929397341:android:8c903ac9efde133c8befb4",
+        "android_client_info": {
+          "package_name": "com.cardsaathi.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrPELTKQmU_g9mNNSGC5moC-qR-SQV4Ik"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
