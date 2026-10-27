@@ -6,6 +6,7 @@ import '../../../data/local/storage_service.dart';
 import '../../../data/models/meeting_reminder.dart';
 import '../../../l10n/app_localizations.dart';
 import '../../widgets/reminders/add_edit_reminder_sheet.dart';
+import '../../widgets/reminders/battery_optimization_dialog.dart';
 import '../../widgets/reminders/meeting_reminder_card.dart';
 import '../../widgets/reminders/meeting_reminder_skeleton.dart';
 
@@ -251,6 +252,11 @@ class _RemindersScreenState extends State<RemindersScreen>
         backgroundColor: AppColors.surfaceCard,
         elevation: 0,
         actions: [
+          IconButton(
+            icon: const Icon(Icons.battery_charging_full_rounded, color: AppColors.forestGreen),
+            tooltip: 'Alarm Battery Optimization Guide',
+            onPressed: () => BatteryOptimizationDialog.show(context),
+          ),
           IconButton(
             icon: Icon(
               _showCompleted ? Icons.check_circle : Icons.check_circle_outline,

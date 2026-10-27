@@ -200,10 +200,10 @@ void main() {
       // Tap save within runAsync to allow Hive disk writes
       await tester.runAsync(() async {
         await tester.tap(find.byType(ElevatedButton));
-        await Future.delayed(const Duration(milliseconds: 300));
+        await Future.delayed(const Duration(milliseconds: 600));
       });
       await tester.pump();
-      await tester.pump(const Duration(milliseconds: 300));
+      await tester.pump(const Duration(milliseconds: 500));
 
       expect(savedReminder, isNotNull);
       expect(savedReminder!.title, 'Annual Deal Review');

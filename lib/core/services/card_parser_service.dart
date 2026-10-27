@@ -41,14 +41,15 @@ class CardParserService {
     'advocate', 'architect', 'engineer', 'executive', 'associate',
     'sales manager', 'marketing manager', 'specialist',
     // Hindi Designations
-    'निदेशक', 'प्रबंध निदेशक', 'प्रोप्राइटर', 'मालिक', 'संस्थापक',
+    'निदेशक', 'प्रबंध निदेशक', 'प्रोप्राइटर', 'प्रो.', 'मालिक', 'संस्थापक',
     'सह-संस्थापक', 'भागीदार', 'साझेदार', 'प्रबंधक', 'सलाहकार',
-    'अधिवक्ता', 'डॉक्टर', 'अभियंता'
+    'अधिवक्ता', 'डॉक्टर', 'अभियंता', 'संचालक', 'व्यवस्थापक', 'अध्यक्ष', 'सचिव'
   ];
 
   // Name Honorifics
   static final List<String> _nameHonorifics = [
-    'dr.', 'dr ', 'ca ', 'adv.', 'adv ', 'er.', 'er ', 'shri ', 'smt ', 'mr.', 'ms.', 'mrs.'
+    'dr.', 'dr ', 'ca ', 'adv.', 'adv ', 'er.', 'er ', 'shri ', 'smt ', 'mr.', 'ms.', 'mrs.',
+    'श्री ', 'श्रीमती ', 'डॉ. ', 'सीए ', 'एड. '
   ];
 
   // Common Business / Company Suffixes
@@ -61,8 +62,25 @@ class CardParserService {
     'solutions', 'services', 'studio', 'builders', 'developers', 'industries',
     // Hindi Company Keywords
     'प्रा. लि.', 'लिमिटेड', 'ट्रेडर्स', 'एंटरप्राइजेज', 'ब्रदर्स', 'संस',
-    'ज्वेलर्स', 'टेक्सटाइल्स', 'स्वीट्स', 'स्टोर्स', 'मार्ट', 'एजेंसी', 'उद्योग'
+    'ज्वेलर्स', 'टेक्सटाइल्स', 'स्वीट्स', 'स्टोर्स', 'मार्ट', 'एजेंसी', 'उद्योग',
+    'वस्त्र भंडार', 'किराना स्टोर', 'मिष्ठान भंडार', 'हैंडलूम', 'कंस्ट्रक्शन'
   ];
+
+  /// Normalizes Hindi numerals (०-९) and clears decorative calligraphy swashes
+  static String normalizeHindiNumerals(String text) {
+    const hindiDigits = {
+      '०': '0', '१': '1', '२': '2', '३': '3', '४': '4',
+      '५': '5', '६': '6', '७': '7', '८': '8', '९': '9'
+    };
+    var result = text;
+    hindiDigits.forEach((k, v) {
+      result = result.replaceAll(k, v);
+    });
+    // Sanitize zero-width chars and decorative divider strokes
+    result = result.replaceAll(RegExp(r'[\u200B-\u200D\uFEFF]'), '');
+    result = result.replaceAll(RegExp(r'[-—_~]{3,}'), ' ');
+    return result;
+  }
 
   /// Parses raw OCR multi-line text into structured [ExtractedCardData]
   static ExtractedCardData parseText(
@@ -77,7 +95,9 @@ class CardParserService {
       );
     }
 
-    final lines = rawText
+    final normalized = normalizeHindiNumerals(rawText);
+
+    final lines = normalized
         .split('\n')
         .map((l) => l.trim())
         .where((l) => l.isNotEmpty)
@@ -147,10 +167,18 @@ class CardParserService {
       if (designation.isEmpty) {
         final lowerLine = line.toLowerCase();
         for (final des in _designations) {
-          if (lowerLine == des ||
-              lowerLine.startsWith('$des ') ||
-              lowerLine.endsWith(' $des') ||
-              lowerLine.contains(' $des ')) {
+          if (lowerLine == des || lowerLine.contains(' $des') || lowerLine.contains('$des ')) {
+            if ((des == 'प्रो.' || des == 'prop.' || des == 'proprietor') && lowerLine.startsWith('$des ')) {
+              final remainder = line.substring(des.length).trim();
+              if (remainder.isNotEmpty && _looksLikePersonName(remainder)) {
+                designation = des;
+                if (name.isEmpty) {
+                  name = remainder;
+                }
+                designationLineIndex = i;
+                break;
+              }
+            }
             designation = line;
             designationLineIndex = i;
             break;
@@ -261,7 +289,20 @@ class CardParserService {
 
   static bool _isPhoneNumberLine(String line) {
     final digitsCount = line.replaceAll(RegExp(r'\D'), '').length;
-    return digitsCount >= 10 && line.length <= 25;
+    if (digitsCount < 10) return false;
+    final lower = line.toLowerCase();
+    if (lower.contains('ph:') ||
+        lower.contains('ph.') ||
+        lower.contains('mob') ||
+        lower.contains('tel') ||
+        lower.contains('मो.') ||
+        lower.contains('दूरभाष') ||
+        lower.contains('सम्पर्क') ||
+        lower.contains('फोन') ||
+        lower.contains('+91')) {
+      return true;
+    }
+    return digitsCount >= 10 && line.length <= 40;
   }
 
   static bool _isAddressLine(String line) {
@@ -293,6 +334,9 @@ class CardParserService {
   static bool _looksLikePersonName(String line) {
     // Avoid lines with numbers, emails, addresses, or too many words
     if (RegExp(r'[0-9@\/\\]').hasMatch(line)) return false;
+    if (line.contains('&') || line.contains('+') || line.contains('|') || line.contains(',')) return false;
+    final lower = line.toLowerCase();
+    if (_designations.any((d) => lower == d || lower.contains('$d ') || lower.contains(' $d'))) return false;
     final words = line.trim().split(RegExp(r'\s+'));
     return words.isNotEmpty && words.length <= 4 && line.length >= 3;
   }
@@ -300,7 +344,8 @@ class CardParserService {
   static String _suggestCategory(String text) {
     final lower = text.toLowerCase();
     if (lower.contains('textile') || lower.contains('jewel') || lower.contains('retail') ||
-        lower.contains('store') || lower.contains('shop') || lower.contains('सूट') || lower.contains('साड़ी')) {
+        lower.contains('store') || lower.contains('shop') || lower.contains('सूट') || lower.contains('साड़ी') ||
+        lower.contains('वस्त्र') || lower.contains('कपड़ा') || lower.contains('गारमेंट')) {
       return 'retail';
     }
     if (lower.contains('sweet') || lower.contains('restaurant') || lower.contains('cafe') ||

@@ -4,14 +4,15 @@ import 'package:go_router/go_router.dart';
 import '../../../core/theme/app_colors.dart';
 import '../../../core/theme/app_typography.dart';
 import '../../../core/localization/locale_controller.dart';
-import '../../../core/services/cloud_sync_service.dart';
 import '../../../core/services/firebase_service.dart';
 import '../../../data/local/storage_service.dart';
 import '../../../l10n/app_localizations.dart';
 import '../../widgets/auth/auth_modal.dart';
 import '../../widgets/profile/cloud_sync_card.dart';
 import '../../widgets/profile/data_export_card.dart';
+import '../../widgets/profile/delete_account_dialog.dart';
 import '../../widgets/profile/privacy_policy_modal.dart';
+import '../../widgets/reminders/battery_optimization_dialog.dart';
 
 class ProfileScreen extends StatefulWidget {
   const ProfileScreen({super.key});
@@ -21,52 +22,6 @@ class ProfileScreen extends StatefulWidget {
 }
 
 class _ProfileScreenState extends State<ProfileScreen> {
-  void _showDeleteAccountDialog(BuildContext context, AppLocalizations l10n) {
-    showDialog(
-      context: context,
-      builder: (ctx) => AlertDialog(
-        backgroundColor: AppColors.surfaceCard,
-        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
-        title: Text(l10n.deleteConfirmTitle, style: AppTypography.titleMedium(color: AppColors.error)),
-        content: Text(l10n.deleteConfirmMessage, style: AppTypography.bodyMedium()),
-        actions: [
-          TextButton(
-            onPressed: () => Navigator.of(ctx).pop(),
-            child: Text(l10n.cancel, style: AppTypography.labelLarge(color: AppColors.textSecondary)),
-          ),
-          ElevatedButton(
-            style: ElevatedButton.styleFrom(
-              backgroundColor: AppColors.error,
-              minimumSize: const Size(100, 44),
-            ),
-            onPressed: () async {
-              final messenger = ScaffoldMessenger.of(context);
-              Navigator.of(ctx).pop();
-              // Wipe local storage
-              await StorageService.instance.contactRepo.clearAllCards();
-              await StorageService.instance.reminderRepo.clearAllReminders();
-              await StorageService.instance.userProfileRepo.clearProfile();
-              // Wipe cloud storage
-              await CloudSyncService.instance.wipeUserData();
-              // Sign out Firebase
-              await FirebaseService.instance.signOut();
-
-              if (!mounted) return;
-              setState(() {});
-              messenger.showSnackBar(
-                SnackBar(
-                  backgroundColor: AppColors.error,
-                  content: Text(l10n.dataErasedSuccess),
-                ),
-              );
-            },
-            child: Text(l10n.confirm, style: AppTypography.labelLarge(color: Colors.white)),
-          ),
-        ],
-      ),
-    );
-  }
-
   Widget _buildAccountCard(BuildContext context, AppLocalizations l10n) {
     final fbService = FirebaseService.instance;
     final isGuest = fbService.isGuest;
@@ -244,6 +199,18 @@ class _ProfileScreenState extends State<ProfileScreen> {
           ),
           const SizedBox(height: 12),
 
+          // Timely Alarms & Battery Optimization Guide
+          Card(
+            child: ListTile(
+              leading: const Icon(Icons.battery_charging_full_rounded, color: AppColors.forestGreen),
+              title: Text('Timely Alarms & Battery (MIUI/Samsung)', style: AppTypography.titleMedium()),
+              subtitle: Text('Google Play compliant background reminder guide', style: AppTypography.bodySmall()),
+              trailing: const Icon(Icons.arrow_forward_ios, size: 16, color: AppColors.textSecondary),
+              onTap: () => BatteryOptimizationDialog.show(context),
+            ),
+          ),
+          const SizedBox(height: 12),
+
           // Google Play 2026 Privacy Policy Tile
           Card(
             child: ListTile(
@@ -273,7 +240,12 @@ class _ProfileScreenState extends State<ProfileScreen> {
                 'Google Play Policy (2026) 1-Click Data Erasure',
                 style: AppTypography.bodySmall(color: AppColors.error),
               ),
-              onTap: () => _showDeleteAccountDialog(context, l10n),
+              onTap: () => DeleteAccountDialog.show(
+                context,
+                onDeleted: () {
+                  if (mounted) setState(() {});
+                },
+              ),
             ),
           ),
           const SizedBox(height: 16),

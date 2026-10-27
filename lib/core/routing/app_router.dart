@@ -13,6 +13,7 @@ import '../../presentation/screens/scan/review_scan_screen.dart';
 import '../../presentation/screens/cards/card_detail_screen.dart';
 import '../../presentation/screens/cards/card_edit_screen.dart';
 import '../../presentation/screens/profile/user_profile_edit_screen.dart';
+import '../../presentation/screens/splash/splash_screen.dart';
 import '../../data/models/extracted_card_data.dart';
 
 /// Declarative Routing Configuration for CardSaathi using go_router
@@ -21,7 +22,7 @@ abstract final class AppRouter {
 
   static final router = GoRouter(
     navigatorKey: _rootNavigatorKey,
-    initialLocation: '/',
+    initialLocation: '/splash',
     debugLogDiagnostics: false,
     routes: [
       // Stateful Nested Shell for Bottom Navigation Tabs
@@ -73,6 +74,11 @@ abstract final class AppRouter {
       ),
 
       // Full-Screen Push Routes (Overlaying Navigation Shell)
+      GoRoute(
+        path: '/splash',
+        parentNavigatorKey: _rootNavigatorKey,
+        builder: (context, state) => const SplashScreen(),
+      ),
       GoRoute(
         path: '/scan',
         parentNavigatorKey: _rootNavigatorKey,

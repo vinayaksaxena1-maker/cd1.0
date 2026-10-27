@@ -107,5 +107,26 @@ Plot 15, Salt Lake Sector 5, Kolkata 700091
       expect(minimal.email, isEmpty);
       expect(minimal.suggestedCategoryId, equals('other'));
     });
+
+    test('Correctly normalizes Hindi numerals and parses phone numbers with Hindi digits and prefixes', () {
+      const rawHindiDigitsCard = '''
+बालाजी वस्त्र भंडार
+प्रो. सत्यनारायण अग्रवाल
+मो. ९८२९०१२३४५, दूरभाष: ०१४१-२३४५६७८
+जीएसटी: 08AABCB1234D1Z9
+जौहरी बाजार, जयपुर - ३०२००३
+''';
+
+      final data = CardParserService.parseText(rawHindiDigitsCard);
+
+      expect(data.name, equals('सत्यनारायण अग्रवाल'));
+      expect(data.jobTitle, contains('प्रो.'));
+      expect(data.company, equals('बालाजी वस्त्र भंडार'));
+      expect(data.gstin, equals('08AABCB1234D1Z9'));
+      // Verify Hindi phone number 9829012345 extracted cleanly
+      expect(data.phones.any((p) => p.contains('9829012345')), isTrue);
+      expect(data.address, contains('302003'));
+      expect(data.suggestedCategoryId, equals('retail'));
+    });
   });
 }

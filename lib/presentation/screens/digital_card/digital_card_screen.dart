@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import '../../../core/localization/locale_controller.dart';
-import '../../../core/services/card_export_service.dart';
 import '../../../core/theme/app_colors.dart';
 import '../../../core/theme/app_typography.dart';
 import '../../../data/local/storage_service.dart';
@@ -8,7 +7,9 @@ import '../../../data/models/contact_card.dart';
 import '../../../data/models/digital_card_template.dart';
 import '../../../data/templates/stitch_template_registry.dart';
 import '../../../l10n/app_localizations.dart';
+import '../../widgets/digital_card/digital_card_action_buttons.dart';
 import '../../widgets/digital_card/digital_card_canvas.dart';
+import '../../widgets/digital_card/template_selector_carousel.dart';
 import '../../widgets/digital_card/vcard_qr_modal.dart';
 
 /// Digital Visiting Card Creator Screen (Stitch 20-Template Engine)
@@ -143,11 +144,19 @@ class _DigitalCardScreenState extends State<DigitalCardScreen> {
             const SizedBox(height: 12),
 
             // Horizontal Template Selector Carousel
-            _buildTemplateSelectorCarousel(isHindi),
+            TemplateSelectorCarousel(
+              availableTemplates: _availableTemplates,
+              activeTemplate: _activeTemplate,
+              isHindi: isHindi,
+              onSelected: (t) => setState(() => _activeTemplate = t),
+            ),
             const SizedBox(height: 24),
 
-            // Primary Action Buttons (WhatsApp 4:5 Export & QR Code)
-            _buildActionButtons(l10n),
+            // Primary Action Buttons (WhatsApp 4:5 Export, QR Code, & NFC Tag Tap)
+            DigitalCardActionButtons(
+              repaintKey: _repaintKey,
+              selectedCard: _selectedCard,
+            ),
             const SizedBox(height: 24),
           ],
         ),
@@ -231,125 +240,6 @@ class _DigitalCardScreenState extends State<DigitalCardScreen> {
         fontSize: 12,
       ),
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
-    );
-  }
-
-  Widget _buildTemplateSelectorCarousel(bool isHindi) {
-    return SizedBox(
-      height: 94,
-      child: ListView.separated(
-        scrollDirection: Axis.horizontal,
-        itemCount: _availableTemplates.length,
-        separatorBuilder: (context, index) => const SizedBox(width: 10),
-        itemBuilder: (context, index) {
-          final t = _availableTemplates[index];
-          final isSelected = t.id == _activeTemplate.id;
-
-          return InkWell(
-            onTap: () => setState(() => _activeTemplate = t),
-            borderRadius: BorderRadius.circular(12),
-            child: Container(
-              width: 110,
-              padding: const EdgeInsets.all(8),
-              decoration: BoxDecoration(
-                color: isSelected ? AppColors.surfaceSage : Colors.white,
-                borderRadius: BorderRadius.circular(12),
-                border: Border.all(
-                  color: isSelected ? AppColors.forestGreen : AppColors.borderSubtle,
-                  width: isSelected ? 2 : 1,
-                ),
-              ),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: [
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [
-                      Container(
-                        width: 14,
-                        height: 14,
-                        decoration: BoxDecoration(
-                          color: t.primaryColor,
-                          shape: BoxShape.circle,
-                        ),
-                      ),
-                      Text(
-                        '#${t.number}',
-                        style: AppTypography.labelSmall(
-                          color: isSelected ? AppColors.forestGreen : AppColors.textSecondary,
-                        ),
-                      ),
-                    ],
-                  ),
-                  Text(
-                    isHindi ? t.nameHi : t.nameEn,
-                    style: TextStyle(
-                      fontSize: 11,
-                      fontWeight: isSelected ? FontWeight.w700 : FontWeight.w500,
-                      color: isSelected ? AppColors.forestGreen : AppColors.textPrimary,
-                    ),
-                    maxLines: 2,
-                    overflow: TextOverflow.ellipsis,
-                  ),
-                ],
-              ),
-            ),
-          );
-        },
-      ),
-    );
-  }
-
-  Widget _buildActionButtons(AppLocalizations l10n) {
-    return Column(
-      crossAxisAlignment: CrossAxisAlignment.stretch,
-      children: [
-        ElevatedButton.icon(
-          style: ElevatedButton.styleFrom(
-            backgroundColor: const Color(0xFF25D366), // WhatsApp Green
-            foregroundColor: Colors.white,
-            minimumSize: const Size(double.infinity, 52),
-            shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(14)),
-          ),
-          onPressed: () {
-            if (_selectedCard != null) {
-              CardExportService.shareCardOnWhatsApp(
-                boundaryKey: _repaintKey,
-                card: _selectedCard!,
-                context: context,
-              );
-            }
-          },
-          icon: const Icon(Icons.share_rounded, size: 20),
-          label: Text(
-            l10n.shareWhatsAppCard,
-            style: const TextStyle(fontWeight: FontWeight.w700, fontSize: 15),
-          ),
-        ),
-        const SizedBox(height: 10),
-        OutlinedButton.icon(
-          style: OutlinedButton.styleFrom(
-            minimumSize: const Size(double.infinity, 50),
-            side: const BorderSide(color: AppColors.forestGreen, width: 1.5),
-            shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(14)),
-          ),
-          onPressed: () {
-            if (_selectedCard != null) {
-              VCardQrModal.show(context, _selectedCard!);
-            }
-          },
-          icon: const Icon(Icons.qr_code_2_rounded, color: AppColors.forestGreen),
-          label: Text(
-            l10n.offlineVCardQr,
-            style: const TextStyle(
-              color: AppColors.forestGreen,
-              fontWeight: FontWeight.w700,
-              fontSize: 14,
-            ),
-          ),
-        ),
-      ],
     );
   }
 }

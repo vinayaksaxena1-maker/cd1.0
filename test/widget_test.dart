@@ -9,6 +9,8 @@ void main() {
 
   testWidgets('CardSaathi App smoke test', (WidgetTester tester) async {
     await tester.pumpWidget(const CardSaathiApp());
+    // Advance past splash screen timer to navigate to home
+    await tester.pump(const Duration(milliseconds: 2500));
     await tester.pumpAndSettle();
 
     expect(find.text('CardSaathi'), findsOneWidget);

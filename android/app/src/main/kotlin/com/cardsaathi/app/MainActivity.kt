@@ -1,21 +1,28 @@
 package com.cardsaathi.app
 
 import android.app.Activity
+import android.content.Context
 import android.content.Intent
 import android.net.Uri
+import android.os.Build
+import android.os.PowerManager
 import android.provider.ContactsContract
+import android.provider.Settings
 import io.flutter.embedding.android.FlutterActivity
 import io.flutter.embedding.engine.FlutterEngine
 import io.flutter.plugin.common.MethodChannel
 
 class MainActivity : FlutterActivity() {
-    private val channelName = "com.cardsaathi/contact_picker"
+    private val contactChannelName = "com.cardsaathi/contact_picker"
+    private val batteryChannelName = "com.cardsaathi/battery_optimization"
     private val requestCodePickContact = 2026
     private var pendingResult: MethodChannel.Result? = null
 
     override fun configureFlutterEngine(flutterEngine: FlutterEngine) {
         super.configureFlutterEngine(flutterEngine)
-        MethodChannel(flutterEngine.dartExecutor.binaryMessenger, channelName).setMethodCallHandler { call, result ->
+
+        // Contact Picker Channel
+        MethodChannel(flutterEngine.dartExecutor.binaryMessenger, contactChannelName).setMethodCallHandler { call, result ->
             if (call.method == "pickContact") {
                 if (pendingResult != null) {
                     result.error("ALREADY_ACTIVE", "A contact picking session is already in progress.", null)
@@ -31,6 +38,52 @@ class MainActivity : FlutterActivity() {
                 }
             } else {
                 result.notImplemented()
+            }
+        }
+
+        // Google Play 2026 Compliant Battery Optimization & Exact Alarms Channel
+        MethodChannel(flutterEngine.dartExecutor.binaryMessenger, batteryChannelName).setMethodCallHandler { call, result ->
+            when (call.method) {
+                "isIgnoringBatteryOptimizations" -> {
+                    try {
+                        val powerManager = getSystemService(Context.POWER_SERVICE) as? PowerManager
+                        val isIgnoring = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M && powerManager != null) {
+                            powerManager.isIgnoringBatteryOptimizations(packageName)
+                        } else {
+                            true
+                        }
+                        result.success(isIgnoring)
+                    } catch (e: Exception) {
+                        result.success(true)
+                    }
+                }
+                "openBatteryOptimizationSettings" -> {
+                    try {
+                        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+                            val intent = Intent(Settings.ACTION_IGNORE_BATTERY_OPTIMIZATION_SETTINGS)
+                            intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK
+                            startActivity(intent)
+                            result.success(true)
+                        } else {
+                            result.success(false)
+                        }
+                    } catch (e: Exception) {
+                        try {
+                            // Fallback to application details settings
+                            val intent = Intent(Settings.ACTION_APPLICATION_DETAILS_SETTINGS)
+                            intent.data = Uri.parse("package:$packageName")
+                            intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK
+                            startActivity(intent)
+                            result.success(true)
+                        } catch (ex: Exception) {
+                            result.error("SETTINGS_ERROR", ex.localizedMessage, null)
+                        }
+                    }
+                }
+                "getManufacturer" -> {
+                    result.success(Build.MANUFACTURER ?: "Generic")
+                }
+                else -> result.notImplemented()
             }
         }
     }
