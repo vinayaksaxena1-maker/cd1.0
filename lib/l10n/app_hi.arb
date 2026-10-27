@@ -195,5 +195,10 @@
   "appVersion": "संस्करण 1.0.0 (रिलीज़ बिल्ड)",
   "dataErasedSuccess": "सभी लोकल डेटा और अकाउंट विवरण सफलतापूर्वक हटा दिए गए",
   "selectLogo": "लोगो / फ़ोटो चुनें",
-  "removeLogo": "लोगो हटाएं"
+  "removeLogo": "लोगो हटाएं",
+  "developerName": "Innovix Solutions",
+  "madeInIndiaForWorld": "भारत में निर्मित, पूरी दुनिया के लिए",
+  "googlePlayPolicy": "Google Play डेवलपर पॉलिसी",
+  "googlePlayPolicySubtitle": "कंटेंट पॉलिसी, डेटा पारदर्शिता एवं Innovix Solutions विवरण",
+  "openOfficialPolicy": "Google Play पॉलिसी देखें"
 }

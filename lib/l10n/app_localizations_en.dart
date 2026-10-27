@@ -590,4 +590,20 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get removeLogo => 'Remove Logo';
+
+  @override
+  String get developerName => 'Innovix Solutions';
+
+  @override
+  String get madeInIndiaForWorld => 'Made with ❤️ in India, for the World';
+
+  @override
+  String get googlePlayPolicy => 'Google Play Developer Policy';
+
+  @override
+  String get googlePlayPolicySubtitle =>
+      'Content Policy, Transparency & Innovix Solutions Info';
+
+  @override
+  String get openOfficialPolicy => 'Open Google Play Content Policy';
 }

@@ -195,5 +195,10 @@
   "appVersion": "Version 1.0.0 (Release Build)",
   "dataErasedSuccess": "All local data and account information erased successfully",
   "selectLogo": "Choose Logo / Photo",
-  "removeLogo": "Remove Logo"
+  "removeLogo": "Remove Logo",
+  "developerName": "Innovix Solutions",
+  "madeInIndiaForWorld": "Made with ❤️ in India, for the World",
+  "googlePlayPolicy": "Google Play Developer Policy",
+  "googlePlayPolicySubtitle": "Content Policy, Transparency & Innovix Solutions Info",
+  "openOfficialPolicy": "Open Google Play Content Policy"
 }

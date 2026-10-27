@@ -11,6 +11,8 @@ import '../../widgets/auth/auth_modal.dart';
 import '../../widgets/profile/cloud_sync_card.dart';
 import '../../widgets/profile/data_export_card.dart';
 import '../../widgets/profile/delete_account_dialog.dart';
+import '../../widgets/profile/developer_info_footer.dart';
+import '../../widgets/profile/google_play_policy_modal.dart';
 import '../../widgets/profile/privacy_policy_modal.dart';
 import '../../widgets/reminders/battery_optimization_dialog.dart';
 
@@ -221,6 +223,18 @@ class _ProfileScreenState extends State<ProfileScreen> {
               onTap: () => PrivacyPolicyModal.show(context),
             ),
           ),
+          const SizedBox(height: 12),
+
+          // Google Play Developer Content Policy & Innovix Solutions Card
+          Card(
+            child: ListTile(
+              leading: const Icon(Icons.verified_user_outlined, color: AppColors.forestGreen),
+              title: Text(l10n.googlePlayPolicy, style: AppTypography.titleMedium()),
+              subtitle: Text(l10n.googlePlayPolicySubtitle, style: AppTypography.bodySmall()),
+              trailing: const Icon(Icons.arrow_forward_ios, size: 16, color: AppColors.textSecondary),
+              onTap: () => GooglePlayPolicyModal.show(context),
+            ),
+          ),
           const SizedBox(height: 24),
 
           // Google Play 2026 Mandatory Account Deletion Section (Section 4.4)
@@ -248,15 +262,10 @@ class _ProfileScreenState extends State<ProfileScreen> {
               ),
             ),
           ),
-          const SizedBox(height: 16),
+          const SizedBox(height: 20),
 
-          // App Info Footer
-          Center(
-            child: Text(
-              '${l10n.appInfo} · ${l10n.appVersion}',
-              style: AppTypography.bodySmall(color: AppColors.textSecondary),
-            ),
-          ),
+          // App & Developer Info Footer (Innovix Solutions & Made in India)
+          const Center(child: DeveloperInfoFooter()),
           const SizedBox(height: 24),
         ],
       ),

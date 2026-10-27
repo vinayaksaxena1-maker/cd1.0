@@ -3,9 +3,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:go_router/go_router.dart';
 
+import '../../../core/constants/app_constants.dart';
 import '../../../core/theme/app_colors.dart';
 
 /// Full-screen branded Splash Screen displaying Concept 3 (Smart AI Scan & Hologram)
+/// Auto-transitions to Home Dashboard after exactly 6 seconds.
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
 
@@ -36,7 +38,7 @@ class _SplashScreenState extends State<SplashScreen>
 
     _controller = AnimationController(
       vsync: this,
-      duration: const Duration(milliseconds: 900),
+      duration: const Duration(milliseconds: 1000),
     );
 
     _fadeAnimation = CurvedAnimation(
@@ -46,8 +48,8 @@ class _SplashScreenState extends State<SplashScreen>
 
     _controller.forward();
 
-    // Auto-navigate to home dashboard after 2 seconds
-    _navigationTimer = Timer(const Duration(milliseconds: 2100), () {
+    // Auto-navigate to home dashboard after exactly 6 seconds
+    _navigationTimer = Timer(const Duration(seconds: 6), () {
       _goToHome();
     });
   }
@@ -68,6 +70,8 @@ class _SplashScreenState extends State<SplashScreen>
 
   @override
   Widget build(BuildContext context) {
+    final bottomPadding = MediaQuery.paddingOf(context).bottom;
+
     return Scaffold(
       backgroundColor: AppColors.primary,
       body: GestureDetector(
@@ -77,7 +81,7 @@ class _SplashScreenState extends State<SplashScreen>
           child: Stack(
             fit: StackFit.expand,
             children: [
-              // Splash Background Image with Smooth Fade
+              // 1. Splash Background Image (Concept 3: Smart AI Scan & Hologram)
               FadeTransition(
                 opacity: _fadeAnimation,
                 child: Image.asset(
@@ -117,14 +121,17 @@ class _SplashScreenState extends State<SplashScreen>
                             ),
                           ),
                           const SizedBox(height: 8),
-                          Text(
-                            'Aapka Digital Business Companion',
+                          const Text(
+                            'Smart AI Card Companion',
                             style: TextStyle(
                               fontSize: 14,
+                              fontWeight: FontWeight.w600,
                               color: AppColors.onPrimaryContainer,
-                              letterSpacing: 0.5,
+                              letterSpacing: 0.8,
                             ),
                           ),
+                          const SizedBox(height: 32),
+                          _buildLoaderComponent(),
                         ],
                       ),
                     );
@@ -132,20 +139,66 @@ class _SplashScreenState extends State<SplashScreen>
                 ),
               ),
 
-              // Subtle Skip Hint at Bottom
+              // 2. Positioned Loading Indicator under Smart AI Card Companion
               Positioned(
-                bottom: MediaQuery.paddingOf(context).bottom + 24,
+                bottom: bottomPadding + 80,
                 left: 0,
                 right: 0,
                 child: Center(
                   child: FadeTransition(
                     opacity: _fadeAnimation,
-                    child: Text(
-                      'Tap anywhere to continue',
-                      style: TextStyle(
-                        fontSize: 11,
-                        color: Colors.white.withValues(alpha: 0.6),
-                        letterSpacing: 0.8,
+                    child: _buildLoaderComponent(),
+                  ),
+                ),
+              ),
+
+              // 3. Made in India & Innovix Solutions Branding Footer
+              Positioned(
+                bottom: bottomPadding + 14,
+                left: 0,
+                right: 0,
+                child: Center(
+                  child: FadeTransition(
+                    opacity: _fadeAnimation,
+                    child: Container(
+                      padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 6),
+                      decoration: BoxDecoration(
+                        color: Colors.black.withValues(alpha: 0.35),
+                        borderRadius: BorderRadius.circular(16),
+                        border: Border.all(
+                          color: Colors.white.withValues(alpha: 0.15),
+                          width: 1,
+                        ),
+                      ),
+                      child: Column(
+                        mainAxisSize: MainAxisSize.min,
+                        children: [
+                          Row(
+                            mainAxisSize: MainAxisSize.min,
+                            children: [
+                              const Text('🇮🇳 ', style: TextStyle(fontSize: 12)),
+                              Text(
+                                AppConstants.madeInIndiaForWorld,
+                                style: TextStyle(
+                                  fontSize: 10.5,
+                                  fontWeight: FontWeight.w600,
+                                  color: Colors.white.withValues(alpha: 0.95),
+                                  letterSpacing: 0.4,
+                                ),
+                              ),
+                            ],
+                          ),
+                          const SizedBox(height: 2),
+                          Text(
+                            '${AppConstants.developerName} · ${AppConstants.fullVersionString}',
+                            style: TextStyle(
+                              fontSize: 9.5,
+                              fontWeight: FontWeight.w500,
+                              color: AppColors.onPrimaryContainer,
+                              letterSpacing: 0.5,
+                            ),
+                          ),
+                        ],
                       ),
                     ),
                   ),
@@ -155,6 +208,65 @@ class _SplashScreenState extends State<SplashScreen>
           ),
         ),
       ),
+    );
+  }
+
+  /// Theme-matching Bold CircularProgressIndicator & Transparent Loading Bar
+  Widget _buildLoaderComponent() {
+    return Column(
+      mainAxisSize: MainAxisSize.min,
+      children: [
+        // Bold Circular Progress Indicator with transparent track
+        SizedBox(
+          width: 40,
+          height: 40,
+          child: CircularProgressIndicator(
+            strokeWidth: 4.0,
+            strokeCap: StrokeCap.round,
+            valueColor: const AlwaysStoppedAnimation<Color>(AppColors.saffron),
+            backgroundColor: Colors.white.withValues(alpha: 0.18),
+          ),
+        ),
+        const SizedBox(height: 14),
+
+        // Transparent Bold Loading Bar
+        Container(
+          width: 140,
+          height: 4.5,
+          clipBehavior: Clip.antiAlias,
+          decoration: BoxDecoration(
+            color: Colors.white.withValues(alpha: 0.16),
+            borderRadius: BorderRadius.circular(6),
+            border: Border.all(
+              color: AppColors.saffron.withValues(alpha: 0.35),
+              width: 0.8,
+            ),
+          ),
+          child: const LinearProgressIndicator(
+            valueColor: AlwaysStoppedAnimation<Color>(AppColors.saffron),
+            backgroundColor: Colors.transparent,
+          ),
+        ),
+        const SizedBox(height: 10),
+
+        // Subtitle badge
+        Container(
+          padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 3),
+          decoration: BoxDecoration(
+            color: Colors.black.withValues(alpha: 0.3),
+            borderRadius: BorderRadius.circular(12),
+          ),
+          child: const Text(
+            'Smart AI Card Companion',
+            style: TextStyle(
+              fontSize: 12,
+              fontWeight: FontWeight.w600,
+              color: AppColors.onPrimaryContainer,
+              letterSpacing: 0.9,
+            ),
+          ),
+        ),
+      ],
     );
   }
 }

@@ -1231,6 +1231,36 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Remove Logo'**
   String get removeLogo;
+
+  /// No description provided for @developerName.
+  ///
+  /// In en, this message translates to:
+  /// **'Innovix Solutions'**
+  String get developerName;
+
+  /// No description provided for @madeInIndiaForWorld.
+  ///
+  /// In en, this message translates to:
+  /// **'Made with ❤️ in India, for the World'**
+  String get madeInIndiaForWorld;
+
+  /// No description provided for @googlePlayPolicy.
+  ///
+  /// In en, this message translates to:
+  /// **'Google Play Developer Policy'**
+  String get googlePlayPolicy;
+
+  /// No description provided for @googlePlayPolicySubtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Content Policy, Transparency & Innovix Solutions Info'**
+  String get googlePlayPolicySubtitle;
+
+  /// No description provided for @openOfficialPolicy.
+  ///
+  /// In en, this message translates to:
+  /// **'Open Google Play Content Policy'**
+  String get openOfficialPolicy;
 }
 
 class _AppLocalizationsDelegate

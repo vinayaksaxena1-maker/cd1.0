@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '../../../core/constants/app_constants.dart';
 import '../../../core/theme/app_colors.dart';
 import '../../../core/theme/app_typography.dart';
 import '../../../l10n/app_localizations.dart';
@@ -134,10 +135,17 @@ class PrivacyPolicyModal extends StatelessWidget {
                 Icons.delete_forever_rounded,
               ),
 
+              _buildSection(
+                '7. Google Play Content Policy & Developer Entity',
+                'CardSaathi strictly adheres to all Google Play Developer Content Policy requirements (${AppConstants.googlePlayPolicyUrl}). Developed by ${AppConstants.developerName} (${AppConstants.madeInIndiaForWorld}). Support: ${AppConstants.developerEmail}',
+                Icons.gavel_rounded,
+              ),
+
               const SizedBox(height: 16),
               Center(
                 child: Text(
-                  'CardSaathi v1.0.0 · Made for Indian MSMEs & Traders',
+                  '${AppConstants.appName} ${AppConstants.fullVersionString}\n${AppConstants.developerTagline}',
+                  textAlign: TextAlign.center,
                   style: AppTypography.bodySmall(color: AppColors.textSecondary),
                 ),
               ),
